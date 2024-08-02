@@ -15,7 +15,7 @@ copyright = " ©2011~2024 :thinking_face: [粤ICP备17091340号](https://beian.m
       {Name = "📕分类", Weight = 2, URL = "/categories"},
       {Name = "🔖标签", Weight = 3, URL = "/tags"},
       {Name = "🤝链接", Weight = 5, URL = "/friends"},
-      {Name = "👨🏻关于", Weight = 5, URL = "/about"},
+      {Name = "👨🏻我们", Weight = 5, URL = "/about"},
       {Name = "🙋🏻‍♂️反馈", Weight = 6, URL = "/feedback"}
   ]
 
