@@ -11,8 +11,8 @@ copyright = " ©2011~2024 :thinking_face: [粤ICP备17091340号](https://beian.m
 [Menus]
   main = [
       {Name = "🏠主页", Weight = -99, URL = "/"},
-      {Name = "📚文章", Weight = 1, URL = "/p"},
-      {Name = "📕分类", Weight = 2, URL = "/categories"},
+      {Name = "📚文献", Weight = 1, URL = "/p"},
+      {Name = "📕分流", Weight = 2, URL = "/categories"},
       {Name = "🔖标签", Weight = 3, URL = "/tags"},
       {Name = "🤝链接", Weight = 5, URL = "/friends"},
       {Name = "👨🏻我们", Weight = 5, URL = "/about"},
