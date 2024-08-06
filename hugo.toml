@@ -31,7 +31,7 @@ copyright = " ©2011~2024 :thinking_face: [粤ICP备17091340号](https://beian.m
      { email = "mailto:admin@hkfx.net" },
      { apple = "https://appleid.apple.com/cn/" },
    #  { facebook = "https://facebook.com/username" },
-     { github = "https://github.com/cngitee?tab=repositories" },
+   #  { github = "https://github.com/cngitee?tab=repositories" },
    #  { google-scholar = "https://scholar.google.com/citations?user=user-id" },
    #  { instagram = "https://instagram.com/username" },
    #  { telegram = "https://t.me/username" },
