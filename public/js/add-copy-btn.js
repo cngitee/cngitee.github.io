@@ -8,7 +8,7 @@
   function flashCopyMessage(el, msg) {
     el.textContent = msg;
     setTimeout(function() {
-      el.textContent = "Copy";
+      el.textContent = "复制代码";
     }, 1000);
   }
 
@@ -24,16 +24,17 @@
   function addCopyButton(containerEl) {
     var copyBtn = document.createElement("button");
     copyBtn.className = "highlight-copy-btn";
-    copyBtn.textContent = "Copy";
+    copyBtn.textContent = "复制代码";
+   
 
     var codeEl = containerEl.firstElementChild;
     copyBtn.addEventListener('click', function() {
       try {
         var selection = selectText(codeEl);
-        document.execCommand('copy');
+        document.execCommand('Copy');
         selection.removeAllRanges();
 
-        flashCopyMessage(copyBtn, 'Copied!')
+        flashCopyMessage(copyBtn, '复制完成')
       } catch(e) {
         console && console.log(e);
         flashCopyMessage(copyBtn, 'Failed :\'(')
@@ -47,3 +48,4 @@
   var highlightBlocks = document.getElementsByClassName('highlight');
   Array.prototype.forEach.call(highlightBlocks, addCopyButton);
 })();
+

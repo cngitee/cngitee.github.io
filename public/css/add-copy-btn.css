@@ -4,35 +4,24 @@
 
 .highlight pre {
     padding-right: 75px;
-    background-color:#f8f8f8 !important;
+    /* background-color:#f8f8f8 !important; */
 }
 
 .highlight-copy-btn {
     position: absolute;
-    bottom: 7px;
+    top: 7px;
     right: 7px;
     border: 0;
     border-radius: 4px;
     padding: 1px;
     font-size: 0.8em;
-    line-height: 1.8;
+    line-height: 1.5;
     color: #fff;
     background-color: #777;
-    min-width: 55px;
+    min-width: 50px;
     text-align: center;
 }
 
 .highlight-copy-btn:hover {
     background-color: #666;
-}
-
-
-.highlight .ln {
-    width: 20px;
-    display: block;
-    float: left;
-    text-align: right;
-    user-select: none;
-    padding-right: 8px;
-    color: #ccc;
 }
