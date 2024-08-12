@@ -568,13 +568,43 @@
           <div class="pt-3">
             <hr class="border-dotted border-neutral-300 dark:border-neutral-600" />
             <div class="pt-3">
-              <head>
+              <html>
+<head>
+<style>
+#toggle {
+  display: none;
+}
+
+input[type="checkbox"]:checked ~ #toggle {
+  display: block;
+}
+</style>
+</head>
+<body>
+
+<input type="checkbox" id="toggleButton">
+<span style="background-color: #ff6600ad;">
+  <font color="white">
+    <label for="toggleButton">【给作者打赏】</label>
+  </font>
+</span>
+
+<div id="toggle">
+  <div align="center">
+  <img border="0" src="/images/16470417356358.jpg" alt="赞赏码图" width="364" height="183">
+  </div>
+</div>
+
+</body>
+</html>
+
+
+<head>
 
     <link
       rel="stylesheet"
       href="https://unpkg.com/@waline/client@v2/dist/waline.css"
     />
-
 
   </head>
      <div id="waline-recent"></div>
@@ -583,7 +613,7 @@
          RecentComments({ 
              el: '#waline-recent', 
              serverURL: 'https://vercel.hkfx.net', 
-             count: 1, 
+            
          }); 
      </script> 
    
