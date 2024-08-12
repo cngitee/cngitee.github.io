@@ -4,16 +4,18 @@ showComments = false
 showTableOfContents = false
 +++
 
+👋 嗨，我是 葑訫 或 (Sunny)，欢迎访问我的独立网站。
+
 ### 服务一览
 本站使用了以下免费、开源或价格低廉的服务，使我能够负担得起这个博客的运营。  非常感谢这些服务！
->- Hugo: 世界上最快的静态网站生成器 (Golang)  
->- Congo: 一款强大的、轻量的 Hugo 主题，使用 Tailwind CSS 构建  
->- GitHub: 博客源码托管和版本控制  
->- Tencent: 域名 DNS 解析、多线路访问  
->- Vercel: 支持广泛程序语言自动集成部署和托管  
->- Leancloud: 数据存储、云引擎支持多种常见的 Web 后端语言
+>- Hugo: 世界上最快的静态网站生成器 (Golang)
+>- Congo: 一款强大的、轻量的 Hugo 主题，使用 Tailwind CSS 构建
+>- GitHub: 博客源码托管和版本控制
+>- HuaWeiCloud: 域名DNS解析、多线路访问
+>- Cloudflare Pages: 博客自动集成部署和托管
+>- Vercel: 支持广泛程序语言自动集成部署和托管
+>- LeanCloud: 数据存储、云引擎支持多种常见的 Web 后端语言
 >- Waline: 轻量、安全、易上手的评论系统、集邮件通知等服务
->- Upyun: 国产CDN加速服务支持全球、集COS分布式节点存储
 
 ### 兼容性  
 本站支持所有「未过时的设备」通过现代 Web 浏览器访问，推荐使用 Google Chrome 浏览器访问。此外：  
