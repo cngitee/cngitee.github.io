@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>C# on 红防安全吧</title>
+    <link>//localhost:1313/tags/c%23/</link>
+    <description>Recent content in C# on 红防安全吧</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright> ©2011~2024 :thinking_face: [粤ICP备17091340号](https://beian.miit.gov.cn/ &#39;备案查询&#39;)</copyright>
+    <lastBuildDate>Wed, 14 Aug 2024 02:56:02 +0800</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/c%23/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Visual Studio2015下载离线包</title>
+      <link>//localhost:1313/p/249/</link>
+      <pubDate>Tue, 13 Aug 2024 17:10:38 +0800</pubDate>
+      <guid>//localhost:1313/p/249/</guid>
+      <description>1、Visual studio2015 Community 强大的 IDE，对学生、开源贡献者和个人免费 #1http://download.microsoft.com/download/B/4/8/B4870509-05CB-447C-878F-2F80E4CB464C/vs2015.com_chs.iso 2、Visual studio2019 Community 强大的 IDE，对学生、开源贡献者和个人免费 #1https://visualstudio.microsoft.com/zh-hans/thank-you-downloading-visual-studio/?sku=Community&amp;amp;rel=16&amp;amp;src=myvs&amp;amp;utm_medium=microsoft&amp;amp;utm_source=my.visualstudio.com&amp;amp;utm_campaign=download&amp;amp;utm_content=vs+community+2019 </description>
+    </item>
+    <item>
+      <title>C# WINFORM嵌入谷歌内核</title>
+      <link>//localhost:1313/p/250/</link>
+      <pubDate>Tue, 13 Aug 2024 17:03:40 +0800</pubDate>
+      <guid>//localhost:1313/p/250/</guid>
+      <description>方法一 (不带自动缩放，需另外写代码) #软件框架：NET4.5 ≥&#xA;NuGet程序包：搜索安装webview2，然后在控件拖放到窗口&#xA;1this.webView21.Source = new System.Uri(&amp;#34;https://ie.icoa.cn/&amp;#34;, System.UriKind.Absolute); 方法二：(带自动缩放，窗体直接显示) #软件框架：NET4.6.2 ≥&#xA;NuGet程序包：搜索安装CefSharp.WinForms即可&#xA;1using System; 2using System.Collections.Generic; 3using System.ComponentModel; 4using System.Data; 5using System.Drawing; 6using System.Linq; 7using System.Text; 8using System.Threading.Tasks; 9using System.Windows.Forms; 10using CefSharp; 11using CefSharp.WinForms; 12 13namespace lancou 14{ //引入 15 public partial class Form1 : Form 16 { 17 public Form1() 18 { 19 InitializeComponent(); 20 string url = &amp;#34;https://ie.icoa.cn/&amp;#34;; 21 ChromiumWebBrowser webview = new ChromiumWebBrowser(url); 22 webview.Dock = DockStyle.</description>
+    </item>
+    <item>
+      <title>C#winform任务栏显示小图标及右击操作</title>
+      <link>//localhost:1313/p/251/</link>
+      <pubDate>Tue, 13 Aug 2024 16:59:08 +0800</pubDate>
+      <guid>//localhost:1313/p/251/</guid>
+      <description>1.创建一个项目，向窗体中添加右下角图标NotifyIcon1控件和右击按钮ContextMenuStrip1控件。&#xA;2.在ContextMenuStrip1控件界面上添【显示】和【退出】二个按钮，指定按钮双击它，然后赋予属性。&#xA;3.选择NotifyIcon1控件，属性Icon设置显示图标，在它属性窗口中将ContextMenuStrip属性关联到窗体上的 ContextMenuStrip1控件。&#xA;1private void 显示窗口ToolStripMenuItem1_Click(object sender, EventArgs e) 2 { 3 this.Visible = true; 4 this.WindowState = FormWindowState.Normal; 5 } 6 7private void 退出软件ToolStripMenuItem1_Click(object sender, EventArgs e) 8 { 9 Application.Exit(); 10 } 11private void 访问作者ToolStripMenuItem_Click(object sender, EventArgs e) 12 { 13 System.Diagnostics.Process.Start(&amp;#34;https://www.hkfx.net&amp;#34;); 14 } </description>
+    </item>
+    <item>
+      <title>C#点击关闭按钮 弹出确认框</title>
+      <link>//localhost:1313/p/252/</link>
+      <pubDate>Tue, 13 Aug 2024 16:52:32 +0800</pubDate>
+      <guid>//localhost:1313/p/252/</guid>
+      <description>1、第一步打开窗口面板的Form1.cs文件&#xA;2、点击属性里面的【闪电】图标事件；再双击FormClosing，进入到函数里面编辑;&#xA;1//让用户选择点击 2 DialogResult result = MessageBox.Show(&amp;#34;是否确认关闭？&amp;#34;, &amp;#34;警告&amp;#34;, 3 MessageBoxButtons.YesNo, MessageBoxIcon.Warning); 4//判断是否取消事件 5 if (result == DialogResult.No) 6 { 7//取消退出 8 e.Cancel = true; 9 } </description>
+    </item>
+    <item>
+      <title>C#添加标题以及设定窗口大小</title>
+      <link>//localhost:1313/p/253/</link>
+      <pubDate>Mon, 07 Aug 2023 21:44:00 +0800</pubDate>
+      <guid>//localhost:1313/p/253/</guid>
+      <description>1this.Text = Application.ProductName + &amp;#34; Ver&amp;#34; + Application.ProductVersion +&amp;#34;【红客防线】技术提供 https://www.hkfx.net&amp;#34;; 2this.Width = 1025; 3this.Height = 650; 4this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog; </description>
+    </item>
+  </channel>
+</rss>

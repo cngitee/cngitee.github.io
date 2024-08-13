@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>VB on 红防安全吧</title>
+    <link>//localhost:1313/tags/vb/</link>
+    <description>Recent content in VB on 红防安全吧</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright> ©2011~2024 :thinking_face: [粤ICP备17091340号](https://beian.miit.gov.cn/ &#39;备案查询&#39;)</copyright>
+    <lastBuildDate>Wed, 14 Aug 2024 03:17:51 +0800</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/vb/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>VB6修改注册表参数</title>
+      <link>//localhost:1313/p/241/</link>
+      <pubDate>Wed, 14 Jun 2023 11:11:00 +0800</pubDate>
+      <guid>//localhost:1313/p/241/</guid>
+      <description>注意：需要修改注册表需要管理员权限运行&#xA;1Dim WSH 2Set WSH = CreateObject(&amp;#34;WSCRIPT.SHELL&amp;#34;) 3WSH.RegWrite &amp;#34;HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\KasperskyLab\protected\KES\environment\WDPatchMetadata&amp;#34;, &amp;#34;%WDPatches%\wd_params.xml&amp;#34; 4&amp;#39;#[路径],[数值数据] </description>
+    </item>
+    <item>
+      <title>VB6 Webbowser控件与JS交互</title>
+      <link>//localhost:1313/p/239/</link>
+      <pubDate>Tue, 30 May 2023 06:02:56 +0800</pubDate>
+      <guid>//localhost:1313/p/239/</guid>
+      <description>在菜单中单击&amp;quot;工程&amp;quot;-&amp;gt;&amp;ldquo;引用&amp;rdquo;，在列表中找到&amp;quot;Microsoft HTML Object Library&amp;quot;打上勾&#xA;1Dim WithEvents M_Dom As MSHTML.HTMLDocument 1Private Sub WebBrowser1_DocumentComplete(ByVal pDisp As Object, URL As Variant) 2Set M_Dom = WebBrowser1.Document 3&amp;#39;Me.PopupMenu mymenu 4On Error Resume Next &amp;#39;去除运行时错误91，未设置变量或with block变量报错 5pDisp.Document.body.setAttribute &amp;#34;extend&amp;#34;, Me &amp;#39;用于和网页里的JS交互 6With WebBrowser1 &amp;#39;无边框设置 7.Document.body.Scroll = &amp;#34;no&amp;#34; &amp;#39;排版对齐 8.Document.body.Style.border = &amp;#34;0px&amp;#34; &amp;#39;无边框设置 9.Document.body.Style.margin = &amp;#34;0px&amp;#34; &amp;#39;排版对齐 10.Document.body.Style.overflow = &amp;#34;hidden&amp;#34; 11End With 12End Sub 1Private Function M_Dom_oncontextmenu() As Boolean 2M_Dom_oncontextmenu = False &amp;#39;禁止右键 3End Function </description>
+    </item>
+    <item>
+      <title>VB6打开文件CommonDialog用法</title>
+      <link>//localhost:1313/p/226/</link>
+      <pubDate>Wed, 14 Dec 2022 16:26:48 +0800</pubDate>
+      <guid>//localhost:1313/p/226/</guid>
+      <description>1、打开任意文件【第一种】 #1Private Sub Command1_Click() 2 Dim x As Long 3 CommonDialog1.ShowOpen 4 x = Shell(&amp;#34;explorer.exe &amp;#34; &amp;amp; CommonDialog1.FileName, 1) 5 If x &amp;gt; 0 Then 6 MsgBox &amp;#34;执行成功，程序ID为：&amp;#34; &amp;amp; x 7 End If 8End Sub 2、指定打开某后涰【第二种】 # 1Private Sub Command2_Click() 2On Error GoTo userCanceled 3With CommonDialog1 4.FileName = &amp;#34;&amp;#34; 5.InitDir = App.path 6.CancelError = True 7.Filter = &amp;#34;文本文件(*.txt)|*.txt&amp;#34; 8&amp;#39;多种类型 .Filter = &amp;#34;PKCS12(*.PFX；*.P12)|*.PFX;*.P12&amp;#34; &amp;#39;文件类型 9.ShowOpen 10End With 11Text1.Text = App.path &amp;amp; &amp;#34;\&amp;#34; &amp;amp; CommonDialog1.</description>
+    </item>
+    <item>
+      <title>VB6代码从任务管理器中结束进程</title>
+      <link>//localhost:1313/p/224/</link>
+      <pubDate>Sat, 03 Dec 2022 00:27:11 +0800</pubDate>
+      <guid>//localhost:1313/p/224/</guid>
+      <description> 1Private Declare Function GetCurrentProcessId Lib &amp;#34;kernel32&amp;#34; () As Long 2Public Sub KillProcess(ByVal ProcessName As String) 3 Set oWMI = GetObject(&amp;#34;winmgmts:&amp;#34;) 4 Set oServices = oWMI.InstancesOf(&amp;#34;win32_process&amp;#34;) 5 For Each oService In oServices 6 servicename = LCase(Trim(CStr(oService.Name) &amp;amp; &amp;#34;&amp;#34;)) 7 If InStr(1, servicename, LCase(ProcessName), vbTextCompare) &amp;gt; 0 Then 8 oService.Terminate 9 End If 10 Next 11End Sub 1Private Sub Command1_Click() 2KillProcess (&amp;#34;Cmd.exe&amp;#34;) &amp;#39;终结进程名称 3End Sub </description>
+    </item>
+    <item>
+      <title>VB6校验文件防破解</title>
+      <link>//localhost:1313/p/223/</link>
+      <pubDate>Wed, 30 Nov 2022 11:36:59 +0800</pubDate>
+      <guid>//localhost:1313/p/223/</guid>
+      <description>1、开始窗体验证MD5值 #1Private Sub Form_Load() 2 Dim str As String 3str = IIf(Len(App.Path) &amp;gt; 3, App.Path &amp;amp; &amp;#34;\&amp;#34; &amp;amp; App.EXEName &amp;amp; &amp;#34;.exe&amp;#34;, App.Path &amp;amp; App.EXEName &amp;amp; &amp;#34;.exe&amp;#34;) 4Print &amp;#34;MD5:&amp;#34; &amp;amp; HashFile(str) &amp;#39;获取exe文件的MD5校验码 5Print &amp;#34;大小:&amp;#34; &amp;amp; FileLen(str) &amp;amp; &amp;#34; 字节&amp;#34; &amp;#39;取当前体积大小 6End Sub 2、新建一个MD5.bas模块 # 1Option Explicit 2Private Declare Function CryptAcquireContext Lib &amp;#34;advapi32.dll&amp;#34; _ 3Alias &amp;#34;CryptAcquireContextA&amp;#34; ( _ 4ByRef phProv As Long, _ 5ByVal pszContainer As String, _ 6ByVal pszProvider As String, _ 7ByVal dwProvType As Long, _ 8ByVal dwFlags As Long) As Long 9Private Declare Function CryptReleaseContext Lib &amp;#34;advapi32.</description>
+    </item>
+    <item>
+      <title>VB6复制文件的区别</title>
+      <link>//localhost:1313/p/222/</link>
+      <pubDate>Tue, 29 Nov 2022 22:53:20 +0800</pubDate>
+      <guid>//localhost:1313/p/222/</guid>
+      <description>1&amp;#39;先声明复制函数 2Private Declare Function CopyFile Lib &amp;#34;kernel32&amp;#34; Alias &amp;#34;CopyFileA&amp;#34; (ByVal lpExistingFileName As String, ByVal lpNewFileName As String, ByVal bFailIfExists As Long) As Long 方法一：带属性 #1s = App.Path &amp;#39;当前目录 2 rst = CopyFile(s &amp;amp; &amp;#34;\1.txt&amp;#34;, &amp;#34;D:\1.txt&amp;#34;, 0) 3If rst = 0 Then 4 MsgBox &amp;#34;替换不成功！&amp;#34; 5Else 6 MsgBox &amp;#34;替换成功！&amp;#34; 7End If 方法二：不带属性 #1s = App.Path &amp;#39;当前目录 2FileCopy s &amp;amp; &amp;#34;\1.txt&amp;#34;, &amp;#34;D:\1.txt&amp;#34; </description>
+    </item>
+    <item>
+      <title>VB6实现拖拽</title>
+      <link>//localhost:1313/p/219/</link>
+      <pubDate>Wed, 16 Nov 2022 12:23:44 +0800</pubDate>
+      <guid>//localhost:1313/p/219/</guid>
+      <description>1Private Sub Form_Load() 2 Me.OLEDropMode = 1 3End Sub 1Private Sub Form_OLEDragDrop(Data As DataObject, Effect As Long, Button As Integer, Shift As Integer, X As Single, Y As Single) 2 MsgBox Data.Files(1) 3End Sub </description>
+    </item>
+  </channel>
+</rss>
