@@ -7,7 +7,7 @@
     <generator>Hugo</generator>
     <language>en</language>
     <copyright> ©2011~2024 :thinking_face: [粤ICP备17091340号](https://beian.miit.gov.cn/ &#39;备案查询&#39;)</copyright>
-    <lastBuildDate>Wed, 14 Aug 2024 03:16:12 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 14 Aug 2024 03:26:53 +0800</lastBuildDate>
     <atom:link href="//localhost:1313/categories/vc%23%E6%BA%90%E7%A0%81/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Visual Studio2015下载离线包</title>
@@ -73,25 +73,32 @@
       <description> 1Private Declare Function GetCurrentProcessId Lib &amp;#34;kernel32&amp;#34; () As Long 2Public Sub KillProcess(ByVal ProcessName As String) 3 Set oWMI = GetObject(&amp;#34;winmgmts:&amp;#34;) 4 Set oServices = oWMI.InstancesOf(&amp;#34;win32_process&amp;#34;) 5 For Each oService In oServices 6 servicename = LCase(Trim(CStr(oService.Name) &amp;amp; &amp;#34;&amp;#34;)) 7 If InStr(1, servicename, LCase(ProcessName), vbTextCompare) &amp;gt; 0 Then 8 oService.Terminate 9 End If 10 Next 11End Sub 1Private Sub Command1_Click() 2KillProcess (&amp;#34;Cmd.exe&amp;#34;) &amp;#39;终结进程名称 3End Sub </description>
     </item>
     <item>
-      <title>vb6校验文件防破解</title>
+      <title>VB6校验文件防破解</title>
       <link>//localhost:1313/p/223/</link>
       <pubDate>Wed, 30 Nov 2022 11:36:59 +0800</pubDate>
       <guid>//localhost:1313/p/223/</guid>
       <description>1、开始窗体验证MD5值 #1Private Sub Form_Load() 2 Dim str As String 3str = IIf(Len(App.Path) &amp;gt; 3, App.Path &amp;amp; &amp;#34;\&amp;#34; &amp;amp; App.EXEName &amp;amp; &amp;#34;.exe&amp;#34;, App.Path &amp;amp; App.EXEName &amp;amp; &amp;#34;.exe&amp;#34;) 4Print &amp;#34;MD5:&amp;#34; &amp;amp; HashFile(str) &amp;#39;获取exe文件的MD5校验码 5Print &amp;#34;大小:&amp;#34; &amp;amp; FileLen(str) &amp;amp; &amp;#34; 字节&amp;#34; &amp;#39;取当前体积大小 6End Sub 2、新建一个MD5.bas模块 # 1Option Explicit 2Private Declare Function CryptAcquireContext Lib &amp;#34;advapi32.dll&amp;#34; _ 3Alias &amp;#34;CryptAcquireContextA&amp;#34; ( _ 4ByRef phProv As Long, _ 5ByVal pszContainer As String, _ 6ByVal pszProvider As String, _ 7ByVal dwProvType As Long, _ 8ByVal dwFlags As Long) As Long 9Private Declare Function CryptReleaseContext Lib &amp;#34;advapi32.</description>
     </item>
     <item>
-      <title>vb6复制文件的区别</title>
+      <title>VB6复制文件的区别</title>
       <link>//localhost:1313/p/222/</link>
       <pubDate>Tue, 29 Nov 2022 22:53:20 +0800</pubDate>
       <guid>//localhost:1313/p/222/</guid>
       <description>1&amp;#39;先声明复制函数 2Private Declare Function CopyFile Lib &amp;#34;kernel32&amp;#34; Alias &amp;#34;CopyFileA&amp;#34; (ByVal lpExistingFileName As String, ByVal lpNewFileName As String, ByVal bFailIfExists As Long) As Long 方法一：带属性 #1s = App.Path &amp;#39;当前目录 2 rst = CopyFile(s &amp;amp; &amp;#34;\1.txt&amp;#34;, &amp;#34;D:\1.txt&amp;#34;, 0) 3If rst = 0 Then 4 MsgBox &amp;#34;替换不成功！&amp;#34; 5Else 6 MsgBox &amp;#34;替换成功！&amp;#34; 7End If 方法二：不带属性 #1s = App.Path &amp;#39;当前目录 2FileCopy s &amp;amp; &amp;#34;\1.txt&amp;#34;, &amp;#34;D:\1.txt&amp;#34; </description>
     </item>
     <item>
-      <title>vb6实现拖拽</title>
+      <title>VB6实现拖拽</title>
       <link>//localhost:1313/p/219/</link>
       <pubDate>Wed, 16 Nov 2022 12:23:44 +0800</pubDate>
       <guid>//localhost:1313/p/219/</guid>
       <description>1Private Sub Form_Load() 2 Me.OLEDropMode = 1 3End Sub 1Private Sub Form_OLEDragDrop(Data As DataObject, Effect As Long, Button As Integer, Shift As Integer, X As Single, Y As Single) 2 MsgBox Data.Files(1) 3End Sub </description>
+    </item>
+    <item>
+      <title>VB6文字跑马灯</title>
+      <link>//localhost:1313/p/218/</link>
+      <pubDate>Wed, 09 Nov 2022 15:46:12 +0800</pubDate>
+      <guid>//localhost:1313/p/218/</guid>
+      <description>1Dim TString As String &amp;#39;声明，在显示的跑马灯字串变数 1Private Sub Form_Load() 2Timer1.Enabled = False &amp;#39;启动打开LED跑马灯 3Timer1.Interval = 200 4Text1.ForeColor = vbRed &amp;#39;跑马灯红色字体 5Text1.Enabled = True 6End Sub 1Private Sub Timer1_Timer() &amp;#39;加入时钟1 2Static TPos As Long &amp;#39;开始颉取跑马灯字串之位置指标 3If TPos &amp;gt; Len(TString) Then &amp;#39;如果位置指标越过了整个字串 4TPos = 1 &amp;#39;把位置指标移到最开头 5Else 6TPos = TPos + 1 &amp;#39;把位置指标移到下一个字 7End If 8Text1.Text = Mid(TString, TPos) &amp;#39;逐字显示跑马灯字串 9End Sub </description>
     </item>
   </channel>
 </rss>

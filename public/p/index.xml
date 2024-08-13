@@ -99,5 +99,12 @@
       <guid>//localhost:1313/p/219/</guid>
       <description>1Private Sub Form_Load() 2 Me.OLEDropMode = 1 3End Sub 1Private Sub Form_OLEDragDrop(Data As DataObject, Effect As Long, Button As Integer, Shift As Integer, X As Single, Y As Single) 2 MsgBox Data.Files(1) 3End Sub </description>
     </item>
+    <item>
+      <title>VB6文字跑马灯</title>
+      <link>//localhost:1313/p/218/</link>
+      <pubDate>Wed, 09 Nov 2022 15:46:12 +0800</pubDate>
+      <guid>//localhost:1313/p/218/</guid>
+      <description>1Dim TString As String &amp;#39;声明，在显示的跑马灯字串变数 1Private Sub Form_Load() 2Timer1.Enabled = False &amp;#39;启动打开LED跑马灯 3Timer1.Interval = 200 4Text1.ForeColor = vbRed &amp;#39;跑马灯红色字体 5Text1.Enabled = True 6End Sub 1Private Sub Timer1_Timer() &amp;#39;加入时钟1 2Static TPos As Long &amp;#39;开始颉取跑马灯字串之位置指标 3If TPos &amp;gt; Len(TString) Then &amp;#39;如果位置指标越过了整个字串 4TPos = 1 &amp;#39;把位置指标移到最开头 5Else 6TPos = TPos + 1 &amp;#39;把位置指标移到下一个字 7End If 8Text1.Text = Mid(TString, TPos) &amp;#39;逐字显示跑马灯字串 9End Sub </description>
+    </item>
   </channel>
 </rss>

@@ -7,7 +7,7 @@
     <generator>Hugo</generator>
     <language>en</language>
     <copyright> ©2011~2024 :thinking_face: [粤ICP备17091340号](https://beian.miit.gov.cn/ &#39;备案查询&#39;)</copyright>
-    <lastBuildDate>Wed, 14 Aug 2024 03:17:51 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 14 Aug 2024 03:38:24 +0800</lastBuildDate>
     <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Visual Studio2015下载离线包</title>
@@ -101,11 +101,18 @@
       <description>1Private Sub Form_Load() 2 Me.OLEDropMode = 1 3End Sub 1Private Sub Form_OLEDragDrop(Data As DataObject, Effect As Long, Button As Integer, Shift As Integer, X As Single, Y As Single) 2 MsgBox Data.Files(1) 3End Sub </description>
     </item>
     <item>
+      <title>VB6文字跑马灯</title>
+      <link>//localhost:1313/p/218/</link>
+      <pubDate>Wed, 09 Nov 2022 15:46:12 +0800</pubDate>
+      <guid>//localhost:1313/p/218/</guid>
+      <description>1Dim TString As String &amp;#39;声明，在显示的跑马灯字串变数 1Private Sub Form_Load() 2Timer1.Enabled = False &amp;#39;启动打开LED跑马灯 3Timer1.Interval = 200 4Text1.ForeColor = vbRed &amp;#39;跑马灯红色字体 5Text1.Enabled = True 6End Sub 1Private Sub Timer1_Timer() &amp;#39;加入时钟1 2Static TPos As Long &amp;#39;开始颉取跑马灯字串之位置指标 3If TPos &amp;gt; Len(TString) Then &amp;#39;如果位置指标越过了整个字串 4TPos = 1 &amp;#39;把位置指标移到最开头 5Else 6TPos = TPos + 1 &amp;#39;把位置指标移到下一个字 7End If 8Text1.Text = Mid(TString, TPos) &amp;#39;逐字显示跑马灯字串 9End Sub </description>
+    </item>
+    <item>
       <title></title>
       <link>//localhost:1313/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/about/</guid>
-      <description>👋 嗨，我是 葑訫 或 (Sunny)，欢迎访问我的独立网站。&#xA;服务一览 #本站使用了以下免费、开源或价格低廉的服务，使我能够负担得起这个博客的运营。 非常感谢这些服务！&#xA;Hugo: 世界上最快的静态网站生成器 (Golang) Congo: 一款强大的、轻量的 Hugo 主题，使用 Tailwind CSS 构建 GitHub: 博客源码托管和版本控制 HuaWeiCloud: 域名DNS解析、多线路访问 Cloudflare Pages: 博客自动集成部署和托管 Vercel: 支持广泛程序语言自动集成部署和托管 LeanCloud: 数据存储、云引擎支持多种常见的 Web 后端语言 Waline: 轻量、安全、易上手的评论系统、集邮件通知等服务 兼容性 #本站支持所有「未过时的设备」通过现代 Web 浏览器访问，推荐使用 Google Chrome 浏览器访问。此外：&#xA;支持 IPv4、IPv6 访问 支持洋葱路由访问 支持 HTTP/2 支持 HTTP/3 (使用 QUIC) 始终使用 HTTPS 链接 支持 TLS1.2 和 TLS1.3 (最低支持 TLS1.2) 已开启 HTTP 严格传输安全 (HSTS) </description>
+      <description>👋 嗨，我是 葑訫 或 (Sunny)，欢迎访问我的独立顶级域名网站。&#xA;服务一览 #本站使用了以下免费、开源或价格低廉的服务，使我能够负担得起这个网站的运营。 非常感谢这些服务！&#xA;Hugo: 世界上最快的静态网站生成器 (Golang) Congo: 一款强大的、轻量的 Hugo 主题，使用 Tailwind CSS 构建 GitHub: 博客源码托管和版本控制 HuaWeiCloud: 域名DNS解析、多线路访问 Cloudflare Pages: 博客自动集成部署和托管 Vercel: 支持广泛程序语言自动集成部署和托管 LeanCloud: 数据存储、云引擎支持多种常见的 Web 后端语言 Waline: 轻量、安全、易上手的评论系统、集邮件通知等服务 兼容性 #本站支持所有「未过时的设备」通过现代 Web 浏览器访问，推荐使用 Google Chrome 浏览器访问。此外：&#xA;支持 IPv4、IPv6 访问 支持洋葱路由访问 支持 HTTP/2 支持 HTTP/3 (使用 QUIC) 始终使用 HTTPS 链接 支持 TLS1.2 和 TLS1.3 (最低支持 TLS1.2) 已开启 HTTP 严格传输安全 (HSTS) </description>
     </item>
     <item>
       <title></title>

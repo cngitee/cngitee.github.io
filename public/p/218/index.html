@@ -17,8 +17,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="theme-color" content="rgb(255,255,255)" />
   
-  <title> &middot; 红防安全吧</title>
-    <meta name="title" content=" &middot; 红防安全吧" />
+  <title>VB6文字跑马灯 &middot; 红防安全吧</title>
+    <meta name="title" content="VB6文字跑马灯 &middot; 红防安全吧" />
   
   
   
@@ -72,17 +72,14 @@
     name="description"
     content="
       
-        👋 嗨，我是 葑訫 或 (Sunny)，欢迎访问我的独立顶级域名网站。
-服务一览 #本站使用了以下免费、开源或价格低廉的服务，使我能够负担得起这个网站的运营。 非常感谢这些服务！
-Hugo: 世界上最快的静态网站生成器 (Golang) Congo: 一款强大的、轻量的 Hugo 主题，使用 Tailwind CSS 构建 GitHub: 博客源码托管和版本控制 HuaWeiCloud: 域名DNS解析、多线路访问 Cloudflare Pages: 博客自动集成部署和托管 Vercel: 支持广泛程序语言自动集成部署和托管 LeanCloud: 数据存储、云引擎支持多种常见的 Web 后端语言 Waline: 轻量、安全、易上手的评论系统、集邮件通知等服务 兼容性 #本站支持所有「未过时的设备」通过现代 Web 浏览器访问，推荐使用 Google Chrome 浏览器访问。此外：
-支持 IPv4、IPv6 访问 支持洋葱路由访问 支持 HTTP/2 支持 HTTP/3 (使用 QUIC) 始终使用 HTTPS 链接 支持 TLS1.2 和 TLS1.3 (最低支持 TLS1.2) 已开启 HTTP 严格传输安全 (HSTS) 
+        1Dim TString As String &#39;声明，在显示的跑马灯字串变数 1Private Sub Form_Load() 2Timer1.Enabled = False &#39;启动打开LED跑马灯 3Timer1.Interval = 200 4Text1.ForeColor = vbRed &#39;跑马灯红色字体 5Text1.Enabled = True 6End Sub 1Private Sub Timer1_Timer() &#39;加入时钟1 2Static TPos As Long &#39;开始颉取跑马灯字串之位置指标 3If TPos &gt; Len(TString) Then &#39;如果位置指标越过了整个字串 4TPos = 1 &#39;把位置指标移到最开头 5Else 6TPos = TPos &#43; 1 &#39;把位置指标移到下一个字 7End If 8Text1.Text = Mid(TString, TPos) &#39;逐字显示跑马灯字串 9End Sub 
       
     "
   />
   
   
   
-  <link rel="canonical" href="//localhost:1313/about/" />
+  <link rel="canonical" href="//localhost:1313/p/218/" />
   
   
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
@@ -97,51 +94,48 @@ Hugo: 世界上最快的静态网站生成器 (Golang) Congo: 一款强大的、
   
   
   
-  <meta property="og:url" content="//localhost:1313/about/">
+  <meta property="og:url" content="//localhost:1313/p/218/">
   <meta property="og:site_name" content="红防安全吧">
-  <meta property="og:title" content="红防安全吧">
-  <meta property="og:description" content="👋 嗨，我是 葑訫 或 (Sunny)，欢迎访问我的独立顶级域名网站。
-服务一览 #本站使用了以下免费、开源或价格低廉的服务，使我能够负担得起这个网站的运营。 非常感谢这些服务！
-Hugo: 世界上最快的静态网站生成器 (Golang) Congo: 一款强大的、轻量的 Hugo 主题，使用 Tailwind CSS 构建 GitHub: 博客源码托管和版本控制 HuaWeiCloud: 域名DNS解析、多线路访问 Cloudflare Pages: 博客自动集成部署和托管 Vercel: 支持广泛程序语言自动集成部署和托管 LeanCloud: 数据存储、云引擎支持多种常见的 Web 后端语言 Waline: 轻量、安全、易上手的评论系统、集邮件通知等服务 兼容性 #本站支持所有「未过时的设备」通过现代 Web 浏览器访问，推荐使用 Google Chrome 浏览器访问。此外：
-支持 IPv4、IPv6 访问 支持洋葱路由访问 支持 HTTP/2 支持 HTTP/3 (使用 QUIC) 始终使用 HTTPS 链接 支持 TLS1.2 和 TLS1.3 (最低支持 TLS1.2) 已开启 HTTP 严格传输安全 (HSTS) ">
+  <meta property="og:title" content="VB6文字跑马灯">
+  <meta property="og:description" content="1Dim TString As String &#39;声明，在显示的跑马灯字串变数 1Private Sub Form_Load() 2Timer1.Enabled = False &#39;启动打开LED跑马灯 3Timer1.Interval = 200 4Text1.ForeColor = vbRed &#39;跑马灯红色字体 5Text1.Enabled = True 6End Sub 1Private Sub Timer1_Timer() &#39;加入时钟1 2Static TPos As Long &#39;开始颉取跑马灯字串之位置指标 3If TPos &gt; Len(TString) Then &#39;如果位置指标越过了整个字串 4TPos = 1 &#39;把位置指标移到最开头 5Else 6TPos = TPos &#43; 1 &#39;把位置指标移到下一个字 7End If 8Text1.Text = Mid(TString, TPos) &#39;逐字显示跑马灯字串 9End Sub ">
   <meta property="og:locale" content="en">
   <meta property="og:type" content="article">
-    <meta property="article:modified_time" content="2024-08-14T03:38:24+08:00">
+    <meta property="article:section" content="p">
+    <meta property="article:published_time" content="2022-11-09T15:46:12+08:00">
+    <meta property="article:modified_time" content="2024-08-14T03:26:53+08:00">
+    <meta property="article:tag" content="VB">
 
   
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="红防安全吧">
-  <meta name="twitter:description" content="👋 嗨，我是 葑訫 或 (Sunny)，欢迎访问我的独立顶级域名网站。
-服务一览 #本站使用了以下免费、开源或价格低廉的服务，使我能够负担得起这个网站的运营。 非常感谢这些服务！
-Hugo: 世界上最快的静态网站生成器 (Golang) Congo: 一款强大的、轻量的 Hugo 主题，使用 Tailwind CSS 构建 GitHub: 博客源码托管和版本控制 HuaWeiCloud: 域名DNS解析、多线路访问 Cloudflare Pages: 博客自动集成部署和托管 Vercel: 支持广泛程序语言自动集成部署和托管 LeanCloud: 数据存储、云引擎支持多种常见的 Web 后端语言 Waline: 轻量、安全、易上手的评论系统、集邮件通知等服务 兼容性 #本站支持所有「未过时的设备」通过现代 Web 浏览器访问，推荐使用 Google Chrome 浏览器访问。此外：
-支持 IPv4、IPv6 访问 支持洋葱路由访问 支持 HTTP/2 支持 HTTP/3 (使用 QUIC) 始终使用 HTTPS 链接 支持 TLS1.2 和 TLS1.3 (最低支持 TLS1.2) 已开启 HTTP 严格传输安全 (HSTS) ">
+  <meta name="twitter:title" content="VB6文字跑马灯">
+  <meta name="twitter:description" content="1Dim TString As String &#39;声明，在显示的跑马灯字串变数 1Private Sub Form_Load() 2Timer1.Enabled = False &#39;启动打开LED跑马灯 3Timer1.Interval = 200 4Text1.ForeColor = vbRed &#39;跑马灯红色字体 5Text1.Enabled = True 6End Sub 1Private Sub Timer1_Timer() &#39;加入时钟1 2Static TPos As Long &#39;开始颉取跑马灯字串之位置指标 3If TPos &gt; Len(TString) Then &#39;如果位置指标越过了整个字串 4TPos = 1 &#39;把位置指标移到最开头 5Else 6TPos = TPos &#43; 1 &#39;把位置指标移到下一个字 7End If 8Text1.Text = Mid(TString, TPos) &#39;逐字显示跑马灯字串 9End Sub ">
 
   
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "Article",
-    "articleSection": "红防安全吧",
-    "name": "",
-    "headline": "",
+    "articleSection": "⏱️珍藏文献",
+    "name": "VB6文字跑马灯",
+    "headline": "VB6文字跑马灯",
     
-    "abstract": "👋 嗨，我是 葑訫 或 (Sunny)，欢迎访问我的独立顶级域名网站。\n服务一览 #本站使用了以下免费、开源或价格低廉的服务，使我能够负担得起这个网站的运营。 非常感谢这些服务！\nHugo: 世界上最快的静态网站生成器 (Golang) Congo: 一款强大的、轻量的 Hugo 主题，使用 Tailwind CSS 构建 GitHub: 博客源码托管和版本控制 HuaWeiCloud: 域名DNS解析、多线路访问 Cloudflare Pages: 博客自动集成部署和托管 Vercel: 支持广泛程序语言自动集成部署和托管 LeanCloud: 数据存储、云引擎支持多种常见的 Web 后端语言 Waline: 轻量、安全、易上手的评论系统、集邮件通知等服务 兼容性 #本站支持所有「未过时的设备」通过现代 Web 浏览器访问，推荐使用 Google Chrome 浏览器访问。此外：\n支持 IPv4、IPv6 访问 支持洋葱路由访问 支持 HTTP\/2 支持 HTTP\/3 (使用 QUIC) 始终使用 HTTPS 链接 支持 TLS1.2 和 TLS1.3 (最低支持 TLS1.2) 已开启 HTTP 严格传输安全 (HSTS) ",
+    "abstract": "1Dim TString As String \u0026#39;声明，在显示的跑马灯字串变数 1Private Sub Form_Load() 2Timer1.Enabled = False \u0026#39;启动打开LED跑马灯 3Timer1.Interval = 200 4Text1.ForeColor = vbRed \u0026#39;跑马灯红色字体 5Text1.Enabled = True 6End Sub 1Private Sub Timer1_Timer() \u0026#39;加入时钟1 2Static TPos As Long \u0026#39;开始颉取跑马灯字串之位置指标 3If TPos \u0026gt; Len(TString) Then \u0026#39;如果位置指标越过了整个字串 4TPos = 1 \u0026#39;把位置指标移到最开头 5Else 6TPos = TPos \u002b 1 \u0026#39;把位置指标移到下一个字 7End If 8Text1.Text = Mid(TString, TPos) \u0026#39;逐字显示跑马灯字串 9End Sub ",
     "inLanguage": "en",
-    "url" : "\/\/localhost:1313\/about\/",
+    "url" : "\/\/localhost:1313\/p\/218\/",
     "author" : {
       "@type": "Person",
       "name": "HKFX NET"
     },
+    "copyrightYear": "2022",
+    "dateCreated": "2022-11-09T15:46:12\u002b08:00",
+    "datePublished": "2022-11-09T15:46:12\u002b08:00",
     
+    "dateModified": "2024-08-14T03:26:53\u002b08:00",
     
-    
-    
-    "dateModified": "2024-08-14T03:38:24\u002b08:00",
-    
-    
+    "keywords": "VB",
     
     "mainEntityOfPage": "true",
-    "wordCount": "63"
+    "wordCount": "59"
   }
   </script>
 
@@ -340,7 +334,7 @@ Hugo: 世界上最快的静态网站生成器 (Golang) Congo: 一款强大的、
     <header class="max-w-prose">
       
       <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
-        
+        VB6文字跑马灯
       </h1>
       
         <div class="mb-12 mt-8 text-base text-neutral-500 print:hidden dark:text-neutral-400">
@@ -378,7 +372,7 @@ Hugo: 世界上最快的静态网站生成器 (Golang) Congo: 一款强大的、
   <div class="flex flex-row flex-wrap items-center">
     
     
-      <time datetime="0001-01-01 00:00:00 &#43;0000 UTC">January 1, 1</time><span class="px-2 text-primary-500">&middot;</span><time datetime="2024-08-14 03:38:24.5024969 &#43;0800 CST">Updated: August 14, 2024</time><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">1 min</span>
+      <time datetime="2022-11-09 15:46:12 &#43;0800 CST">November 9, 2022</time><span class="px-2 text-primary-500">&middot;</span><time datetime="2024-08-14 03:26:53.8909119 &#43;0800 CST">Updated: August 14, 2024</time><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">1 min</span>
     
 
     
@@ -396,34 +390,23 @@ Hugo: 世界上最快的静态网站生成器 (Golang) Congo: 一款强大的、
     <section class="prose mt-0 flex max-w-full flex-col dark:prose-invert lg:flex-row">
       
       <div class="min-h-0 min-w-0 max-w-prose grow">
-        <p>👋 嗨，我是 葑訫 或 (Sunny)，欢迎访问我的独立顶级域名网站。</p>
-<h3 id="服务一览" class="relative group">服务一览 <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#%e6%9c%8d%e5%8a%a1%e4%b8%80%e8%a7%88" aria-label="Anchor">#</a></span></h3><p>本站使用了以下免费、开源或价格低廉的服务，使我能够负担得起这个网站的运营。  非常感谢这些服务！</p>
-<blockquote>
-<ul>
-<li>Hugo: 世界上最快的静态网站生成器 (Golang)</li>
-<li>Congo: 一款强大的、轻量的 Hugo 主题，使用 Tailwind CSS 构建</li>
-<li>GitHub: 博客源码托管和版本控制</li>
-<li>HuaWeiCloud: 域名DNS解析、多线路访问</li>
-<li>Cloudflare Pages: 博客自动集成部署和托管</li>
-<li>Vercel: 支持广泛程序语言自动集成部署和托管</li>
-<li>LeanCloud: 数据存储、云引擎支持多种常见的 Web 后端语言</li>
-<li>Waline: 轻量、安全、易上手的评论系统、集邮件通知等服务</li>
-</ul>
-</blockquote>
-<h3 id="兼容性" class="relative group">兼容性 <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#%e5%85%bc%e5%ae%b9%e6%80%a7" aria-label="Anchor">#</a></span></h3><p>本站支持所有「未过时的设备」通过现代 Web 浏览器访问，推荐使用 Google Chrome 浏览器访问。此外：</p>
-<blockquote>
-<ul>
-<li>支持 IPv4、IPv6 访问</li>
-<li>支持洋葱路由访问</li>
-<li>支持 HTTP/2</li>
-<li>支持 HTTP/3 (使用 QUIC)</li>
-<li>始终使用 HTTPS 链接</li>
-<li>支持 TLS1.2 和 TLS1.3 (最低支持 TLS1.2)</li>
-<li>已开启 HTTP 严格传输安全 (HSTS)</li>
-</ul>
-</blockquote>
-<hr>
-
+        <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-vb.net" data-lang="vb.net"><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1</span><span><span style="color:#66d9ef">Dim</span> TString <span style="color:#f92672">As</span> <span style="color:#66d9ef">String</span>  <span style="color:#75715e">&#39;声明，在显示的跑马灯字串变数
+</span></span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-vb.net" data-lang="vb.net"><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1</span><span><span style="color:#66d9ef">Private</span> <span style="color:#66d9ef">Sub</span> <span style="color:#a6e22e">Form_Load</span>()
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2</span><span>Timer1.Enabled <span style="color:#f92672">=</span> <span style="color:#66d9ef">False</span> <span style="color:#75715e">&#39;启动打开LED跑马灯
+</span></span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3</span><span><span style="color:#75715e"></span>Timer1.Interval <span style="color:#f92672">=</span> 200
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">4</span><span>Text1.ForeColor <span style="color:#f92672">=</span> vbRed   <span style="color:#75715e">&#39;跑马灯红色字体
+</span></span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">5</span><span><span style="color:#75715e"></span>Text1.Enabled <span style="color:#f92672">=</span> <span style="color:#66d9ef">True</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">6</span><span><span style="color:#66d9ef">End</span> <span style="color:#66d9ef">Sub</span>
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-vb.net" data-lang="vb.net"><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1</span><span><span style="color:#66d9ef">Private</span> <span style="color:#66d9ef">Sub</span> <span style="color:#a6e22e">Timer1_Timer</span>() <span style="color:#75715e">&#39;加入时钟1
+</span></span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2</span><span><span style="color:#75715e"></span><span style="color:#66d9ef">Static</span> TPos <span style="color:#f92672">As</span> <span style="color:#66d9ef">Long</span> <span style="color:#75715e">&#39;开始颉取跑马灯字串之位置指标
+</span></span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3</span><span><span style="color:#75715e"></span><span style="color:#66d9ef">If</span> TPos <span style="color:#f92672">&gt;</span> Len(TString) <span style="color:#66d9ef">Then</span>  <span style="color:#75715e">&#39;如果位置指标越过了整个字串
+</span></span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">4</span><span><span style="color:#75715e"></span>TPos <span style="color:#f92672">=</span> 1 <span style="color:#75715e">&#39;把位置指标移到最开头
+</span></span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">5</span><span><span style="color:#75715e"></span><span style="color:#66d9ef">Else</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">6</span><span>TPos <span style="color:#f92672">=</span> TPos <span style="color:#f92672">+</span> 1  <span style="color:#75715e">&#39;把位置指标移到下一个字
+</span></span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">7</span><span><span style="color:#75715e"></span><span style="color:#66d9ef">End</span> <span style="color:#66d9ef">If</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">8</span><span>Text1.Text <span style="color:#f92672">=</span> Mid(TString, TPos)  <span style="color:#75715e">&#39;逐字显示跑马灯字串
+</span></span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">9</span><span><span style="color:#75715e"></span><span style="color:#66d9ef">End</span> <span style="color:#66d9ef">Sub</span>
+</span></span></code></pre></div>
       </div>
     </section>
     <footer class="max-w-prose pt-8 print:hidden">
@@ -542,27 +525,27 @@ Hugo: 世界上最快的静态网站生成器 (Golang) Congo: 一款强大的、
       <div class="flex justify-between pt-3">
         <span>
           
-            <a class="group flex" href="/feedback/">
-              <span
-                class="me-2 text-neutral-700 transition-transform group-hover:-translate-x-[2px] group-hover:text-primary-600 dark:text-neutral dark:group-hover:text-primary-400"
-                ><span class="ltr:inline rtl:hidden">&larr;</span
-                ><span class="ltr:hidden rtl:inline">&rarr;</span></span
-              >
+        </span>
+        <span>
+          
+            <a class="group flex text-right" href="/p/219/">
               <span class="flex flex-col">
                 <span
                   class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
-                  ></span
+                  >VB6实现拖拽</span
                 >
                 <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
                   
-                    <time datetime="0001-01-01 00:00:00 &#43;0000 UTC">January 1, 1</time>
+                    <time datetime="2022-11-16 12:23:44 &#43;0800 CST">November 16, 2022</time>
                   
                 </span>
               </span>
+              <span
+                class="ms-2 text-neutral-700 transition-transform group-hover:-translate-x-[2px] group-hover:text-primary-600 dark:text-neutral dark:group-hover:text-primary-400"
+                ><span class="ltr:inline rtl:hidden">&rarr;</span
+                ><span class="ltr:hidden rtl:inline">&larr;</span></span
+              >
             </a>
-          
-        </span>
-        <span>
           
         </span>
       </div>
@@ -570,6 +553,192 @@ Hugo: 世界上最快的静态网站生成器 (Golang) Congo: 一款强大的、
   
 
 
+      
+        
+          <div class="pt-3">
+            <hr class="border-dotted border-neutral-300 dark:border-neutral-600" />
+            <div class="pt-3">
+              <html>
+<head>
+<style>
+#toggle {
+  display: none;
+}
+
+input[type="checkbox"]:checked ~ #toggle {
+  display: block;
+}
+</style>
+</head>
+<body>
+
+<link rel="stylesheet" type="text/css" href="/css/zhan-shang.css">
+<i class="iconfont icon-dianzan"></i>
+
+<input type="checkbox" id="toggleButton">
+<span style="background-color: #ff6600ad;">
+  <font color="white">
+    <label for="toggleButton">[给作者打赏]</label>
+  </font>
+</span>
+
+<div id="toggle">
+  <div align="center">
+  <img border="0" src="/images/16470417356358.jpg" alt="赞赏码图" width="364" height="183">
+  </div>
+</div>
+
+</body>
+</html>
+
+
+<head>
+
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@waline/client@v2/dist/waline.css"
+    />
+
+  </head>
+     <div id="waline-recent"></div>
+     <script type="module"> 
+         import { RecentComments } from 'https://cdn.jsdelivr.net/npm/@waline/client/dist/waline.mjs';  
+         RecentComments({ 
+             el: '#waline-recent', 
+             serverURL: 'https://vercel.hkfx.net', 
+            
+         }); 
+     </script> 
+   
+    <div id="waline"></div>
+    <script type="module">
+      import { init } from 'https://unpkg.com/@waline/client@v2/dist/waline.mjs';
+                          
+      init({
+        el: '#waline',
+        serverURL: 'https://vercel.hkfx.net/',
+        lang: 'zh-CN',
+        emoji: [
+        '//unpkg.com/@waline/emojis@1.2.0/bmoji',
+        '//unpkg.com/@waline/emojis@1.2.0/tieba',
+        '//unpkg.com/@waline/emojis@1.2.0/qq',
+        '//unpkg.com/@waline/emojis@1.2.0/alus',
+        '//unpkg.com/@waline/emojis@1.1.0/bilibili',
+        'https://cdn.jsdelivr.net/gh/norevi/waline-blobcatemojis@1.0/blobs',
+        ],
+        dark: 'html[class="scroll-smooth dark"]',
+
+      });
+    </script>
+
+
+    <style>
+       
+      :root {
+         
+        --waline-font-size: 16px;
+
+         
+        --waline-white: #ffff;
+         
+        --waline-light-grey: #999;
+         
+        --waline-dark-grey: #666;
+
+         
+        --waline-theme-color: #3b82f6;
+         
+        --waline-active-color: #2ecc71;
+
+         
+        --waline-color: #222;
+         
+        --waline-bgcolor: #fff;
+         
+        --waline-bgcolor-light: #f8f8f8;
+         
+        --waline-bgcolor-hover: #2ecc71;
+         
+        --waline-border-color: #ddd;
+         
+        --waline-disable-bgcolor: rgba(248, 248, 248, 0.4);
+         
+        --waline-disable-color:#bbb;
+         
+        --waline-code-bgcolor: #282c34;
+
+         
+        --waline-bq-color: #f0f0f0;
+
+         
+        --waline-avatar-size: 3.25rem;
+         
+        --waline-m-avatar-size: calc(var(--waline-avatar-size) * 9 / 13);
+
+         
+        --waline-badge-color: #3b82f6;
+         
+        --waline-badge-font-size: 12px;
+
+         
+        --waline-info-border: 1px solid #999;
+         
+        --waline-info-color: #999;
+         
+        --waline-info-font-size: 16px;
+           
+        --waline-info-bgcolor: rgba(235, 235, 235, 0.4);
+
+         
+        --waline-border: 1px solid var(--waline-border-color);
+         
+        --waline-avatar-radius: 50%;
+         
+        --waline-box-shadow: none;
+      }
+
+       
+      html[class="scroll-smooth dark"]{
+         
+        --waline-white: #000;
+          
+        --waline-light-grey: #999;
+         
+          
+        --waline-dark-grey: #999;
+
+         
+        --waline-color: #c2c2c2;
+          
+        --waline-bgcolor: #1E293B;
+          
+        --waline-bgcolor-light: #2A354F;
+          
+        --waline-border-color: #666;
+          
+        --waline-disable-bgcolor: rgba(68, 68, 68, 0.8);
+          
+        --waline-disable-color: #888;
+
+         
+        --waline-bq-color: #1F2D4B;
+
+         
+        --waline-info-bgcolor: rgba(31, 45, 75, 0.8);
+          
+        --waline-info-color: #888;
+         
+        --waline-info-border: 1px solid #d3d3d3;
+      }
+
+    </style>
+
+
+  </body>
+
+            </div>
+          </div>
+        
       
     </footer>
   </article>
