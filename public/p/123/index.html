@@ -99,7 +99,7 @@
   <meta property="og:type" content="article">
     <meta property="article:section" content="p">
     <meta property="article:published_time" content="2019-07-04T15:37:03+08:00">
-    <meta property="article:modified_time" content="2024-08-17T21:59:39+08:00">
+    <meta property="article:modified_time" content="2024-08-18T01:03:25+08:00">
     <meta property="article:tag" content="VB">
 
   
@@ -127,7 +127,7 @@
     "dateCreated": "2019-07-04T15:37:03\u002b08:00",
     "datePublished": "2019-07-04T15:37:03\u002b08:00",
     
-    "dateModified": "2024-08-17T21:59:39\u002b08:00",
+    "dateModified": "2024-08-18T01:03:25\u002b08:00",
     
     "keywords": "VB",
     
@@ -382,7 +382,7 @@
   <div class="flex flex-row flex-wrap items-center">
     
     
-      <time datetime="2019-07-04 15:37:03 &#43;0800 CST">2019/8/4</time><span class="px-2 text-primary-500">&middot;</span><time datetime="2024-08-17 21:59:39.8003264 &#43;0800 CST">Updated:  2024/8/17</time>
+      <time datetime="2019-07-04 15:37:03 &#43;0800 CST">2019/8/4</time><span class="px-2 text-primary-500">&middot;</span><time datetime="2024-08-18 01:03:25.74054 &#43;0800 CST">Updated:  2024/8/18</time>
     
 
     
@@ -413,6 +413,8 @@
     <li>
       <ul>
         <li><a href="#说明加载网络图片无缓存加载直接写加载到程序里面挺好用的一个image1和command1">说明：加载网络图片，无缓存加载，直接写加载到程序里面挺好用的，一个Image1和Command1</a></li>
+        <li><a href="#1image1图片控件">1、Image1图片控件</a></li>
+        <li><a href="#2command1按钮">2、Command1按钮</a></li>
       </ul>
     </li>
   </ul>
@@ -424,7 +426,7 @@
         </div>
       
       <div class="min-h-0 min-w-0 max-w-prose grow">
-        <h3 id="说明加载网络图片无缓存加载直接写加载到程序里面挺好用的一个image1和command1" class="relative group">说明：加载网络图片，无缓存加载，直接写加载到程序里面挺好用的，一个Image1和Command1 <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#%e8%af%b4%e6%98%8e%e5%8a%a0%e8%bd%bd%e7%bd%91%e7%bb%9c%e5%9b%be%e7%89%87%e6%97%a0%e7%bc%93%e5%ad%98%e5%8a%a0%e8%bd%bd%e7%9b%b4%e6%8e%a5%e5%86%99%e5%8a%a0%e8%bd%bd%e5%88%b0%e7%a8%8b%e5%ba%8f%e9%87%8c%e9%9d%a2%e6%8c%ba%e5%a5%bd%e7%94%a8%e7%9a%84%e4%b8%80%e4%b8%aaimage1%e5%92%8ccommand1" aria-label="Anchor">#</a></span></h3><h4 id="1image1图片控件" class="relative group">1、Image1图片控件 <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#1image1%e5%9b%be%e7%89%87%e6%8e%a7%e4%bb%b6" aria-label="Anchor">#</a></span></h4><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-vb.net" data-lang="vb.net"><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1</span><span><span style="color:#66d9ef">Private</span> <span style="color:#66d9ef">Declare</span> <span style="color:#66d9ef">Function</span> <span style="color:#a6e22e">OleLoadPicturePath</span> <span style="color:#66d9ef">Lib</span> <span style="color:#e6db74">&#34;oleaut32.dll&#34;</span> (<span style="color:#66d9ef">ByVal</span> szURLorPath <span style="color:#f92672">As</span> <span style="color:#66d9ef">Long</span>, <span style="color:#66d9ef">ByVal</span> punkCaller <span style="color:#f92672">As</span> <span style="color:#66d9ef">Long</span>, <span style="color:#66d9ef">ByVal</span> dwReserved <span style="color:#f92672">As</span> <span style="color:#66d9ef">Long</span>, <span style="color:#66d9ef">ByVal</span> clrReserved <span style="color:#f92672">As</span> OLE_COLOR, <span style="color:#66d9ef">ByRef</span> riid <span style="color:#f92672">As</span> TGUID, <span style="color:#66d9ef">ByRef</span> ppvRet <span style="color:#f92672">As</span> IPicture) <span style="color:#f92672">As</span> <span style="color:#66d9ef">Long</span>
+        <h3 id="说明加载网络图片无缓存加载直接写加载到程序里面挺好用的一个image1和command1" class="relative group">说明：加载网络图片，无缓存加载，直接写加载到程序里面挺好用的，一个Image1和Command1 <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#%e8%af%b4%e6%98%8e%e5%8a%a0%e8%bd%bd%e7%bd%91%e7%bb%9c%e5%9b%be%e7%89%87%e6%97%a0%e7%bc%93%e5%ad%98%e5%8a%a0%e8%bd%bd%e7%9b%b4%e6%8e%a5%e5%86%99%e5%8a%a0%e8%bd%bd%e5%88%b0%e7%a8%8b%e5%ba%8f%e9%87%8c%e9%9d%a2%e6%8c%ba%e5%a5%bd%e7%94%a8%e7%9a%84%e4%b8%80%e4%b8%aaimage1%e5%92%8ccommand1" aria-label="Anchor">#</a></span></h3><h3 id="1image1图片控件" class="relative group">1、Image1图片控件 <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#1image1%e5%9b%be%e7%89%87%e6%8e%a7%e4%bb%b6" aria-label="Anchor">#</a></span></h3><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-vb.net" data-lang="vb.net"><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1</span><span><span style="color:#66d9ef">Private</span> <span style="color:#66d9ef">Declare</span> <span style="color:#66d9ef">Function</span> <span style="color:#a6e22e">OleLoadPicturePath</span> <span style="color:#66d9ef">Lib</span> <span style="color:#e6db74">&#34;oleaut32.dll&#34;</span> (<span style="color:#66d9ef">ByVal</span> szURLorPath <span style="color:#f92672">As</span> <span style="color:#66d9ef">Long</span>, <span style="color:#66d9ef">ByVal</span> punkCaller <span style="color:#f92672">As</span> <span style="color:#66d9ef">Long</span>, <span style="color:#66d9ef">ByVal</span> dwReserved <span style="color:#f92672">As</span> <span style="color:#66d9ef">Long</span>, <span style="color:#66d9ef">ByVal</span> clrReserved <span style="color:#f92672">As</span> OLE_COLOR, <span style="color:#66d9ef">ByRef</span> riid <span style="color:#f92672">As</span> TGUID, <span style="color:#66d9ef">ByRef</span> ppvRet <span style="color:#f92672">As</span> IPicture) <span style="color:#f92672">As</span> <span style="color:#66d9ef">Long</span>
 </span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2</span><span><span style="color:#66d9ef">Private</span> Type TGUID
 </span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3</span><span>Data1 <span style="color:#f92672">As</span> <span style="color:#66d9ef">Long</span>
 </span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4</span><span>Data2 <span style="color:#f92672">As</span> <span style="color:#66d9ef">Integer</span>
@@ -455,7 +457,7 @@
 </span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">29</span><span><span style="color:#66d9ef">Set</span> LoadPicture <span style="color:#f92672">=</span> VB.LoadPicture(strFileName)
 </span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">30</span><span>Err.Clear
 </span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">31</span><span><span style="color:#66d9ef">End</span> <span style="color:#66d9ef">Function</span>
-</span></span></code></pre></div><h4 id="2command1按钮" class="relative group">2、Command1按钮 <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#2command1%e6%8c%89%e9%92%ae" aria-label="Anchor">#</a></span></h4><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-vb.net" data-lang="vb.net"><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1</span><span><span style="color:#66d9ef">Private</span> <span style="color:#66d9ef">Sub</span> <span style="color:#a6e22e">Command1_Click</span>()
+</span></span></code></pre></div><h3 id="2command1按钮" class="relative group">2、Command1按钮 <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#2command1%e6%8c%89%e9%92%ae" aria-label="Anchor">#</a></span></h3><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-vb.net" data-lang="vb.net"><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1</span><span><span style="color:#66d9ef">Private</span> <span style="color:#66d9ef">Sub</span> <span style="color:#a6e22e">Command1_Click</span>()
 </span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2</span><span>Image1.Stretch <span style="color:#f92672">=</span> <span style="color:#66d9ef">True</span> <span style="color:#75715e">&#39;自动缩放
 </span></span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3</span><span><span style="color:#75715e"></span><span style="color:#66d9ef">Set</span> Image1 <span style="color:#f92672">=</span> LoadPicture(<span style="color:#e6db74">&#34;http://www.hkfx.net/img/scan.gif&#34;</span>)
 </span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">4</span><span><span style="color:#66d9ef">End</span> <span style="color:#66d9ef">Sub</span>
@@ -604,7 +606,7 @@
               <span class="flex flex-col">
                 <span
                   class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
-                  >vb在窗体菜单中加入图标源码</span
+                  >VB6在窗体菜单中加入图标源码</span
                 >
                 <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
                   
