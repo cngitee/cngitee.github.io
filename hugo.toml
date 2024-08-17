@@ -1,10 +1,12 @@
-#baseURL = 'https://example.org/'
-languageCode = 'en'
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
 #defaultContentLanguage = 'zh-cn'
 title = '红防安全吧'
 theme = 'congo' #主题
+
 # uglyurls = true #静态
 copyright = " ©2011~2024 :thinking_face: [粤ICP备17091340号](https://beian.miit.gov.cn/ '备案查询')" 
+
 
 [frontmatter] #显示最后文章更新时间
 lastmod = [':fileModTime']
@@ -20,12 +22,14 @@ lastmod = [':fileModTime']
       {Name = "🙋🏻‍♂️反馈", Weight = 6, URL = "/feedback"}
   ]
 
+[params]
+  dateFormat = " 2006/8/2" #定义时间格式
 
 [params.author]
    name = "HKFX NET"
    image = "img/author.jpg"
    headline = "Le vent se lève, il faut tenter de vivre."
-   bio = "快订阅我频道，让你站在上帝角度观察广泛视野，吾十多年运维Code跟Hacker功力，打你一拳、你顶的住吗。 :sheep:"
+   bio = "订阅我频道让你站在上帝角度观察视野! QQ:3925993 有尝解决技术问题【备注你的问题】 :sheep:"
 # bio = "A little bit about you"
 
    links = [
@@ -40,4 +44,5 @@ lastmod = [':fileModTime']
    #  { x-twitter = "https://twitter.com/username" },
    # { youtube = "https://youtube.com/username" },
   ]
+
 

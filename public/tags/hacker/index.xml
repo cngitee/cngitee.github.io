@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hacker on 红防安全吧</title>
+    <link>http://localhost:1313/tags/hacker/</link>
+    <description>Recent content in Hacker on 红防安全吧</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <copyright> ©2011~2024 :thinking_face: [粤ICP备17091340号](https://beian.miit.gov.cn/ &#39;备案查询&#39;)</copyright>
+    <lastBuildDate>Sat, 17 Aug 2024 23:27:01 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/hacker/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Sqlmap检测SQL注入攻击</title>
+      <link>http://localhost:1313/p/68/</link>
+      <pubDate>Fri, 01 Dec 2017 13:21:45 +0800</pubDate>
+      <guid>http://localhost:1313/p/68/</guid>
+      <description>这款工具好用，检测SQL漏洞注入精确，国内也有好几个SQL注入工具，博主以前也写过注入类似渗透工具，跟啊D注入、明小子注入，那个时代； #1、测试SQL注入： #1sqlmap -u http://www.test.com/index.php?id=1 --dbs 2、获得某个数据库中的表： # 1sqlmap -u http://www.test.com/index.php?id=1 --dbs -D some_db --tables 3、获得表的字段： #1sqlmap -u http://www.test.com/index.php?id=1 --dbs -D some_db --tables -T some_table --columns 4、下载某一字段的数据： #1sqlmap -u http://www.test.com/index.php?id=1 --dbs -D some_db --tables -T some_table --columns -C some_col --dump 神器下载地址，因为看到有人留言想要，还说想要源码，好吧、更新贴出它们官方网站吧。</description>
+    </item>
+    <item>
+      <title>Nmap 进行 Web 端口漏洞扫描</title>
+      <link>http://localhost:1313/p/67/</link>
+      <pubDate>Fri, 01 Dec 2017 12:00:28 +0800</pubDate>
+      <guid>http://localhost:1313/p/67/</guid>
+      <description>很久没上博客，再提供款工具吧，亲测还行，因为要对接传输，需要检查UDP端口，之前同事还说不能扫到UDP的，也许他也少了解吧，其实该工具可以扫描端口，及其它开放端口漏洞的，比喻指定的UDP/TCP端口：官网下载</description>
+    </item>
+    <item>
+      <title>中国菜刀</title>
+      <link>http://localhost:1313/p/66/</link>
+      <pubDate>Fri, 01 Dec 2017 11:49:04 +0800</pubDate>
+      <guid>http://localhost:1313/p/66/</guid>
+      <description>功夫最高也怕菜刀哈，很久没上博客了，分享前几年的渗透工具吧；一句话代码原先为方便网站管理使用，因为十分方便管理，因此黑客也很喜欢使用，而它原意本身并非指木马病毒。&#xA;程序日期：2012/11/24 现在版本多半可能第三方提供，有可能给修改过，现在的官网都不知道是不是原开发者了，此主程序版本为当年原作者网站下载，极奇珍贵，其它附带脚本跟描述如readme.txt等已删除，免得说提供病毒。&#xA;文件: caidao.exe 大小: 700416 字节 修改时间: 2012年11月24日, 22:16:55 MD5: 7051166FF7F99CECFEC60AE2017DD20F SHA1: 1EF2E7ACB6FD81140DC175318985382B70BE19DE CRC32: FA47F596 中国菜刀</description>
+    </item>
+  </channel>
+</rss>

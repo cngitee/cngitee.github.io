@@ -2,137 +2,284 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>红防安全吧</title>
-    <link>//localhost:1313/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content on 红防安全吧</description>
     <generator>Hugo</generator>
-    <language>en</language>
+    <language>en-us</language>
     <copyright> ©2011~2024 :thinking_face: [粤ICP备17091340号](https://beian.miit.gov.cn/ &#39;备案查询&#39;)</copyright>
-    <lastBuildDate>Wed, 14 Aug 2024 08:17:37 +0800</lastBuildDate>
-    <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 17 Aug 2024 23:27:01 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hugo-Congo主题修改字体</title>
+      <link>http://localhost:1313/p/font/</link>
+      <pubDate>Sat, 17 Aug 2024 14:43:27 +0800</pubDate>
+      <guid>http://localhost:1313/p/font/</guid>
+      <description>首先，在本主题 themes/congo/layouts/partials/ 目录下，创建名 extend-head.html 的文件, 然后添加内容如下，保存部署即可！&#xA;1&amp;lt;html&amp;gt; 2&amp;lt;head&amp;gt; 3 &amp;lt;link rel=&amp;#34;stylesheet&amp;#34; href=&amp;#34;https://cdn.jsdelivr.net/npm/lxgw-wenkai-screen-web/style.css&amp;#34; /&amp;gt; 4 &amp;lt;style&amp;gt; 5 body { 6 font-family: &amp;#34;LXGW WenKai Screen&amp;#34;; 7 font-weight: normal; 8 } 9 &amp;lt;/style&amp;gt; 10&amp;lt;/head&amp;gt; 11&amp;lt;body&amp;gt; 12 13&amp;lt;/body&amp;gt; 14&amp;lt;/html&amp;gt; </description>
+    </item>
     <item>
       <title>Visual Studio2015下载离线包</title>
-      <link>//localhost:1313/p/249/</link>
+      <link>http://localhost:1313/p/249/</link>
       <pubDate>Tue, 13 Aug 2024 17:10:38 +0800</pubDate>
-      <guid>//localhost:1313/p/249/</guid>
+      <guid>http://localhost:1313/p/249/</guid>
       <description>1、Visual studio2015 Community 强大的 IDE，对学生、开源贡献者和个人免费 #1http://download.microsoft.com/download/B/4/8/B4870509-05CB-447C-878F-2F80E4CB464C/vs2015.com_chs.iso 2、Visual studio2019 Community 强大的 IDE，对学生、开源贡献者和个人免费 #1https://visualstudio.microsoft.com/zh-hans/thank-you-downloading-visual-studio/?sku=Community&amp;amp;rel=16&amp;amp;src=myvs&amp;amp;utm_medium=microsoft&amp;amp;utm_source=my.visualstudio.com&amp;amp;utm_campaign=download&amp;amp;utm_content=vs+community+2019 </description>
     </item>
     <item>
       <title>C# WINFORM嵌入谷歌内核</title>
-      <link>//localhost:1313/p/250/</link>
+      <link>http://localhost:1313/p/250/</link>
       <pubDate>Tue, 13 Aug 2024 17:03:40 +0800</pubDate>
-      <guid>//localhost:1313/p/250/</guid>
+      <guid>http://localhost:1313/p/250/</guid>
       <description>方法一 (不带自动缩放，需另外写代码) #软件框架：NET4.5 ≥&#xA;NuGet程序包：搜索安装webview2，然后在控件拖放到窗口&#xA;1this.webView21.Source = new System.Uri(&amp;#34;https://ie.icoa.cn/&amp;#34;, System.UriKind.Absolute); 方法二：(带自动缩放，窗体直接显示) #软件框架：NET4.6.2 ≥&#xA;NuGet程序包：搜索安装CefSharp.WinForms即可&#xA;1using System; 2using System.Collections.Generic; 3using System.ComponentModel; 4using System.Data; 5using System.Drawing; 6using System.Linq; 7using System.Text; 8using System.Threading.Tasks; 9using System.Windows.Forms; 10using CefSharp; 11using CefSharp.WinForms; 12 13namespace lancou 14{ //引入 15 public partial class Form1 : Form 16 { 17 public Form1() 18 { 19 InitializeComponent(); 20 string url = &amp;#34;https://ie.icoa.cn/&amp;#34;; 21 ChromiumWebBrowser webview = new ChromiumWebBrowser(url); 22 webview.Dock = DockStyle.</description>
     </item>
     <item>
       <title>C#winform任务栏显示小图标及右击操作</title>
-      <link>//localhost:1313/p/251/</link>
+      <link>http://localhost:1313/p/251/</link>
       <pubDate>Tue, 13 Aug 2024 16:59:08 +0800</pubDate>
-      <guid>//localhost:1313/p/251/</guid>
+      <guid>http://localhost:1313/p/251/</guid>
       <description>1.创建一个项目，向窗体中添加右下角图标NotifyIcon1控件和右击按钮ContextMenuStrip1控件。&#xA;2.在ContextMenuStrip1控件界面上添【显示】和【退出】二个按钮，指定按钮双击它，然后赋予属性。&#xA;3.选择NotifyIcon1控件，属性Icon设置显示图标，在它属性窗口中将ContextMenuStrip属性关联到窗体上的 ContextMenuStrip1控件。&#xA;1private void 显示窗口ToolStripMenuItem1_Click(object sender, EventArgs e) 2 { 3 this.Visible = true; 4 this.WindowState = FormWindowState.Normal; 5 } 6 7private void 退出软件ToolStripMenuItem1_Click(object sender, EventArgs e) 8 { 9 Application.Exit(); 10 } 11private void 访问作者ToolStripMenuItem_Click(object sender, EventArgs e) 12 { 13 System.Diagnostics.Process.Start(&amp;#34;https://www.hkfx.net&amp;#34;); 14 } </description>
     </item>
     <item>
       <title>C#点击关闭按钮 弹出确认框</title>
-      <link>//localhost:1313/p/252/</link>
+      <link>http://localhost:1313/p/252/</link>
       <pubDate>Tue, 13 Aug 2024 16:52:32 +0800</pubDate>
-      <guid>//localhost:1313/p/252/</guid>
+      <guid>http://localhost:1313/p/252/</guid>
       <description>1、第一步打开窗口面板的Form1.cs文件&#xA;2、点击属性里面的【闪电】图标事件；再双击FormClosing，进入到函数里面编辑;&#xA;1//让用户选择点击 2 DialogResult result = MessageBox.Show(&amp;#34;是否确认关闭？&amp;#34;, &amp;#34;警告&amp;#34;, 3 MessageBoxButtons.YesNo, MessageBoxIcon.Warning); 4//判断是否取消事件 5 if (result == DialogResult.No) 6 { 7//取消退出 8 e.Cancel = true; 9 } </description>
     </item>
     <item>
+      <title></title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Thu, 08 Aug 2024 17:54:48 +0800</pubDate>
+      <guid>http://localhost:1313/about/</guid>
+      <description>👋 嗨，我是 葑訫 或 (Sunny)，欢迎访问我的独立顶级域名网站。&#xA;服务一览 #本站使用了以下免费、开源或价格低廉的服务，使我能够负担得起这个网站的运营。 非常感谢这些服务！&#xA;Hugo: 世界上最快的静态网站生成器 (Golang) Congo: 一款强大的、轻量的 Hugo 主题，使用 Tailwind CSS 构建 GitHub: 博客源码托管和版本控制 HuaWeiCloud: 域名DNS解析、多线路访问 Cloudflare Pages: 博客自动集成部署和托管 Vercel: 支持广泛程序语言自动集成部署和托管 LeanCloud: 数据存储、云引擎支持多种常见的 Web 后端语言 Waline: 轻量、安全、易上手的评论系统、集邮件通知等服务 兼容性 #本站支持所有「未过时的设备」通过现代 Web 浏览器访问，推荐使用 Google Chrome 浏览器访问。此外：&#xA;支持 IPv4、IPv6 访问 支持洋葱路由访问 支持 HTTP/2 支持 HTTP/3 (使用 QUIC) 始终使用 HTTPS 链接 支持 TLS1.2 和 TLS1.3 (最低支持 TLS1.2) 已开启 HTTP 严格传输安全 (HSTS) </description>
+    </item>
+    <item>
       <title>随笔</title>
-      <link>//localhost:1313/p/211/</link>
+      <link>http://localhost:1313/p/211/</link>
       <pubDate>Sat, 13 Jul 2024 15:09:58 +0800</pubDate>
-      <guid>//localhost:1313/p/211/</guid>
+      <guid>http://localhost:1313/p/211/</guid>
       <description>1. 前言(博主一个不得不说故事) #服务器三年到期停掉了，没有最打算续费，因为真的贵的离谱，重新购买是可以、但是又得重新部署各种环境，少折腾不想折腾，网站运营以来一直非盈利模式，建站10多年花费将近不少费用，光是域名支出高达一千多元，服务器费用，以及个人精力维护省略不计~~&#xA;1.2 近况(你有酒吗，我有故事) #现测试阶段，更改网站现全静态，托管免费国外平台、只是顶级域名还是需要费用的。&#xA;1.3 关于(能想象我在干什么吗) #本新程序正在研究中，比以前的程序复杂了些，在本地写东西最get到平台上面，感觉好麻烦，可能不太熟悉吧，还有友情链接什么的别急，研究中，这新的网站给我感觉像全都是自己编写代码差不多，没有后台UI编辑器&amp;hellip;&#xA;暂时就这样吧，实在没什么好写的，关于原网站程序，往后慢慢接入，等待我吧&amp;hellip;&#xA;1&amp;lt;?php 2echo &amp;#34;已下架软件正在逐步更新中...&amp;#34;; 3?&amp;gt; 1.4 软件(万万没想吧，老铁们) # 最近不少网友，留言告知我【卡巴软件】等问题，好的，我了解到需求了，其实我服务器没续费了啊，【穷】【穷】【穷】~~~&#xA;所以下架了累计近12年多的资料，网站打算推翻架构弄个新的，网站慢慢会还原[链接]，但程序都是全新的，完全不在一个界系，它堪称全世界最快的。&#xA;你会比它更快吗 ~~~ (^_^) End !!!&#xA;大卡巴 Crack.exe 点击下载后，软件自动升级版，我懒的改太多~~就这样吧。。。。 【2024/7/15 老铁们更新完成】</description>
     </item>
     <item>
       <title>C#版-蓝奏云客户端</title>
-      <link>//localhost:1313/p/257/</link>
+      <link>http://localhost:1313/p/257/</link>
       <pubDate>Tue, 12 Sep 2023 23:17:50 +0800</pubDate>
-      <guid>//localhost:1313/p/257/</guid>
+      <guid>http://localhost:1313/p/257/</guid>
       <description>软件简介： #其实也没什么介绍，就是比较简单的蓝奏云客户端，我是采用C#写的，极致简洁和速度快，没了。。。&#xA;1、点评 #以前买硬盘比较贵、空间较少，所以很多人用网盘，现在科技越来越量产化，成熟的技术链，实现成本越来越低，所以现在空间很大的硬盘都比较便宜。&#xA;2、用处 #那么现在云盘又有什么用呢，你可以上传到网络磁盘，这样电脑东西又可以不想让“朋友”看到，另外如果你想分享给多个朋友，网盘是你不一的选择。&#xA;蓝奏云客户端下载</description>
     </item>
     <item>
       <title>C#添加标题以及设定窗口大小</title>
-      <link>//localhost:1313/p/253/</link>
+      <link>http://localhost:1313/p/253/</link>
       <pubDate>Mon, 07 Aug 2023 21:44:00 +0800</pubDate>
-      <guid>//localhost:1313/p/253/</guid>
+      <guid>http://localhost:1313/p/253/</guid>
       <description>1this.Text = Application.ProductName + &amp;#34; Ver&amp;#34; + Application.ProductVersion +&amp;#34;【红客防线】技术提供 https://www.hkfx.net&amp;#34;; 2this.Width = 1025; 3this.Height = 650; 4this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog; </description>
     </item>
     <item>
       <title>VB6修改注册表参数</title>
-      <link>//localhost:1313/p/241/</link>
+      <link>http://localhost:1313/p/241/</link>
       <pubDate>Wed, 14 Jun 2023 11:11:00 +0800</pubDate>
-      <guid>//localhost:1313/p/241/</guid>
+      <guid>http://localhost:1313/p/241/</guid>
       <description>注意：需要修改注册表需要管理员权限运行&#xA;1Dim WSH 2Set WSH = CreateObject(&amp;#34;WSCRIPT.SHELL&amp;#34;) 3WSH.RegWrite &amp;#34;HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\KasperskyLab\protected\KES\environment\WDPatchMetadata&amp;#34;, &amp;#34;%WDPatches%\wd_params.xml&amp;#34; 4&amp;#39;#[路径],[数值数据] </description>
     </item>
     <item>
       <title>VB6 Webbowser控件与JS交互</title>
-      <link>//localhost:1313/p/239/</link>
+      <link>http://localhost:1313/p/239/</link>
       <pubDate>Tue, 30 May 2023 06:02:56 +0800</pubDate>
-      <guid>//localhost:1313/p/239/</guid>
+      <guid>http://localhost:1313/p/239/</guid>
       <description>在菜单中单击&amp;quot;工程&amp;quot;-&amp;gt;&amp;ldquo;引用&amp;rdquo;，在列表中找到&amp;quot;Microsoft HTML Object Library&amp;quot;打上勾&#xA;1Dim WithEvents M_Dom As MSHTML.HTMLDocument 1Private Sub WebBrowser1_DocumentComplete(ByVal pDisp As Object, URL As Variant) 2Set M_Dom = WebBrowser1.Document 3&amp;#39;Me.PopupMenu mymenu 4On Error Resume Next &amp;#39;去除运行时错误91，未设置变量或with block变量报错 5pDisp.Document.body.setAttribute &amp;#34;extend&amp;#34;, Me &amp;#39;用于和网页里的JS交互 6With WebBrowser1 &amp;#39;无边框设置 7.Document.body.Scroll = &amp;#34;no&amp;#34; &amp;#39;排版对齐 8.Document.body.Style.border = &amp;#34;0px&amp;#34; &amp;#39;无边框设置 9.Document.body.Style.margin = &amp;#34;0px&amp;#34; &amp;#39;排版对齐 10.Document.body.Style.overflow = &amp;#34;hidden&amp;#34; 11End With 12End Sub 1Private Function M_Dom_oncontextmenu() As Boolean 2M_Dom_oncontextmenu = False &amp;#39;禁止右键 3End Function </description>
     </item>
     <item>
       <title>VB6打开文件CommonDialog用法</title>
-      <link>//localhost:1313/p/226/</link>
+      <link>http://localhost:1313/p/226/</link>
       <pubDate>Wed, 14 Dec 2022 16:26:48 +0800</pubDate>
-      <guid>//localhost:1313/p/226/</guid>
+      <guid>http://localhost:1313/p/226/</guid>
       <description>1、打开任意文件【第一种】 #1Private Sub Command1_Click() 2 Dim x As Long 3 CommonDialog1.ShowOpen 4 x = Shell(&amp;#34;explorer.exe &amp;#34; &amp;amp; CommonDialog1.FileName, 1) 5 If x &amp;gt; 0 Then 6 MsgBox &amp;#34;执行成功，程序ID为：&amp;#34; &amp;amp; x 7 End If 8End Sub 2、指定打开某后涰【第二种】 # 1Private Sub Command2_Click() 2On Error GoTo userCanceled 3With CommonDialog1 4.FileName = &amp;#34;&amp;#34; 5.InitDir = App.path 6.CancelError = True 7.Filter = &amp;#34;文本文件(*.txt)|*.txt&amp;#34; 8&amp;#39;多种类型 .Filter = &amp;#34;PKCS12(*.PFX；*.P12)|*.PFX;*.P12&amp;#34; &amp;#39;文件类型 9.ShowOpen 10End With 11Text1.Text = App.path &amp;amp; &amp;#34;\&amp;#34; &amp;amp; CommonDialog1.</description>
     </item>
     <item>
       <title>VB6代码从任务管理器中结束进程</title>
-      <link>//localhost:1313/p/224/</link>
+      <link>http://localhost:1313/p/224/</link>
       <pubDate>Sat, 03 Dec 2022 00:27:11 +0800</pubDate>
-      <guid>//localhost:1313/p/224/</guid>
+      <guid>http://localhost:1313/p/224/</guid>
       <description> 1Private Declare Function GetCurrentProcessId Lib &amp;#34;kernel32&amp;#34; () As Long 2Public Sub KillProcess(ByVal ProcessName As String) 3 Set oWMI = GetObject(&amp;#34;winmgmts:&amp;#34;) 4 Set oServices = oWMI.InstancesOf(&amp;#34;win32_process&amp;#34;) 5 For Each oService In oServices 6 servicename = LCase(Trim(CStr(oService.Name) &amp;amp; &amp;#34;&amp;#34;)) 7 If InStr(1, servicename, LCase(ProcessName), vbTextCompare) &amp;gt; 0 Then 8 oService.Terminate 9 End If 10 Next 11End Sub 1Private Sub Command1_Click() 2KillProcess (&amp;#34;Cmd.exe&amp;#34;) &amp;#39;终结进程名称 3End Sub </description>
     </item>
     <item>
       <title>VB6校验文件防破解</title>
-      <link>//localhost:1313/p/223/</link>
+      <link>http://localhost:1313/p/223/</link>
       <pubDate>Wed, 30 Nov 2022 11:36:59 +0800</pubDate>
-      <guid>//localhost:1313/p/223/</guid>
+      <guid>http://localhost:1313/p/223/</guid>
       <description>1、开始窗体验证MD5值 #1Private Sub Form_Load() 2 Dim str As String 3str = IIf(Len(App.Path) &amp;gt; 3, App.Path &amp;amp; &amp;#34;\&amp;#34; &amp;amp; App.EXEName &amp;amp; &amp;#34;.exe&amp;#34;, App.Path &amp;amp; App.EXEName &amp;amp; &amp;#34;.exe&amp;#34;) 4Print &amp;#34;MD5:&amp;#34; &amp;amp; HashFile(str) &amp;#39;获取exe文件的MD5校验码 5Print &amp;#34;大小:&amp;#34; &amp;amp; FileLen(str) &amp;amp; &amp;#34; 字节&amp;#34; &amp;#39;取当前体积大小 6End Sub 2、新建一个MD5.bas模块 # 1Option Explicit 2Private Declare Function CryptAcquireContext Lib &amp;#34;advapi32.dll&amp;#34; _ 3Alias &amp;#34;CryptAcquireContextA&amp;#34; ( _ 4ByRef phProv As Long, _ 5ByVal pszContainer As String, _ 6ByVal pszProvider As String, _ 7ByVal dwProvType As Long, _ 8ByVal dwFlags As Long) As Long 9Private Declare Function CryptReleaseContext Lib &amp;#34;advapi32.</description>
     </item>
     <item>
       <title>VB6复制文件的区别</title>
-      <link>//localhost:1313/p/222/</link>
+      <link>http://localhost:1313/p/222/</link>
       <pubDate>Tue, 29 Nov 2022 22:53:20 +0800</pubDate>
-      <guid>//localhost:1313/p/222/</guid>
+      <guid>http://localhost:1313/p/222/</guid>
       <description>1&amp;#39;先声明复制函数 2Private Declare Function CopyFile Lib &amp;#34;kernel32&amp;#34; Alias &amp;#34;CopyFileA&amp;#34; (ByVal lpExistingFileName As String, ByVal lpNewFileName As String, ByVal bFailIfExists As Long) As Long 方法一：带属性 #1s = App.Path &amp;#39;当前目录 2 rst = CopyFile(s &amp;amp; &amp;#34;\1.txt&amp;#34;, &amp;#34;D:\1.txt&amp;#34;, 0) 3If rst = 0 Then 4 MsgBox &amp;#34;替换不成功！&amp;#34; 5Else 6 MsgBox &amp;#34;替换成功！&amp;#34; 7End If 方法二：不带属性 #1s = App.Path &amp;#39;当前目录 2FileCopy s &amp;amp; &amp;#34;\1.txt&amp;#34;, &amp;#34;D:\1.txt&amp;#34; </description>
     </item>
     <item>
       <title>VB6实现拖拽</title>
-      <link>//localhost:1313/p/219/</link>
+      <link>http://localhost:1313/p/219/</link>
       <pubDate>Wed, 16 Nov 2022 12:23:44 +0800</pubDate>
-      <guid>//localhost:1313/p/219/</guid>
+      <guid>http://localhost:1313/p/219/</guid>
       <description>1Private Sub Form_Load() 2 Me.OLEDropMode = 1 3End Sub 1Private Sub Form_OLEDragDrop(Data As DataObject, Effect As Long, Button As Integer, Shift As Integer, X As Single, Y As Single) 2 MsgBox Data.Files(1) 3End Sub </description>
     </item>
     <item>
       <title>VB6文字跑马灯</title>
-      <link>//localhost:1313/p/218/</link>
+      <link>http://localhost:1313/p/218/</link>
       <pubDate>Wed, 09 Nov 2022 15:46:12 +0800</pubDate>
-      <guid>//localhost:1313/p/218/</guid>
+      <guid>http://localhost:1313/p/218/</guid>
       <description>1Dim TString As String &amp;#39;声明，在显示的跑马灯字串变数 1Private Sub Form_Load() 2Timer1.Enabled = False &amp;#39;启动打开LED跑马灯 3Timer1.Interval = 200 4Text1.ForeColor = vbRed &amp;#39;跑马灯红色字体 5Text1.Enabled = True 6End Sub 1Private Sub Timer1_Timer() &amp;#39;加入时钟1 2Static TPos As Long &amp;#39;开始颉取跑马灯字串之位置指标 3If TPos &amp;gt; Len(TString) Then &amp;#39;如果位置指标越过了整个字串 4TPos = 1 &amp;#39;把位置指标移到最开头 5Else 6TPos = TPos + 1 &amp;#39;把位置指标移到下一个字 7End If 8Text1.Text = Mid(TString, TPos) &amp;#39;逐字显示跑马灯字串 9End Sub </description>
     </item>
     <item>
-      <title></title>
-      <link>//localhost:1313/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/about/</guid>
-      <description>👋 嗨，我是 葑訫 或 (Sunny)，欢迎访问我的独立顶级域名网站。&#xA;服务一览 #本站使用了以下免费、开源或价格低廉的服务，使我能够负担得起这个网站的运营。 非常感谢这些服务！&#xA;Hugo: 世界上最快的静态网站生成器 (Golang) Congo: 一款强大的、轻量的 Hugo 主题，使用 Tailwind CSS 构建 GitHub: 博客源码托管和版本控制 HuaWeiCloud: 域名DNS解析、多线路访问 Cloudflare Pages: 博客自动集成部署和托管 Vercel: 支持广泛程序语言自动集成部署和托管 LeanCloud: 数据存储、云引擎支持多种常见的 Web 后端语言 Waline: 轻量、安全、易上手的评论系统、集邮件通知等服务 兼容性 #本站支持所有「未过时的设备」通过现代 Web 浏览器访问，推荐使用 Google Chrome 浏览器访问。此外：&#xA;支持 IPv4、IPv6 访问 支持洋葱路由访问 支持 HTTP/2 支持 HTTP/3 (使用 QUIC) 始终使用 HTTPS 链接 支持 TLS1.2 和 TLS1.3 (最低支持 TLS1.2) 已开启 HTTP 严格传输安全 (HSTS) </description>
+      <title>VB6自动检测键盘是否在调试</title>
+      <link>http://localhost:1313/p/217/</link>
+      <pubDate>Wed, 09 Nov 2022 00:45:47 +0800</pubDate>
+      <guid>http://localhost:1313/p/217/</guid>
+      <description>1、调用声明 #1&amp;#39;自动检测键盘是否在调试 2Private Declare Function GetAsyncKeyState Lib &amp;#34;user32&amp;#34; (ByVal vKey As Long) As Integer 2、设置时长 #1Private Sub Form_Load() 2Timer1.Interval = 1000 3End Sub 3、时钟控件 # 1Private Sub Timer1_Timer() 2If GetAsyncKeyState(vbKeyF2) Then 3MsgBox &amp;#34;您按了F2键,怀疑您在用OD设置断点&amp;#34;, 64, &amp;#34;WebSafe Scan&amp;#34; 4End 5End If 6If GetAsyncKeyState(vbKeyF7) Then 7MsgBox &amp;#34;您按了F7键,怀疑您在用OD单步步入&amp;#34;, 64, &amp;#34;WebSafe Scan&amp;#34; 8End 9End If 10If GetAsyncKeyState(vbKeyF8) Then 11MsgBox &amp;#34;您按了F8键,怀疑您在用OD单步步过&amp;#34;, 64, &amp;#34;WebSafe Scan&amp;#34; 12End 13End If 14If GetAsyncKeyState(vbKeyF9) Then 15MsgBox &amp;#34;您按了F9键,怀疑您在用OD调试本程序&amp;#34;, 64, &amp;#34;WebSafe Scan&amp;#34; 16End 17End If 18If GetAsyncKeyState(vbKeyF12) Then 19MsgBox &amp;#34;您按了F12键,怀疑您在用OD调试本程序&amp;#34;, , &amp;#34;警告&amp;#34; 20End 21End If 22End Sub </description>
+    </item>
+    <item>
+      <title>VB6检测自身软件是否有管理员权限</title>
+      <link>http://localhost:1313/p/215/</link>
+      <pubDate>Wed, 02 Nov 2022 17:54:48 +0800</pubDate>
+      <guid>http://localhost:1313/p/215/</guid>
+      <description>工程→”工程1 属性”，在打开的”工程1 – 工程属性”面板中，点”生成”选项卡，在里面的”版本信息”的”文件描述”中写入值”update”&#xA;(这里就是关键，只要输入包含有”update”字符，生成的exe就会与管理员方式运行)&#xA;操作系统自己会检测文件名是否包含Setup、Install、Update等关键字 微软原贴&#xA;graph TD; a[&#34;工程&#34;]--&gt;b[&#34;工程1 属性&#34;]--&gt;c[&#34;生成&#34;]--&gt;d[&#34;版本信息(文件描述)&#34;]; </description>
+    </item>
+    <item>
+      <title>VB6读写系统临时目录 temp</title>
+      <link>http://localhost:1313/p/192/</link>
+      <pubDate>Mon, 29 Nov 2021 00:10:21 +0800</pubDate>
+      <guid>http://localhost:1313/p/192/</guid>
+      <description>窗口一个按钮，一个文本，简洁代码短少 # 1Private Sub Command1_Click() 2Dim s As String, S1 As String 3s = Environ(&amp;#34;temp&amp;#34;) 4&amp;#39;这里是写入 5Open s &amp;amp; &amp;#34;\abc.txt&amp;#34; For Output As #1 6Print #1, Text1 7Close #1 8&amp;#39;这里是读入 9Open s &amp;amp; &amp;#34;\abc.txt&amp;#34; For Input As #1 10Input #1, S1 11Close #1 12MsgBox S1 13End Sub </description>
+    </item>
+    <item>
+      <title>VB6快速读取txt</title>
+      <link>http://localhost:1313/p/186/</link>
+      <pubDate>Fri, 12 Nov 2021 12:36:01 +0800</pubDate>
+      <guid>http://localhost:1313/p/186/</guid>
+      <description>一、快速读取txt，空白内容则会出错。 #1、建立模版 # 1Function GetFile(FileName As String) As String 2Dim i As Integer, s As String, BB() As Byte 3If Dir(FileName) = &amp;#34;&amp;#34; Then Exit Function 4i = FreeFile 5ReDim BB(FileLen(FileName) - 1) 6Open FileName For Binary As #i 7Get #i, , BB 8Close #i 9s = StrConv(BB, vbUnicode) 10GetFile = s 11End Function 2、窗体调用举例： #1dim s as string 2s=GetFile(&amp;#34;c:\1.txt&amp;#34;) 3Text1 = s 3、如果文件中没中文字符，那么下面代码读整个文件速度是非常快的，我读了一个6M文件，只用了不到1秒，如果有中文字符，就需要把减去中文字符数量。 #1s = Input$(LOF(1), #1)中的LOF(1) 2Dim r As String, s As String 3r = Environ(&amp;#34;userprofile&amp;#34;) 4r = r + &amp;#34;&amp;#34;c:\1.</description>
+    </item>
+    <item>
+      <title>VB6打开默认浏览器网站</title>
+      <link>http://localhost:1313/p/185/</link>
+      <pubDate>Wed, 10 Nov 2021 18:17:02 +0800</pubDate>
+      <guid>http://localhost:1313/p/185/</guid>
+      <description>1、这里介绍vb打开网站问题，用最简单的方式打开杀毒一般都拦截，例如&#xA;1Shell &amp;#34;cmd /k Explorer.exe http://www.hkfx.net&amp;#34; 2、其中shell函数调用执行一个可执行文件explorer.exe所以这种最方便的打开方式会被提示拦截询问，下面代码可以直接打开不提示，相对可靠些。&#xA;1Private Declare Function ShellExecute Lib &amp;#34;shell32.dll&amp;#34; Alias &amp;#34;ShellExecuteA&amp;#34; (ByVal hwnd As Long,ByVal lpOperation As String, ByVal lpFile As String, ByVal lpParameters As String, ByVal lpDirectory As String, ByVal nShowCmd As Long) As Long 1Private Sub web_Click() &amp;#39;这里是按钮名称web 2 ShellExecute 0, &amp;#34;open&amp;#34;, &amp;#34;http://www.hkfx.net&amp;#34;, 0, 0, 1 3End Sub </description>
+    </item>
+    <item>
+      <title>VB6 List列表增加一行数据</title>
+      <link>http://localhost:1313/p/184/</link>
+      <pubDate>Wed, 10 Nov 2021 17:47:08 +0800</pubDate>
+      <guid>http://localhost:1313/p/184/</guid>
+      <description>前言：之前我说过，因为学习资料严重缺少，古老语言慢慢被丢失，所以先发一些简单代码。 #1Private Sub Command1_Click() &amp;#39;这是按钮1名称 2 add_item = InputBox(&amp;#34;在此处输入一个英文软件包名&amp;#34;, &amp;#34;增加软件&amp;#34;) 3 If add_item &amp;lt;&amp;gt; &amp;#34;&amp;#34; Then 4 List1.AddItem add_item 5 End If 6End Sub </description>
+    </item>
+    <item>
+      <title>VB6右键弹出菜单</title>
+      <link>http://localhost:1313/p/183/</link>
+      <pubDate>Wed, 10 Nov 2021 17:37:02 +0800</pubDate>
+      <guid>http://localhost:1313/p/183/</guid>
+      <description>因为古老语言，网上越来越小相关资料，中文搜索相关内容越来越少，故止新开一版块，专为编程而生。&#xA;1Private Sub list1_MouseDown(Button As Integer, Shift As Integer, X As Single, Y As Single) &amp;#39;List1为组件名称 2If Button And vbRightButton Then &amp;#39;弹菜单,判断名称 3 PopupMenu list &amp;#39;弹出（添加）菜单栏的名称,必须有子菜单才能正确使用 4 End If 5End Sub </description>
+    </item>
+    <item>
+      <title>VB6不会残留图标托盘</title>
+      <link>http://localhost:1313/p/144/</link>
+      <pubDate>Fri, 27 Dec 2019 00:33:23 +0800</pubDate>
+      <guid>http://localhost:1313/p/144/</guid>
+      <description>建立托盘命名为Popup，再建立Picture1命名为Pic&#xA;1Private Type NOTIFYICONDATA 2 cbSize As Long 3 hWnd As Long 4 uId As Long 5 uFlags As Long 6 ucallbackMessage As Long 7 hIcon As Long 8 szTip As String * 64 9End Type 10 11Private Const NIM_ADD = &amp;amp;H0 12Private Const NIM_MODIFY = &amp;amp;H1 13Private Const NIM_DELETE = &amp;amp;H2 14Private Const WM_MOUSEMOVE = &amp;amp;H200 15Private Const NIF_MESSAGE = &amp;amp;H1 16Private Const NIF_ICON = &amp;amp;H2 17Private Const NIF_TIP = &amp;amp;H4 18 19Private Declare Function Shell_NotifyIcon Lib &amp;#34;shell32&amp;#34; Alias &amp;#34;Shell_NotifyIconA&amp;#34; 20 (ByVal dwMessage As Long, pnid As NOTIFYICONDATA) As Boolean 21Dim t As NOTIFYICONDATA 1Private Sub Form_Load() 2 t.</description>
+    </item>
+    <item>
+      <title>VB6显示当前计算机使用帐号</title>
+      <link>http://localhost:1313/p/131/</link>
+      <pubDate>Sat, 24 Aug 2019 14:48:50 +0800</pubDate>
+      <guid>http://localhost:1313/p/131/</guid>
+      <description> 1Dim strusername As String 2Private Sub Command1_Click() 3Print strusername &amp;#39;输出当前计算机用户名 4strusername = Environ(&amp;#34;USERNAME&amp;#34;) 5If strusername = Text1 Then &amp;#39;这里输入你指定的帐号，例如管理员Administrator 6Else 7 MsgBox &amp;#34;检测当前用户非管理员Administrator帐号&amp;#34;, 32, &amp;#34;提示&amp;#34; 8 End &amp;#39;终结并退出 9End If 10End Sub </description>
+    </item>
+    <item>
+      <title>vb在窗体菜单中加入图标源码</title>
+      <link>http://localhost:1313/p/124/</link>
+      <pubDate>Mon, 15 Jul 2019 13:49:15 +0800</pubDate>
+      <guid>http://localhost:1313/p/124/</guid>
+      <description>1、演示在VB菜单中加入图标的方法，使用了三个VB6.0 WINAPI函数，利用这三个函数，我们可以对菜单进行定义。 #1Option Explicit 2Private Declare Function GetMenu Lib &amp;#34;user32&amp;#34; _ 3 (ByVal hwnd As Long) As Long 4Private Declare Function GetSubMenu Lib &amp;#34;user32&amp;#34; _ 5 (ByVal hMenu As Long, ByVal nPos As Long) As Long 6Private Declare Function SetMenuItemBitmaps Lib &amp;#34;user32&amp;#34; _ 7 (ByVal hMenu As Long, ByVal nPosition As Long, ByVal wFlags As Long, _ 8 ByVal hBitmapUnchecked As Long, ByVal hBitmapChecked As Long) As Long 9Const MF_BYPOSITION = &amp;amp;H400&amp;amp; 2、以下为启动窗体代码，Image为加载图片，图片为ico格式,大小为16*16过大会影响软件的美观。 # 1Private Sub Form_Load() 2 Dim mHandle As Long, lRet As Long, sHandle As Long, sHandle2 As Long 3 mHandle = GetMenu(hwnd) 4 sHandle = GetSubMenu(mHandle, 0) &amp;#39;这里为第一个菜单栏 5 lRet = SetMenuItemBitmaps(sHandle, 0, MF_BYPOSITION, Image1.</description>
+    </item>
+    <item>
+      <title>VB6加载网络静态图片</title>
+      <link>http://localhost:1313/p/123/</link>
+      <pubDate>Thu, 04 Jul 2019 15:37:03 +0800</pubDate>
+      <guid>http://localhost:1313/p/123/</guid>
+      <description>说明：加载网络图片，无缓存加载，直接写加载到程序里面挺好用的，一个Image1和Command1 #1、Image1图片控件 # 1Private Declare Function OleLoadPicturePath Lib &amp;#34;oleaut32.dll&amp;#34; (ByVal szURLorPath As Long, ByVal punkCaller As Long, ByVal dwReserved As Long, ByVal clrReserved As OLE_COLOR, ByRef riid As TGUID, ByRef ppvRet As IPicture) As Long 2Private Type TGUID 3Data1 As Long 4Data2 As Integer 5Data3 As Integer 6Data4(0 To 7) As Byte 7End Type 8Public Function LoadPicture(ByVal strFileName As String) As Picture &amp;#39;加载函数 9Dim IID As TGUID 10With IID 11.Data1 = &amp;amp;H7BF80980 12.</description>
+    </item>
+    <item>
+      <title>VB6启动窗口渐变效果</title>
+      <link>http://localhost:1313/p/102/</link>
+      <pubDate>Mon, 18 Mar 2019 14:24:23 +0800</pubDate>
+      <guid>http://localhost:1313/p/102/</guid>
+      <description>建立一个Timer1 即可实现启动窗口渐变效果&#xA;1Private Declare Function GetWindowLong Lib &amp;#34;user32&amp;#34; Alias &amp;#34;GetWindowLongA&amp;#34; (ByVal HWnd As Long, ByVal nIndex As Long) As Long 2Private Declare Function SetWindowLong Lib &amp;#34;user32&amp;#34; Alias &amp;#34;SetWindowLongA&amp;#34; (ByVal HWnd As Long, ByVal nIndex As Long, ByVal dwNewLong As Long) As Long 3Private Declare Function SetLayeredWindowAttributes Lib &amp;#34;user32&amp;#34; (ByVal HWnd As Long, ByVal crKey As Long, ByVal bAlpha As Byte, ByVal dwFlags As Long) As Long 4Private Const WS_EX_LAYERED = &amp;amp;H80000 5Private Const GWL_EXSTYLE = (-20) 6Private Const LWA_ALPHA = &amp;amp;H2 7Private Const LWA_COLORKEY = &amp;amp;H1 1Private Sub Form_Load() 2SetWinAlpha 0 3Timer1.</description>
+    </item>
+    <item>
+      <title>VB6启用托盘效果</title>
+      <link>http://localhost:1313/p/101/</link>
+      <pubDate>Mon, 11 Mar 2019 16:58:28 +0800</pubDate>
+      <guid>http://localhost:1313/p/101/</guid>
+      <description>1、窗口新建立一个Picture1命名为 Pci 然后在里面选择你采用的托盘图标 #2、建立菜单栏标题为托盘，名称为 Popup #3、在首行复制以下代码进行加载 # 1Private Type NOTIFYICONDATA&amp;#39;首行加载以下代码 by:红防安全吧 2 cbSize As Long 3 hwnd As Long 4 uId As Long 5 uFlags As Long 6 uCallBackMessage As Long 7 hIcon As Long 8 szTip As String * 64 9End Type 10 11Private Const NIM_ADD = &amp;amp;H0 12Private Const NIM_MODIFY = &amp;amp;H1 13Private Const NIM_DELETE = &amp;amp;H2 14Private Const WM_MOUSEMOVE = &amp;amp;H200 15Private Const NIF_MESSAGE = &amp;amp;H1 16Private Const NIF_ICON = &amp;amp;H2 17Private Const NIF_TIP = &amp;amp;H4 18 19Private Declare Function Shell_NotifyIcon Lib &amp;#34;shell32&amp;#34; Alias &amp;#34;Shell_NotifyIconA&amp;#34; (ByVal dwMessage As Long, pnid As NOTIFYICONDATA) As Boolean 20Dim t As NOTIFYICONDATA 4、启动窗口加载以下代码 #1&amp;#39;启动时加载pci图标 2 t.</description>
+    </item>
+    <item>
+      <title>Sqlmap检测SQL注入攻击</title>
+      <link>http://localhost:1313/p/68/</link>
+      <pubDate>Fri, 01 Dec 2017 13:21:45 +0800</pubDate>
+      <guid>http://localhost:1313/p/68/</guid>
+      <description>这款工具好用，检测SQL漏洞注入精确，国内也有好几个SQL注入工具，博主以前也写过注入类似渗透工具，跟啊D注入、明小子注入，那个时代； #1、测试SQL注入： #1sqlmap -u http://www.test.com/index.php?id=1 --dbs 2、获得某个数据库中的表： # 1sqlmap -u http://www.test.com/index.php?id=1 --dbs -D some_db --tables 3、获得表的字段： #1sqlmap -u http://www.test.com/index.php?id=1 --dbs -D some_db --tables -T some_table --columns 4、下载某一字段的数据： #1sqlmap -u http://www.test.com/index.php?id=1 --dbs -D some_db --tables -T some_table --columns -C some_col --dump 神器下载地址，因为看到有人留言想要，还说想要源码，好吧、更新贴出它们官方网站吧。</description>
+    </item>
+    <item>
+      <title>Nmap 进行 Web 端口漏洞扫描</title>
+      <link>http://localhost:1313/p/67/</link>
+      <pubDate>Fri, 01 Dec 2017 12:00:28 +0800</pubDate>
+      <guid>http://localhost:1313/p/67/</guid>
+      <description>很久没上博客，再提供款工具吧，亲测还行，因为要对接传输，需要检查UDP端口，之前同事还说不能扫到UDP的，也许他也少了解吧，其实该工具可以扫描端口，及其它开放端口漏洞的，比喻指定的UDP/TCP端口：官网下载</description>
+    </item>
+    <item>
+      <title>中国菜刀</title>
+      <link>http://localhost:1313/p/66/</link>
+      <pubDate>Fri, 01 Dec 2017 11:49:04 +0800</pubDate>
+      <guid>http://localhost:1313/p/66/</guid>
+      <description>功夫最高也怕菜刀哈，很久没上博客了，分享前几年的渗透工具吧；一句话代码原先为方便网站管理使用，因为十分方便管理，因此黑客也很喜欢使用，而它原意本身并非指木马病毒。&#xA;程序日期：2012/11/24 现在版本多半可能第三方提供，有可能给修改过，现在的官网都不知道是不是原开发者了，此主程序版本为当年原作者网站下载，极奇珍贵，其它附带脚本跟描述如readme.txt等已删除，免得说提供病毒。&#xA;文件: caidao.exe 大小: 700416 字节 修改时间: 2012年11月24日, 22:16:55 MD5: 7051166FF7F99CECFEC60AE2017DD20F SHA1: 1EF2E7ACB6FD81140DC175318985382B70BE19DE CRC32: FA47F596 中国菜刀</description>
+    </item>
+    <item>
+      <title>VB6雷池编码</title>
+      <link>http://localhost:1313/p/24/</link>
+      <pubDate>Sun, 22 Dec 2013 15:51:06 +0800</pubDate>
+      <guid>http://localhost:1313/p/24/</guid>
+      <description>1Private Sub Label1_Click() 2Dim str As String &amp;#39;以下载入函数 QQ:3925993 3 str = Text1.Text &amp;#39;转载注明出处,红防安全网 http://blog.hkfx.net 4 Call encrypt(str) 5 Text2.Text = encrypt(str) 6End Sub 1Private Sub Label2_Click() 2Dim str1 As String 3 str1 = Text3.Text 4 Call decrypt(str1) 5 Text4.Text = decrypt(str1) 6End Sub 1Public Function encrypt(ecode) 2 Dim texts &amp;#39;加密函数 3 Dim i 4 For i = 1 To Len(ecode) 5 texts = texts &amp;amp; Chr(Asc(Mid(ecode, i, 2)) + i) 6 Next 7 encrypt = texts 8End Function 9 10Public Function decrypt(dcode) 11 Dim texts &amp;#39;解密函数 12 Dim i 13 For i = 1 To Len(dcode) 14 texts = texts &amp;amp; Chr(Asc(Mid(dcode, i, 2)) - i) 15 Next 16 decrypt = texts 17End Function </description>
+    </item>
+    <item>
+      <title>VB6代码自动窗体大小</title>
+      <link>http://localhost:1313/p/23/</link>
+      <pubDate>Sun, 22 Dec 2013 15:47:15 +0800</pubDate>
+      <guid>http://localhost:1313/p/23/</guid>
+      <description>1Option Explicit 2Private FormOldWidth As Long &amp;#39;保存窗体的原始宽度 3Private FormOldHeight As Long &amp;#39;保存窗体的原始高度 4&amp;#39;在调用ResizeForm前先调用本函数 QQ:3925993 ‘转载注明出处,红防安全网 1Public Sub ResizeInit(FormName As Form) 2 Dim Obj As Control 3 FormOldWidth = FormName.ScaleWidth 4 FormOldHeight = FormName.ScaleHeight 5 On Error Resume Next 6 For Each Obj In FormName 7 Obj.Tag = Obj.Left &amp;amp; &amp;#34; &amp;#34; &amp;amp; Obj.Top &amp;amp; &amp;#34; &amp;#34; &amp;amp; Obj.Width &amp;amp; _ 8 &amp;#34; &amp;#34; &amp;amp; Obj.Height &amp;amp; &amp;#34; &amp;#34; 9 Next Obj 10 On Error GoTo 0 11End Sub 1Public Sub ResizeForm(FormName As Form) 2 Dim Pos(4) As Double &amp;#39;按比例改变表单内各元件的大小，在调用ReSizeForm前先调用ReSizeInit函数 3 Dim i As Long, TempPos As Long, StartPos As Long 4 Dim Obj As Control 5 Dim ScaleX As Double, ScaleY As Double 6 7 ScaleX = FormName.</description>
+    </item>
+    <item>
+      <title>VB6实现网络加载动态图有绶存</title>
+      <link>http://localhost:1313/p/21/</link>
+      <pubDate>Wed, 18 Dec 2013 18:37:00 +0800</pubDate>
+      <guid>http://localhost:1313/p/21/</guid>
+      <description>最简单的方法，在picturebox控件中添加gif格式图片&#xA;首先、需要注册，注册方法：在工程中选中“引用”→引用项目ActiveMovie Control type Libray→然后点击“确定”键即可。&#xA;1&amp;#39;转载请注明出处,红防安全网QQ:3925993 2Private pMC As FilgraphManager 3Private pVW As IVideoWindow 1Private Sub Form_Load() 2Set xPost = CreateObject(&amp;#34;Microsoft.XMLHTTP&amp;#34;) 3xPost.Open &amp;#34;GET&amp;#34;, &amp;#34;http://www.hkfx.net/img/scan.gif&amp;#34;, 0 4xPost.Send 5Set sGet = CreateObject(&amp;#34;ADODB.Stream&amp;#34;) 6sGet.Mode = 3 7sGet.Type = 1 8sGet.Open 9sGet.Write (xPost.responseBody) 10sGet.SaveToFile App.Path &amp;amp; &amp;#34;\scan.gif&amp;#34;, 2 11&amp;#39;------------------------------------------------------------------------------------ 12Me.ScaleMode = 3 13Picture1.ScaleMode = 3 14&amp;#39;------------------------------------------------------------------------------------ 15On Error Resume Next 16 Set pMC = New FilgraphManager 17 pMC.Stop 18 pMC.RenderFile &amp;#34;&amp;#34; 19 pMC.RenderFile App.Path &amp;amp; &amp;#34;\scan.</description>
+    </item>
+    <item>
+      <title>VB6代码判断网络是否连接</title>
+      <link>http://localhost:1313/p/18/</link>
+      <pubDate>Mon, 16 Dec 2013 17:13:18 +0800</pubDate>
+      <guid>http://localhost:1313/p/18/</guid>
+      <description> 1Private Const FLAG_ICC_FORCE_CONNECTION = &amp;amp;H1 2Private Declare Function InternetCheckConnection Lib &amp;#34;wininet.dll&amp;#34; Alias &amp;#34;InternetCheckConnectionA&amp;#34; (ByVal lpszUrl As String, ByVal dwFlags As Long, ByVal dwReserved As Long) As Long 3&amp;#39;本代码使用Basic语言,转载请注明出处 4Private Sub Command1_Click() 5If InternetCheckConnection(&amp;#34;http://www.hkfx.net&amp;#34;, FLAG_ICC_FORCE_CONNECTION, 0&amp;amp;) = 0 Then 6MsgBox &amp;#34;未连接&amp;#34;, vbInformation 7Else 8MsgBox &amp;#34;已连接&amp;#34;, vbInformation 9End If 10End Sub </description>
     </item>
     <item>
       <title></title>
-      <link>//localhost:1313/feedback/</link>
+      <link>http://localhost:1313/feedback/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/feedback/</guid>
+      <guid>http://localhost:1313/feedback/</guid>
       <description> </description>
     </item>
     <item>
       <title></title>
-      <link>//localhost:1313/friends/</link>
+      <link>http://localhost:1313/friends/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/friends/</guid>
+      <guid>http://localhost:1313/friends/</guid>
       <description>&#xD;D盾IIS防火墙&#xD;又拍云&#xD;红防安全吧&#xD;</description>
     </item>
   </channel>

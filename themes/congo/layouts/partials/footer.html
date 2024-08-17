@@ -139,4 +139,10 @@
   {{ end }}
 </footer>
 
-<script src="/js/add-copy-btn.js"></script>
+
+<footer>
+  <!-- copy code -->
+  {{ if (findRE "<code" .Content 1) }}
+      <script src="{{"/js/add-copy-btn.js" | relURL}}"></script>
+  {{ end }}
+</footer>
