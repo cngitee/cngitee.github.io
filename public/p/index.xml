@@ -184,7 +184,7 @@
       <description> 1Dim strusername As String 2Private Sub Command1_Click() 3Print strusername &amp;#39;输出当前计算机用户名 4strusername = Environ(&amp;#34;USERNAME&amp;#34;) 5If strusername = Text1 Then &amp;#39;这里输入你指定的帐号，例如管理员Administrator 6Else 7 MsgBox &amp;#34;检测当前用户非管理员Administrator帐号&amp;#34;, 32, &amp;#34;提示&amp;#34; 8 End &amp;#39;终结并退出 9End If 10End Sub </description>
     </item>
     <item>
-      <title>vb在窗体菜单中加入图标源码</title>
+      <title>VB6在窗体菜单中加入图标源码</title>
       <link>http://localhost:1313/p/124/</link>
       <pubDate>Mon, 15 Jul 2019 13:49:15 +0800</pubDate>
       <guid>http://localhost:1313/p/124/</guid>
