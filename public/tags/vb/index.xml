@@ -7,7 +7,7 @@
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright> ©2011~2024 :thinking_face: [粤ICP备17091340号](https://beian.miit.gov.cn/ &#39;备案查询&#39;)</copyright>
-    <lastBuildDate>Sun, 18 Aug 2024 01:06:03 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 19 Aug 2024 00:59:41 +0800</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/vb/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>VB6修改注册表参数</title>
@@ -78,6 +78,13 @@
       <pubDate>Wed, 02 Nov 2022 17:54:48 +0800</pubDate>
       <guid>http://localhost:1313/p/215/</guid>
       <description>工程→”工程1 属性”，在打开的”工程1 – 工程属性”面板中，点”生成”选项卡，在里面的”版本信息”的”文件描述”中写入值”update”&#xA;(这里就是关键，只要输入包含有”update”字符，生成的exe就会与管理员方式运行)&#xA;操作系统自己会检测文件名是否包含Setup、Install、Update等关键字 微软原贴&#xA;graph TD; a[&#34;工程&#34;]--&gt;b[&#34;工程1 属性&#34;]--&gt;c[&#34;生成&#34;]--&gt;d[&#34;版本信息(文件描述)&#34;]; </description>
+    </item>
+    <item>
+      <title>投资理财算法[闲钱顾问]</title>
+      <link>http://localhost:1313/p/196/</link>
+      <pubDate>Tue, 07 Dec 2021 12:34:23 +0800</pubDate>
+      <guid>http://localhost:1313/p/196/</guid>
+      <description>我们开发新的一套全新电脑桌面版软件，让你上班摸鱼时实时观看，实时浏览基金，非常直观地展示，不像用手机偷偷摸摸看【上班能少摸手机】你就打开财富钥匙，实现闲钱增益，我们的核心理念：共同富裕。 #1、问：我们先了解什么是基金？ #答：平常放在支付宝是面的钱[余额宝]就是货币基金，这种是最最低收益，七八年前放5万到[余额宝]每天差不多4元利息，现在平均1万才0.5/元收益。 答：平常放在微信零钱旁边有个接口，叫[零钱通]跟余额宝那个一样，也同样是货币收益，二者现在都差不多，如今存放10万，大概每天5元左右/天。&#xA;2、问：有没更高收益却比玩股票风险低的呢？ #答：有的，我们这文章说的，直接购买基金，每个工作日[周一到周五]有收益，有亏和攒，风险却比股票低非常多，收益却吊打余额宝和零钱通。&#xA;点击在线QQ联系我&#xA;0x01、微信和支付宝收益算法。 0x02、固收一周算法，与历史收益算法。 0x03、黄金历史收益算法，集合各种黄金算法。 0x04、基金实时查询，套现算法、基金收益算法。 0x05、数据展示、各大平台资讯，风险评估等算法。 是否参与、或只差一步、人活一世，要勇于尝试、才能漫出一步，小白入门级，推荐辅助基金利器，本站长亲自操刀，开发此软件！ #</description>
     </item>
     <item>
       <title>VB6读写系统临时目录 temp</title>
