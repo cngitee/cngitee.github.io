@@ -1,5 +1,5 @@
 baseURL = 'https://example.org/'
-languageCode = 'en-us'
+languageCode = 'en-us' #en-us
 #defaultContentLanguage = 'zh-cn'
 title = '红防安全吧'
 theme = 'congo' #主题
@@ -23,7 +23,7 @@ lastmod = [':fileModTime']
   ]
 
 [params]
-  dateFormat = " 2006/8/2" #定义时间格式
+  dateFormat = "2006/January/2" #定义时间格式
 
 [params.author]
    name = "HKFX NET"
