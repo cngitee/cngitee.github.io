@@ -1,7 +1,7 @@
 baseURL = 'https://example.org/'
 languageCode = 'en-us' #en-us
 #defaultContentLanguage = 'zh-cn'
-title = '红防安全吧'
+title = '弘科防线-实验室'
 theme = 'congo' #主题
 summaryLength = 0      #摘要首行
 # uglyurls = true #生成静态
