@@ -69,7 +69,7 @@
     name="description"
     content="
       
-        一、快速读取txt，空白内容则会出错。 #1、建立模版 # 1Function GetFile(FileName As String) As String 2Dim i As Integer, s As String, BB() As Byte 3If Dir(FileName) = &#34;&#34; Then Exit Function 4i = FreeFile 5ReDim BB(FileLen(FileName) - 1) 6Open FileName For Binary As #i 7Get #i, , BB 8Close #i 9s = StrConv(BB, vbUnicode) 10GetFile = s 11End Function 2、窗体调用举例： #1dim s as string 2s=GetFile(&#34;c:\1.txt&#34;) 3Text1 = s 3、如果文件中没中文字符，那么下面代码读整个文件速度是非常快的，我读了一个6M文件，只用了不到1秒，如果有中文字符，就需要把减去中文字符数量。 #1s = Input$(LOF(1), #1)中的LOF(1) 2Dim r As String, s As String 3r = Environ(&#34;userprofile&#34;) 4r = r &#43; &#34;&#34;c:\1.
+        一、快速读取txt，空白内容则会出错。 #1、建立模版 # 1Function GetFile(FileName As String) As String 2Dim i As Integer, s As String, BB() As Byte 3If Dir(FileName) = &#34;&#34; Then Exit Function 4i = FreeFile 5ReDim BB(FileLen(FileName) - 1) 6Open FileName For Binary As #i 7Get #i, , BB 8Close #i 9s = StrConv(BB, vbUnicode) 10GetFile = s 11End Function 2、窗体调用举例： #1dim s as string 2s=GetFile(&#34;c:\1.
       
     "
   />
@@ -94,7 +94,7 @@
   <meta property="og:url" content="http://localhost:1313/p/186/">
   <meta property="og:site_name" content="红防安全吧">
   <meta property="og:title" content="VB6快速读取txt">
-  <meta property="og:description" content="一、快速读取txt，空白内容则会出错。 #1、建立模版 # 1Function GetFile(FileName As String) As String 2Dim i As Integer, s As String, BB() As Byte 3If Dir(FileName) = &#34;&#34; Then Exit Function 4i = FreeFile 5ReDim BB(FileLen(FileName) - 1) 6Open FileName For Binary As #i 7Get #i, , BB 8Close #i 9s = StrConv(BB, vbUnicode) 10GetFile = s 11End Function 2、窗体调用举例： #1dim s as string 2s=GetFile(&#34;c:\1.txt&#34;) 3Text1 = s 3、如果文件中没中文字符，那么下面代码读整个文件速度是非常快的，我读了一个6M文件，只用了不到1秒，如果有中文字符，就需要把减去中文字符数量。 #1s = Input$(LOF(1), #1)中的LOF(1) 2Dim r As String, s As String 3r = Environ(&#34;userprofile&#34;) 4r = r &#43; &#34;&#34;c:\1.">
+  <meta property="og:description" content="一、快速读取txt，空白内容则会出错。 #1、建立模版 # 1Function GetFile(FileName As String) As String 2Dim i As Integer, s As String, BB() As Byte 3If Dir(FileName) = &#34;&#34; Then Exit Function 4i = FreeFile 5ReDim BB(FileLen(FileName) - 1) 6Open FileName For Binary As #i 7Get #i, , BB 8Close #i 9s = StrConv(BB, vbUnicode) 10GetFile = s 11End Function 2、窗体调用举例： #1dim s as string 2s=GetFile(&#34;c:\1.">
   <meta property="og:locale" content="en_us">
   <meta property="og:type" content="article">
     <meta property="article:section" content="p">
@@ -105,7 +105,7 @@
   
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="VB6快速读取txt">
-  <meta name="twitter:description" content="一、快速读取txt，空白内容则会出错。 #1、建立模版 # 1Function GetFile(FileName As String) As String 2Dim i As Integer, s As String, BB() As Byte 3If Dir(FileName) = &#34;&#34; Then Exit Function 4i = FreeFile 5ReDim BB(FileLen(FileName) - 1) 6Open FileName For Binary As #i 7Get #i, , BB 8Close #i 9s = StrConv(BB, vbUnicode) 10GetFile = s 11End Function 2、窗体调用举例： #1dim s as string 2s=GetFile(&#34;c:\1.txt&#34;) 3Text1 = s 3、如果文件中没中文字符，那么下面代码读整个文件速度是非常快的，我读了一个6M文件，只用了不到1秒，如果有中文字符，就需要把减去中文字符数量。 #1s = Input$(LOF(1), #1)中的LOF(1) 2Dim r As String, s As String 3r = Environ(&#34;userprofile&#34;) 4r = r &#43; &#34;&#34;c:\1.">
+  <meta name="twitter:description" content="一、快速读取txt，空白内容则会出错。 #1、建立模版 # 1Function GetFile(FileName As String) As String 2Dim i As Integer, s As String, BB() As Byte 3If Dir(FileName) = &#34;&#34; Then Exit Function 4i = FreeFile 5ReDim BB(FileLen(FileName) - 1) 6Open FileName For Binary As #i 7Get #i, , BB 8Close #i 9s = StrConv(BB, vbUnicode) 10GetFile = s 11End Function 2、窗体调用举例： #1dim s as string 2s=GetFile(&#34;c:\1.">
 
   
   <script type="application/ld+json">
@@ -116,7 +116,7 @@
     "name": "VB6快速读取txt",
     "headline": "VB6快速读取txt",
     
-    "abstract": "一、快速读取txt，空白内容则会出错。 #1、建立模版 # 1Function GetFile(FileName As String) As String 2Dim i As Integer, s As String, BB() As Byte 3If Dir(FileName) = \u0026#34;\u0026#34; Then Exit Function 4i = FreeFile 5ReDim BB(FileLen(FileName) - 1) 6Open FileName For Binary As #i 7Get #i, , BB 8Close #i 9s = StrConv(BB, vbUnicode) 10GetFile = s 11End Function 2、窗体调用举例： #1dim s as string 2s=GetFile(\u0026#34;c:\\1.txt\u0026#34;) 3Text1 = s 3、如果文件中没中文字符，那么下面代码读整个文件速度是非常快的，我读了一个6M文件，只用了不到1秒，如果有中文字符，就需要把减去中文字符数量。 #1s = Input$(LOF(1), #1)中的LOF(1) 2Dim r As String, s As String 3r = Environ(\u0026#34;userprofile\u0026#34;) 4r = r \u002b \u0026#34;\u0026#34;c:\\1.",
+    "abstract": "一、快速读取txt，空白内容则会出错。 #1、建立模版 # 1Function GetFile(FileName As String) As String 2Dim i As Integer, s As String, BB() As Byte 3If Dir(FileName) = \u0026#34;\u0026#34; Then Exit Function 4i = FreeFile 5ReDim BB(FileLen(FileName) - 1) 6Open FileName For Binary As #i 7Get #i, , BB 8Close #i 9s = StrConv(BB, vbUnicode) 10GetFile = s 11End Function 2、窗体调用举例： #1dim s as string 2s=GetFile(\u0026#34;c:\\1.",
     "inLanguage": "en-us",
     "url" : "http:\/\/localhost:1313\/p\/186\/",
     "author" : {

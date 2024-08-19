@@ -414,6 +414,10 @@
 
     </div>
     
+      <div class="prose py-1 dark:prose-invert">
+        窗口一个按钮，一个文本，简洁代码短少 # 1Private Sub Command1_Click() 2Dim s As String, S1 As String 3s = Environ(&#34;temp&#34;) 4&#39;这里是写入 5Open s &amp; &#34;\abc.
+      </div>
+    
   </div>
 </article>
 
@@ -473,6 +477,10 @@
 
 
     </div>
+    
+      <div class="prose py-1 dark:prose-invert">
+        一、快速读取txt，空白内容则会出错。 #1、建立模版 # 1Function GetFile(FileName As String) As String 2Dim i As Integer, s As String, BB() As Byte 3If Dir(FileName) = &#34;&#34; Then Exit Function 4i = FreeFile 5ReDim BB(FileLen(FileName) - 1) 6Open FileName For Binary As #i 7Get #i, , BB 8Close #i 9s = StrConv(BB, vbUnicode) 10GetFile = s 11End Function 2、窗体调用举例： #1dim s as string 2s=GetFile(&#34;c:\1.
+      </div>
     
   </div>
 </article>
@@ -534,6 +542,10 @@
 
     </div>
     
+      <div class="prose py-1 dark:prose-invert">
+        1、这里介绍vb打开网站问题，用最简单的方式打开杀毒一般都拦截，例如
+      </div>
+    
   </div>
 </article>
 
@@ -594,6 +606,10 @@
 
     </div>
     
+      <div class="prose py-1 dark:prose-invert">
+        前言：之前我说过，因为学习资料严重缺少，古老语言慢慢被丢失，所以先发一些简单代码。 #1Private Sub Command1_Click() &#39;这是按钮1名称 2 add_item = InputBox(&#34;在此处输入一个英文软件包名&#34;, &#34;增加软件&#34;) 3 If add_item &lt;&gt; &#34;&#34; Then 4 List1.
+      </div>
+    
   </div>
 </article>
 
@@ -653,6 +669,10 @@
 
 
     </div>
+    
+      <div class="prose py-1 dark:prose-invert">
+        因为古老语言，网上越来越小相关资料，中文搜索相关内容越来越少，故止新开一版块，专为编程而生。
+      </div>
     
   </div>
 </article>
@@ -720,6 +740,10 @@
 
     </div>
     
+      <div class="prose py-1 dark:prose-invert">
+        建立托盘命名为Popup，再建立Picture1命名为Pic
+      </div>
+    
   </div>
 </article>
 
@@ -779,6 +803,10 @@
 
 
     </div>
+    
+      <div class="prose py-1 dark:prose-invert">
+         1Dim strusername As String 2Private Sub Command1_Click() 3Print strusername &#39;输出当前计算机用户名 4strusername = Environ(&#34;USERNAME&#34;) 5If strusername = Text1 Then &#39;这里输入你指定的帐号，例如管理员Administrator 6Else 7 MsgBox &#34;检测当前用户非管理员Administrator帐号&#34;, 32, &#34;提示&#34; 8 End &#39;终结并退出 9End If 10End Sub 
+      </div>
     
   </div>
 </article>
@@ -840,6 +868,10 @@
 
     </div>
     
+      <div class="prose py-1 dark:prose-invert">
+        1、演示在VB菜单中加入图标的方法，使用了三个VB6.0 WINAPI函数，利用这三个函数，我们可以对菜单进行定义。 #1Option Explicit 2Private Declare Function GetMenu Lib &#34;user32&#34; _ 3 (ByVal hwnd As Long) As Long 4Private Declare Function GetSubMenu Lib &#34;user32&#34; _ 5 (ByVal hMenu As Long, ByVal nPos As Long) As Long 6Private Declare Function SetMenuItemBitmaps Lib &#34;user32&#34; _ 7 (ByVal hMenu As Long, ByVal nPosition As Long, ByVal wFlags As Long, _ 8 ByVal hBitmapUnchecked As Long, ByVal hBitmapChecked As Long) As Long 9Const MF_BYPOSITION = &amp;H400&amp; 2、以下为启动窗体代码，Image为加载图片，图片为ico格式,大小为16*16过大会影响软件的美观。 # 1Private Sub Form_Load() 2 Dim mHandle As Long, lRet As Long, sHandle As Long, sHandle2 As Long 3 mHandle = GetMenu(hwnd) 4 sHandle = GetSubMenu(mHandle, 0) &#39;这里为第一个菜单栏 5 lRet = SetMenuItemBitmaps(sHandle, 0, MF_BYPOSITION, Image1.
+      </div>
+    
   </div>
 </article>
 
@@ -900,6 +932,10 @@
 
     </div>
     
+      <div class="prose py-1 dark:prose-invert">
+        说明：加载网络图片，无缓存加载，直接写加载到程序里面挺好用的，一个Image1和Command1 #1、Image1图片控件 # 1Private Declare Function OleLoadPicturePath Lib &#34;oleaut32.
+      </div>
+    
   </div>
 </article>
 
@@ -959,6 +995,10 @@
 
 
     </div>
+    
+      <div class="prose py-1 dark:prose-invert">
+        “996”工作制，即每天早 9 点到岗，一直工作到晚上 9 点，每周工作 6 天。
+      </div>
     
   </div>
 </article>

@@ -69,7 +69,7 @@
     name="description"
     content="
       
-        1Option Explicit 2Private FormOldWidth As Long &#39;保存窗体的原始宽度 3Private FormOldHeight As Long &#39;保存窗体的原始高度 4&#39;在调用ResizeForm前先调用本函数 QQ:3925993 ‘转载注明出处,红防安全网 1Public Sub ResizeInit(FormName As Form) 2 Dim Obj As Control 3 FormOldWidth = FormName.ScaleWidth 4 FormOldHeight = FormName.ScaleHeight 5 On Error Resume Next 6 For Each Obj In FormName 7 Obj.Tag = Obj.Left &amp; &#34; &#34; &amp; Obj.Top &amp; &#34; &#34; &amp; Obj.Width &amp; _ 8 &#34; &#34; &amp; Obj.Height &amp; &#34; &#34; 9 Next Obj 10 On Error GoTo 0 11End Sub 1Public Sub ResizeForm(FormName As Form) 2 Dim Pos(4) As Double &#39;按比例改变表单内各元件的大小，在调用ReSizeForm前先调用ReSizeInit函数 3 Dim i As Long, TempPos As Long, StartPos As Long 4 Dim Obj As Control 5 Dim ScaleX As Double, ScaleY As Double 6 7 ScaleX = FormName.
+        1Option Explicit 2Private FormOldWidth As Long &#39;保存窗体的原始宽度 3Private FormOldHeight As Long &#39;保存窗体的原始高度 4&#39;在调用ResizeForm前先调用本函数 QQ:3925993 ‘转载注明出处,红防安全网 1Public Sub ResizeInit(FormName As Form) 2 Dim Obj As Control 3 FormOldWidth = FormName.
       
     "
   />
@@ -94,7 +94,7 @@
   <meta property="og:url" content="http://localhost:1313/p/23/">
   <meta property="og:site_name" content="红防安全吧">
   <meta property="og:title" content="VB6代码自动窗体大小">
-  <meta property="og:description" content="1Option Explicit 2Private FormOldWidth As Long &#39;保存窗体的原始宽度 3Private FormOldHeight As Long &#39;保存窗体的原始高度 4&#39;在调用ResizeForm前先调用本函数 QQ:3925993 ‘转载注明出处,红防安全网 1Public Sub ResizeInit(FormName As Form) 2 Dim Obj As Control 3 FormOldWidth = FormName.ScaleWidth 4 FormOldHeight = FormName.ScaleHeight 5 On Error Resume Next 6 For Each Obj In FormName 7 Obj.Tag = Obj.Left &amp; &#34; &#34; &amp; Obj.Top &amp; &#34; &#34; &amp; Obj.Width &amp; _ 8 &#34; &#34; &amp; Obj.Height &amp; &#34; &#34; 9 Next Obj 10 On Error GoTo 0 11End Sub 1Public Sub ResizeForm(FormName As Form) 2 Dim Pos(4) As Double &#39;按比例改变表单内各元件的大小，在调用ReSizeForm前先调用ReSizeInit函数 3 Dim i As Long, TempPos As Long, StartPos As Long 4 Dim Obj As Control 5 Dim ScaleX As Double, ScaleY As Double 6 7 ScaleX = FormName.">
+  <meta property="og:description" content="1Option Explicit 2Private FormOldWidth As Long &#39;保存窗体的原始宽度 3Private FormOldHeight As Long &#39;保存窗体的原始高度 4&#39;在调用ResizeForm前先调用本函数 QQ:3925993 ‘转载注明出处,红防安全网 1Public Sub ResizeInit(FormName As Form) 2 Dim Obj As Control 3 FormOldWidth = FormName.">
   <meta property="og:locale" content="en_us">
   <meta property="og:type" content="article">
     <meta property="article:section" content="p">
@@ -105,7 +105,7 @@
   
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="VB6代码自动窗体大小">
-  <meta name="twitter:description" content="1Option Explicit 2Private FormOldWidth As Long &#39;保存窗体的原始宽度 3Private FormOldHeight As Long &#39;保存窗体的原始高度 4&#39;在调用ResizeForm前先调用本函数 QQ:3925993 ‘转载注明出处,红防安全网 1Public Sub ResizeInit(FormName As Form) 2 Dim Obj As Control 3 FormOldWidth = FormName.ScaleWidth 4 FormOldHeight = FormName.ScaleHeight 5 On Error Resume Next 6 For Each Obj In FormName 7 Obj.Tag = Obj.Left &amp; &#34; &#34; &amp; Obj.Top &amp; &#34; &#34; &amp; Obj.Width &amp; _ 8 &#34; &#34; &amp; Obj.Height &amp; &#34; &#34; 9 Next Obj 10 On Error GoTo 0 11End Sub 1Public Sub ResizeForm(FormName As Form) 2 Dim Pos(4) As Double &#39;按比例改变表单内各元件的大小，在调用ReSizeForm前先调用ReSizeInit函数 3 Dim i As Long, TempPos As Long, StartPos As Long 4 Dim Obj As Control 5 Dim ScaleX As Double, ScaleY As Double 6 7 ScaleX = FormName.">
+  <meta name="twitter:description" content="1Option Explicit 2Private FormOldWidth As Long &#39;保存窗体的原始宽度 3Private FormOldHeight As Long &#39;保存窗体的原始高度 4&#39;在调用ResizeForm前先调用本函数 QQ:3925993 ‘转载注明出处,红防安全网 1Public Sub ResizeInit(FormName As Form) 2 Dim Obj As Control 3 FormOldWidth = FormName.">
 
   
   <script type="application/ld+json">
@@ -116,7 +116,7 @@
     "name": "VB6代码自动窗体大小",
     "headline": "VB6代码自动窗体大小",
     
-    "abstract": "1Option Explicit 2Private FormOldWidth As Long \u0026#39;保存窗体的原始宽度 3Private FormOldHeight As Long \u0026#39;保存窗体的原始高度 4\u0026#39;在调用ResizeForm前先调用本函数 QQ:3925993 ‘转载注明出处,红防安全网 1Public Sub ResizeInit(FormName As Form) 2 Dim Obj As Control 3 FormOldWidth = FormName.ScaleWidth 4 FormOldHeight = FormName.ScaleHeight 5 On Error Resume Next 6 For Each Obj In FormName 7 Obj.Tag = Obj.Left \u0026amp; \u0026#34; \u0026#34; \u0026amp; Obj.Top \u0026amp; \u0026#34; \u0026#34; \u0026amp; Obj.Width \u0026amp; _ 8 \u0026#34; \u0026#34; \u0026amp; Obj.Height \u0026amp; \u0026#34; \u0026#34; 9 Next Obj 10 On Error GoTo 0 11End Sub 1Public Sub ResizeForm(FormName As Form) 2 Dim Pos(4) As Double \u0026#39;按比例改变表单内各元件的大小，在调用ReSizeForm前先调用ReSizeInit函数 3 Dim i As Long, TempPos As Long, StartPos As Long 4 Dim Obj As Control 5 Dim ScaleX As Double, ScaleY As Double 6 7 ScaleX = FormName.",
+    "abstract": "1Option Explicit 2Private FormOldWidth As Long \u0026#39;保存窗体的原始宽度 3Private FormOldHeight As Long \u0026#39;保存窗体的原始高度 4\u0026#39;在调用ResizeForm前先调用本函数 QQ:3925993 ‘转载注明出处,红防安全网 1Public Sub ResizeInit(FormName As Form) 2 Dim Obj As Control 3 FormOldWidth = FormName.",
     "inLanguage": "en-us",
     "url" : "http:\/\/localhost:1313\/p\/23\/",
     "author" : {

@@ -69,7 +69,7 @@
     name="description"
     content="
       
-         1Private Declare Function GetCurrentProcessId Lib &#34;kernel32&#34; () As Long 2Public Sub KillProcess(ByVal ProcessName As String) 3 Set oWMI = GetObject(&#34;winmgmts:&#34;) 4 Set oServices = oWMI.InstancesOf(&#34;win32_process&#34;) 5 For Each oService In oServices 6 servicename = LCase(Trim(CStr(oService.Name) &amp; &#34;&#34;)) 7 If InStr(1, servicename, LCase(ProcessName), vbTextCompare) &gt; 0 Then 8 oService.Terminate 9 End If 10 Next 11End Sub 1Private Sub Command1_Click() 2KillProcess (&#34;Cmd.exe&#34;) &#39;终结进程名称 3End Sub 
+        1Private Declare Function GetCurrentProcessId Lib &#34;kernel32&#34; () As Long 2Public Sub KillProcess(ByVal ProcessName As String) 3 Set oWMI = GetObject(&#34;winmgmts:&#34;) 4 Set oServices = oWMI.
       
     "
   />
@@ -94,7 +94,7 @@
   <meta property="og:url" content="http://localhost:1313/p/224/">
   <meta property="og:site_name" content="红防安全吧">
   <meta property="og:title" content="VB6代码从任务管理器中结束进程">
-  <meta property="og:description" content=" 1Private Declare Function GetCurrentProcessId Lib &#34;kernel32&#34; () As Long 2Public Sub KillProcess(ByVal ProcessName As String) 3 Set oWMI = GetObject(&#34;winmgmts:&#34;) 4 Set oServices = oWMI.InstancesOf(&#34;win32_process&#34;) 5 For Each oService In oServices 6 servicename = LCase(Trim(CStr(oService.Name) &amp; &#34;&#34;)) 7 If InStr(1, servicename, LCase(ProcessName), vbTextCompare) &gt; 0 Then 8 oService.Terminate 9 End If 10 Next 11End Sub 1Private Sub Command1_Click() 2KillProcess (&#34;Cmd.exe&#34;) &#39;终结进程名称 3End Sub ">
+  <meta property="og:description" content="1Private Declare Function GetCurrentProcessId Lib &#34;kernel32&#34; () As Long 2Public Sub KillProcess(ByVal ProcessName As String) 3 Set oWMI = GetObject(&#34;winmgmts:&#34;) 4 Set oServices = oWMI.">
   <meta property="og:locale" content="en_us">
   <meta property="og:type" content="article">
     <meta property="article:section" content="p">
@@ -105,7 +105,7 @@
   
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="VB6代码从任务管理器中结束进程">
-  <meta name="twitter:description" content=" 1Private Declare Function GetCurrentProcessId Lib &#34;kernel32&#34; () As Long 2Public Sub KillProcess(ByVal ProcessName As String) 3 Set oWMI = GetObject(&#34;winmgmts:&#34;) 4 Set oServices = oWMI.InstancesOf(&#34;win32_process&#34;) 5 For Each oService In oServices 6 servicename = LCase(Trim(CStr(oService.Name) &amp; &#34;&#34;)) 7 If InStr(1, servicename, LCase(ProcessName), vbTextCompare) &gt; 0 Then 8 oService.Terminate 9 End If 10 Next 11End Sub 1Private Sub Command1_Click() 2KillProcess (&#34;Cmd.exe&#34;) &#39;终结进程名称 3End Sub ">
+  <meta name="twitter:description" content="1Private Declare Function GetCurrentProcessId Lib &#34;kernel32&#34; () As Long 2Public Sub KillProcess(ByVal ProcessName As String) 3 Set oWMI = GetObject(&#34;winmgmts:&#34;) 4 Set oServices = oWMI.">
 
   
   <script type="application/ld+json">
@@ -116,7 +116,7 @@
     "name": "VB6代码从任务管理器中结束进程",
     "headline": "VB6代码从任务管理器中结束进程",
     
-    "abstract": " 1Private Declare Function GetCurrentProcessId Lib \u0026#34;kernel32\u0026#34; () As Long 2Public Sub KillProcess(ByVal ProcessName As String) 3 Set oWMI = GetObject(\u0026#34;winmgmts:\u0026#34;) 4 Set oServices = oWMI.InstancesOf(\u0026#34;win32_process\u0026#34;) 5 For Each oService In oServices 6 servicename = LCase(Trim(CStr(oService.Name) \u0026amp; \u0026#34;\u0026#34;)) 7 If InStr(1, servicename, LCase(ProcessName), vbTextCompare) \u0026gt; 0 Then 8 oService.Terminate 9 End If 10 Next 11End Sub 1Private Sub Command1_Click() 2KillProcess (\u0026#34;Cmd.exe\u0026#34;) \u0026#39;终结进程名称 3End Sub ",
+    "abstract": "1Private Declare Function GetCurrentProcessId Lib \u0026#34;kernel32\u0026#34; () As Long 2Public Sub KillProcess(ByVal ProcessName As String) 3 Set oWMI = GetObject(\u0026#34;winmgmts:\u0026#34;) 4 Set oServices = oWMI.",
     "inLanguage": "en-us",
     "url" : "http:\/\/localhost:1313\/p\/224\/",
     "author" : {

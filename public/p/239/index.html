@@ -70,7 +70,6 @@
     content="
       
         在菜单中单击&quot;工程&quot;-&gt;&ldquo;引用&rdquo;，在列表中找到&quot;Microsoft HTML Object Library&quot;打上勾
-1Dim WithEvents M_Dom As MSHTML.HTMLDocument 1Private Sub WebBrowser1_DocumentComplete(ByVal pDisp As Object, URL As Variant) 2Set M_Dom = WebBrowser1.Document 3&#39;Me.PopupMenu mymenu 4On Error Resume Next &#39;去除运行时错误91，未设置变量或with block变量报错 5pDisp.Document.body.setAttribute &#34;extend&#34;, Me &#39;用于和网页里的JS交互 6With WebBrowser1 &#39;无边框设置 7.Document.body.Scroll = &#34;no&#34; &#39;排版对齐 8.Document.body.Style.border = &#34;0px&#34; &#39;无边框设置 9.Document.body.Style.margin = &#34;0px&#34; &#39;排版对齐 10.Document.body.Style.overflow = &#34;hidden&#34; 11End With 12End Sub 1Private Function M_Dom_oncontextmenu() As Boolean 2M_Dom_oncontextmenu = False &#39;禁止右键 3End Function 
       
     "
   />
@@ -95,8 +94,7 @@
   <meta property="og:url" content="http://localhost:1313/p/239/">
   <meta property="og:site_name" content="红防安全吧">
   <meta property="og:title" content="VB6 Webbowser控件与JS交互">
-  <meta property="og:description" content="在菜单中单击&#34;工程&#34;-&gt;“引用”，在列表中找到&#34;Microsoft HTML Object Library&#34;打上勾
-1Dim WithEvents M_Dom As MSHTML.HTMLDocument 1Private Sub WebBrowser1_DocumentComplete(ByVal pDisp As Object, URL As Variant) 2Set M_Dom = WebBrowser1.Document 3&#39;Me.PopupMenu mymenu 4On Error Resume Next &#39;去除运行时错误91，未设置变量或with block变量报错 5pDisp.Document.body.setAttribute &#34;extend&#34;, Me &#39;用于和网页里的JS交互 6With WebBrowser1 &#39;无边框设置 7.Document.body.Scroll = &#34;no&#34; &#39;排版对齐 8.Document.body.Style.border = &#34;0px&#34; &#39;无边框设置 9.Document.body.Style.margin = &#34;0px&#34; &#39;排版对齐 10.Document.body.Style.overflow = &#34;hidden&#34; 11End With 12End Sub 1Private Function M_Dom_oncontextmenu() As Boolean 2M_Dom_oncontextmenu = False &#39;禁止右键 3End Function ">
+  <meta property="og:description" content="在菜单中单击&#34;工程&#34;-&gt;“引用”，在列表中找到&#34;Microsoft HTML Object Library&#34;打上勾">
   <meta property="og:locale" content="en_us">
   <meta property="og:type" content="article">
     <meta property="article:section" content="p">
@@ -107,8 +105,7 @@
   
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="VB6 Webbowser控件与JS交互">
-  <meta name="twitter:description" content="在菜单中单击&#34;工程&#34;-&gt;“引用”，在列表中找到&#34;Microsoft HTML Object Library&#34;打上勾
-1Dim WithEvents M_Dom As MSHTML.HTMLDocument 1Private Sub WebBrowser1_DocumentComplete(ByVal pDisp As Object, URL As Variant) 2Set M_Dom = WebBrowser1.Document 3&#39;Me.PopupMenu mymenu 4On Error Resume Next &#39;去除运行时错误91，未设置变量或with block变量报错 5pDisp.Document.body.setAttribute &#34;extend&#34;, Me &#39;用于和网页里的JS交互 6With WebBrowser1 &#39;无边框设置 7.Document.body.Scroll = &#34;no&#34; &#39;排版对齐 8.Document.body.Style.border = &#34;0px&#34; &#39;无边框设置 9.Document.body.Style.margin = &#34;0px&#34; &#39;排版对齐 10.Document.body.Style.overflow = &#34;hidden&#34; 11End With 12End Sub 1Private Function M_Dom_oncontextmenu() As Boolean 2M_Dom_oncontextmenu = False &#39;禁止右键 3End Function ">
+  <meta name="twitter:description" content="在菜单中单击&#34;工程&#34;-&gt;“引用”，在列表中找到&#34;Microsoft HTML Object Library&#34;打上勾">
 
   
   <script type="application/ld+json">
@@ -119,7 +116,7 @@
     "name": "VB6 Webbowser控件与JS交互",
     "headline": "VB6 Webbowser控件与JS交互",
     
-    "abstract": "在菜单中单击\u0026quot;工程\u0026quot;-\u0026gt;\u0026ldquo;引用\u0026rdquo;，在列表中找到\u0026quot;Microsoft HTML Object Library\u0026quot;打上勾\n1Dim WithEvents M_Dom As MSHTML.HTMLDocument 1Private Sub WebBrowser1_DocumentComplete(ByVal pDisp As Object, URL As Variant) 2Set M_Dom = WebBrowser1.Document 3\u0026#39;Me.PopupMenu mymenu 4On Error Resume Next \u0026#39;去除运行时错误91，未设置变量或with block变量报错 5pDisp.Document.body.setAttribute \u0026#34;extend\u0026#34;, Me \u0026#39;用于和网页里的JS交互 6With WebBrowser1 \u0026#39;无边框设置 7.Document.body.Scroll = \u0026#34;no\u0026#34; \u0026#39;排版对齐 8.Document.body.Style.border = \u0026#34;0px\u0026#34; \u0026#39;无边框设置 9.Document.body.Style.margin = \u0026#34;0px\u0026#34; \u0026#39;排版对齐 10.Document.body.Style.overflow = \u0026#34;hidden\u0026#34; 11End With 12End Sub 1Private Function M_Dom_oncontextmenu() As Boolean 2M_Dom_oncontextmenu = False \u0026#39;禁止右键 3End Function ",
+    "abstract": "在菜单中单击\u0026quot;工程\u0026quot;-\u0026gt;\u0026ldquo;引用\u0026rdquo;，在列表中找到\u0026quot;Microsoft HTML Object Library\u0026quot;打上勾",
     "inLanguage": "en-us",
     "url" : "http:\/\/localhost:1313\/p\/239\/",
     "author" : {

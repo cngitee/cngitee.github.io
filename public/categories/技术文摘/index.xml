@@ -14,7 +14,7 @@
       <link>http://localhost:1313/p/font/</link>
       <pubDate>Sat, 17 Aug 2024 14:43:27 +0800</pubDate>
       <guid>http://localhost:1313/p/font/</guid>
-      <description>首先，在本主题 themes/congo/layouts/partials/ 目录下，创建名 extend-head.html 的文件, 然后添加内容如下，保存部署即可！&#xA;1&amp;lt;html&amp;gt; 2&amp;lt;head&amp;gt; 3 &amp;lt;link rel=&amp;#34;stylesheet&amp;#34; href=&amp;#34;https://cdn.jsdelivr.net/npm/lxgw-wenkai-screen-web/style.css&amp;#34; /&amp;gt; 4 &amp;lt;style&amp;gt; 5 body { 6 font-family: &amp;#34;LXGW WenKai Screen&amp;#34;; 7 font-weight: normal; 8 } 9 &amp;lt;/style&amp;gt; 10&amp;lt;/head&amp;gt; 11&amp;lt;body&amp;gt; 12 13&amp;lt;/body&amp;gt; 14&amp;lt;/html&amp;gt; </description>
+      <description>首先，在本主题 themes/congo/layouts/partials/ 目录下，创建名 extend-head.</description>
     </item>
   </channel>
 </rss>

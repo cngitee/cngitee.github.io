@@ -3,10 +3,18 @@ languageCode = 'en-us' #en-us
 #defaultContentLanguage = 'zh-cn'
 title = '红防安全吧'
 theme = 'congo' #主题
-
-# uglyurls = true #静态
+summaryLength = 0      #摘要首行
+# uglyurls = true #生成静态
 copyright = " ©2011~2024 :thinking_face: [粤ICP备17091340号](https://beian.miit.gov.cn/ '备案查询')" 
 
+[outputs]
+    home = ["HTML", "RSS", "JSON"] # 搜索输出内容，其实只需JSON就可以
+
+[params.list]
+  showSummary = true    #显示摘要
+
+[params]
+  dateFormat = "2006/1/2" #定义时间格式 January
 
 [frontmatter] #显示最后文章更新时间
 lastmod = [':fileModTime']
@@ -22,8 +30,6 @@ lastmod = [':fileModTime']
       {Name = "🙋🏻‍♂️反馈", Weight = 6, URL = "/feedback"}
   ]
 
-[params]
-  dateFormat = "2006/1/2" #定义时间格式 January
 
 [params.author]
    name = "HKFX NET"

@@ -51,21 +51,22 @@ fingerprintAlgorithm = "sha256"
   showTaxonomies = false      #显示分类
   showWordCount = false       #显示字数
   showComments = true #显示评论,在博客文件夹下的 /layouts/partials/comments.html
-  # sharingLinks = ["facebook", "x-twitter", "mastodon", "pinterest", "reddit", "linkedin", "email", "telegram", "line", "weibo"]
+ # sharingLinks = ["facebook", "x-twitter", "mastodon", "pinterest", "reddit", "linkedin", "email", "telegram", "line", "weibo"]
+ 
 
-[list]
-  showBreadcrumbs = true  #显示面包屑
-  showSummary = false
-  showTableOfContents = false
-  showTaxonomies = false
-  groupByYear = true
-  paginationWidth = 1
+[list] #列表
+  showBreadcrumbs = true      #显示面包屑
+  showSummary = false         #显示摘要
+  showTableOfContents = false #显示目录
+  showTaxonomies = false      #显示分类
+  groupByYear = true          #按年份划分
+  paginationWidth = 1         #分页宽度
 
 [sitemap]
   excludedKinds = ["taxonomy", "term"]
 
 [taxonomy]
-  showTermCount = true
+  showTermCount = true        #显示学期数
 
 [fathomAnalytics]
   # site = "ABC12345"
