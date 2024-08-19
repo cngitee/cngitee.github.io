@@ -418,10 +418,6 @@
 
     </div>
     
-      <div class="prose py-1 dark:prose-invert">
-        建立托盘命名为Popup，再建立Picture1命名为Pic
-      </div>
-    
   </div>
 </article>
 
@@ -481,10 +477,6 @@
 
 
     </div>
-    
-      <div class="prose py-1 dark:prose-invert">
-         1Dim strusername As String 2Private Sub Command1_Click() 3Print strusername &#39;输出当前计算机用户名 4strusername = Environ(&#34;USERNAME&#34;) 5If strusername = Text1 Then &#39;这里输入你指定的帐号，例如管理员Administrator 6Else 7 MsgBox &#34;检测当前用户非管理员Administrator帐号&#34;, 32, &#34;提示&#34; 8 End &#39;终结并退出 9End If 10End Sub 
-      </div>
     
   </div>
 </article>
@@ -546,10 +538,6 @@
 
     </div>
     
-      <div class="prose py-1 dark:prose-invert">
-        1、演示在VB菜单中加入图标的方法，使用了三个VB6.0 WINAPI函数，利用这三个函数，我们可以对菜单进行定义。 #1Option Explicit 2Private Declare Function GetMenu Lib &#34;user32&#34; _ 3 (ByVal hwnd As Long) As Long 4Private Declare Function GetSubMenu Lib &#34;user32&#34; _ 5 (ByVal hMenu As Long, ByVal nPos As Long) As Long 6Private Declare Function SetMenuItemBitmaps Lib &#34;user32&#34; _ 7 (ByVal hMenu As Long, ByVal nPosition As Long, ByVal wFlags As Long, _ 8 ByVal hBitmapUnchecked As Long, ByVal hBitmapChecked As Long) As Long 9Const MF_BYPOSITION = &amp;H400&amp; 2、以下为启动窗体代码，Image为加载图片，图片为ico格式,大小为16*16过大会影响软件的美观。 # 1Private Sub Form_Load() 2 Dim mHandle As Long, lRet As Long, sHandle As Long, sHandle2 As Long 3 mHandle = GetMenu(hwnd) 4 sHandle = GetSubMenu(mHandle, 0) &#39;这里为第一个菜单栏 5 lRet = SetMenuItemBitmaps(sHandle, 0, MF_BYPOSITION, Image1.
-      </div>
-    
   </div>
 </article>
 
@@ -609,10 +597,6 @@
 
 
     </div>
-    
-      <div class="prose py-1 dark:prose-invert">
-        说明：加载网络图片，无缓存加载，直接写加载到程序里面挺好用的，一个Image1和Command1 #1、Image1图片控件 # 1Private Declare Function OleLoadPicturePath Lib &#34;oleaut32.
-      </div>
     
   </div>
 </article>
@@ -674,10 +658,6 @@
 
     </div>
     
-      <div class="prose py-1 dark:prose-invert">
-        建立一个Timer1 即可实现启动窗口渐变效果
-      </div>
-    
   </div>
 </article>
 
@@ -725,7 +705,7 @@
   <div class="flex flex-row flex-wrap items-center">
     
     
-      <time datetime="2019-03-11 16:58:28 &#43;0800 CST">2019/3/11</time><span class="px-2 text-primary-500">&middot;</span><time datetime="2024-08-18 01:06:03.9373349 &#43;0800 CST">Updated: 2024/8/18</time>
+      <time datetime="2019-03-11 16:58:28 &#43;0800 CST">2019/3/11</time><span class="px-2 text-primary-500">&middot;</span><time datetime="2024-08-19 18:23:04.5955139 &#43;0800 CST">Updated: 2024/8/19</time>
     
 
     
@@ -737,10 +717,6 @@
 
 
     </div>
-    
-      <div class="prose py-1 dark:prose-invert">
-        1、窗口新建立一个Picture1命名为 Pci 然后在里面选择你采用的托盘图标 #2、建立菜单栏标题为托盘，名称为 Popup #3、在首行复制以下代码进行加载 # 1Private Type NOTIFYICONDATA&#39;首行加载以下代码 by:红防安全吧 2 cbSize As Long 3 hwnd As Long 4 uId As Long 5 uFlags As Long 6 uCallBackMessage As Long 7 hIcon As Long 8 szTip As String * 64 9End Type 10 11Private Const NIM_ADD = &amp;H0 12Private Const NIM_MODIFY = &amp;H1 13Private Const NIM_DELETE = &amp;H2 14Private Const WM_MOUSEMOVE = &amp;H200 15Private Const NIF_MESSAGE = &amp;H1 16Private Const NIF_ICON = &amp;H2 17Private Const NIF_TIP = &amp;H4 18 19Private Declare Function Shell_NotifyIcon Lib &#34;shell32&#34; Alias &#34;Shell_NotifyIconA&#34; (ByVal dwMessage As Long, pnid As NOTIFYICONDATA) As Boolean 20Dim t As NOTIFYICONDATA 4、启动窗口加载以下代码 #1&#39;启动时加载pci图标 2 t.
-      </div>
     
   </div>
 </article>
@@ -808,10 +784,6 @@
 
     </div>
     
-      <div class="prose py-1 dark:prose-invert">
-        1Private Sub Label1_Click() 2Dim str As String &#39;以下载入函数 QQ:3925993 3 str = Text1.
-      </div>
-    
   </div>
 </article>
 
@@ -871,10 +843,6 @@
 
 
     </div>
-    
-      <div class="prose py-1 dark:prose-invert">
-        1Option Explicit 2Private FormOldWidth As Long &#39;保存窗体的原始宽度 3Private FormOldHeight As Long &#39;保存窗体的原始高度 4&#39;在调用ResizeForm前先调用本函数 QQ:3925993 ‘转载注明出处,红防安全网 1Public Sub ResizeInit(FormName As Form) 2 Dim Obj As Control 3 FormOldWidth = FormName.
-      </div>
     
   </div>
 </article>
@@ -936,10 +904,6 @@
 
     </div>
     
-      <div class="prose py-1 dark:prose-invert">
-        最简单的方法，在picturebox控件中添加gif格式图片
-      </div>
-    
   </div>
 </article>
 
@@ -999,10 +963,6 @@
 
 
     </div>
-    
-      <div class="prose py-1 dark:prose-invert">
-        1Private Const FLAG_ICC_FORCE_CONNECTION = &amp;H1 2Private Declare Function InternetCheckConnection Lib &#34;wininet.
-      </div>
     
   </div>
 </article>
