@@ -25,7 +25,7 @@ lastmod = [':fileModTime']
       {Name = "📚文献", Weight = 1, URL = "/p"},
       {Name = "📕分流", Weight = 2, URL = "/categories"},
       {Name = "🔖标签", Weight = 3, URL = "/tags"},
-      {Name = "🤝链接", Weight = 5, URL = "/friends"},
+      {Name = "🤝链接", Weight = 5, URL = "/friend"},
       {Name = "👨🏻我们", Weight = 5, URL = "/about"},
       {Name = "🙋🏻‍♂️反馈", Weight = 6, URL = "/feedback"}
   ]

@@ -7,7 +7,7 @@
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright> ©2011~2024 :thinking_face: [粤ICP备17091340号](https://beian.miit.gov.cn/ &#39;备案查询&#39;)</copyright>
-    <lastBuildDate>Mon, 19 Aug 2024 19:11:55 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 19 Aug 2024 23:14:27 +0800</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hugo-Congo主题修改字体</title>
@@ -45,25 +45,25 @@
       <description>1、第一步打开窗口面板的Form1.cs文件</description>
     </item>
     <item>
-      <title></title>
+      <title>👨🏻关于本站</title>
       <link>http://localhost:1313/about/</link>
       <pubDate>Thu, 08 Aug 2024 17:54:48 +0800</pubDate>
       <guid>http://localhost:1313/about/</guid>
       <description>👋 嗨，我是 葑訫 或 (Sunny)，欢迎访问我的独立顶级域名网站。</description>
     </item>
     <item>
-      <title></title>
+      <title>🙋🏻‍♂️留言黑板</title>
       <link>http://localhost:1313/feedback/</link>
       <pubDate>Thu, 08 Aug 2024 12:30:00 +0800</pubDate>
       <guid>http://localhost:1313/feedback/</guid>
       <description> </description>
     </item>
     <item>
-      <title></title>
-      <link>http://localhost:1313/friends/</link>
+      <title>🤝不分先后↓</title>
+      <link>http://localhost:1313/friend/</link>
       <pubDate>Thu, 08 Aug 2024 12:30:00 +0800</pubDate>
-      <guid>http://localhost:1313/friends/</guid>
-      <description>&#xD;D盾IIS防火墙&#xD;又拍云&#xD;红防安全吧&#xD;</description>
+      <guid>http://localhost:1313/friend/</guid>
+      <description>又拍云　D盾IIS防火墙　# 红客防线 申请友链-申请的同时，需要先友情上本站(格式如下); 提交友情</description>
     </item>
     <item>
       <title>随笔</title>

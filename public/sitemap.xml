@@ -16,7 +16,7 @@
     
       <url>
             <loc>http://localhost:1313/</loc>
-            <lastmod>2024-08-19T19:11:55+08:00</lastmod>
+            <lastmod>2024-08-19T23:14:27+08:00</lastmod>
           </url>
     
   
@@ -55,21 +55,21 @@
     
       <url>
             <loc>http://localhost:1313/about/</loc>
-            <lastmod>2024-08-18T03:01:12+08:00</lastmod>
+            <lastmod>2024-08-19T22:09:11+08:00</lastmod>
           </url>
     
   
     
       <url>
             <loc>http://localhost:1313/feedback/</loc>
-            <lastmod>2024-08-18T04:00:11+08:00</lastmod>
+            <lastmod>2024-08-19T22:06:27+08:00</lastmod>
           </url>
     
   
     
       <url>
-            <loc>http://localhost:1313/friends/</loc>
-            <lastmod>2024-08-18T03:23:36+08:00</lastmod>
+            <loc>http://localhost:1313/friend/</loc>
+            <lastmod>2024-08-19T23:14:27+08:00</lastmod>
           </url>
     
   
