@@ -23,7 +23,7 @@ lastmod = [':fileModTime']
   ]
 
 [params]
-  dateFormat = "2006/January/2" #定义时间格式
+  dateFormat = "2006/1/2" #定义时间格式 January
 
 [params.author]
    name = "HKFX NET"
