@@ -7,15 +7,8 @@
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright> ©2011~2024 :thinking_face: [粤ICP备17091340号](https://beian.miit.gov.cn/ &#39;备案查询&#39;)</copyright>
-    <lastBuildDate>Mon, 19 Aug 2024 19:11:55 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 20 Aug 2024 13:17:22 +0800</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/vc%23%E6%BA%90%E7%A0%81/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Visual Studio2015下载离线包</title>
-      <link>http://localhost:1313/p/249/</link>
-      <pubDate>Tue, 13 Aug 2024 17:10:38 +0800</pubDate>
-      <guid>http://localhost:1313/p/249/</guid>
-      <description>1、Visual studio2015 Community 强大的 IDE，对学生、开源贡献者和个人免费 #1http://download.</description>
-    </item>
     <item>
       <title>C# WINFORM嵌入谷歌内核</title>
       <link>http://localhost:1313/p/250/</link>
@@ -43,6 +36,13 @@
       <pubDate>Mon, 07 Aug 2023 21:44:00 +0800</pubDate>
       <guid>http://localhost:1313/p/253/</guid>
       <description>1this.Text = Application.</description>
+    </item>
+    <item>
+      <title>Visual Studio2015下载离线包</title>
+      <link>http://localhost:1313/p/249/</link>
+      <pubDate>Sun, 06 Aug 2023 01:08:38 +0800</pubDate>
+      <guid>http://localhost:1313/p/249/</guid>
+      <description>1、Visual studio2015 Community 强大的 IDE，对学生、开源贡献者和个人免费 #1http://download.</description>
     </item>
     <item>
       <title>VB6修改注册表参数</title>

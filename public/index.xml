@@ -7,7 +7,7 @@
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright> ©2011~2024 :thinking_face: [粤ICP备17091340号](https://beian.miit.gov.cn/ &#39;备案查询&#39;)</copyright>
-    <lastBuildDate>Tue, 20 Aug 2024 03:02:03 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 20 Aug 2024 14:20:14 +0800</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hugo-Congo主题修改字体</title>
@@ -15,13 +15,6 @@
       <pubDate>Sat, 17 Aug 2024 14:43:27 +0800</pubDate>
       <guid>http://localhost:1313/p/font/</guid>
       <description>首先，在本主题 themes/congo/layouts/partials/ 目录下，创建名 extend-head.</description>
-    </item>
-    <item>
-      <title>Visual Studio2015下载离线包</title>
-      <link>http://localhost:1313/p/249/</link>
-      <pubDate>Tue, 13 Aug 2024 17:10:38 +0800</pubDate>
-      <guid>http://localhost:1313/p/249/</guid>
-      <description>1、Visual studio2015 Community 强大的 IDE，对学生、开源贡献者和个人免费 #1http://download.</description>
     </item>
     <item>
       <title>C# WINFORM嵌入谷歌内核</title>
@@ -73,6 +66,13 @@
       <description>1. 前言(博主一个不得不说故事) #服务器三年到期停掉了，没有最打算续费，因为真的贵的离谱，重新购买是可以、但是又得重新部署各种环境，少折腾不想折腾，网站运营以来一直非盈利模式，建站10多年花费将近不少费用，光是域名支出高达一千多元，服务器费用，以及个人精力维护省略不计~~</description>
     </item>
     <item>
+      <title>PHP网站获取真正IP地址查询API接口</title>
+      <link>http://localhost:1313/p/258/</link>
+      <pubDate>Thu, 30 Nov 2023 03:42:00 +0800</pubDate>
+      <guid>http://localhost:1313/p/258/</guid>
+      <description>Ox01、获取用户客户端访问真正IP地址</description>
+    </item>
+    <item>
       <title>C#版-蓝奏云客户端</title>
       <link>http://localhost:1313/p/257/</link>
       <pubDate>Tue, 12 Sep 2023 23:17:50 +0800</pubDate>
@@ -80,11 +80,25 @@
       <description>软件简介： #其实也没什么介绍，就是比较简单的蓝奏云客户端，我是采用C#写的，极致简洁和速度快，没了。。。</description>
     </item>
     <item>
+      <title>PHP正则表达式</title>
+      <link>http://localhost:1313/p/255/</link>
+      <pubDate>Fri, 11 Aug 2023 08:25:11 +0800</pubDate>
+      <guid>http://localhost:1313/p/255/</guid>
+      <description>PHP正则表达式，代码如下；</description>
+    </item>
+    <item>
       <title>C#添加标题以及设定窗口大小</title>
       <link>http://localhost:1313/p/253/</link>
       <pubDate>Mon, 07 Aug 2023 21:44:00 +0800</pubDate>
       <guid>http://localhost:1313/p/253/</guid>
       <description>1this.Text = Application.</description>
+    </item>
+    <item>
+      <title>Visual Studio2015下载离线包</title>
+      <link>http://localhost:1313/p/249/</link>
+      <pubDate>Sun, 06 Aug 2023 01:08:38 +0800</pubDate>
+      <guid>http://localhost:1313/p/249/</guid>
+      <description>1、Visual studio2015 Community 强大的 IDE，对学生、开源贡献者和个人免费 #1http://download.</description>
     </item>
     <item>
       <title>遇到这样公司千万别进</title>
@@ -206,11 +220,32 @@
       <description>因为古老语言，网上越来越小相关资料，中文搜索相关内容越来越少，故止新开一版块，专为编程而生。</description>
     </item>
     <item>
+      <title>PHP7连接MySQL数据库有两种方法</title>
+      <link>http://localhost:1313/p/167/</link>
+      <pubDate>Fri, 09 Apr 2021 10:57:53 +0800</pubDate>
+      <guid>http://localhost:1313/p/167/</guid>
+      <description>1、MySQLi连接</description>
+    </item>
+    <item>
+      <title>有些需要禁用的PHP危险函数(disable_functions)</title>
+      <link>http://localhost:1313/p/159/</link>
+      <pubDate>Wed, 26 Aug 2020 13:32:29 +0800</pubDate>
+      <guid>http://localhost:1313/p/159/</guid>
+      <description>phpinfo() 功能描述：输出 PHP 环境信息以及相关的模块、WEB 环境等信息。 危险等级：中</description>
+    </item>
+    <item>
       <title>VB6不会残留图标托盘</title>
       <link>http://localhost:1313/p/144/</link>
       <pubDate>Fri, 27 Dec 2019 00:33:23 +0800</pubDate>
       <guid>http://localhost:1313/p/144/</guid>
       <description>建立托盘命名为Popup，再建立Picture1命名为Pic</description>
+    </item>
+    <item>
+      <title>file_get_contents 报错 warning</title>
+      <link>http://localhost:1313/p/141/</link>
+      <pubDate>Fri, 06 Dec 2019 11:27:37 +0800</pubDate>
+      <guid>http://localhost:1313/p/141/</guid>
+      <description>打开php.ini配置，搜索修改3个地方，去掉；号，将off修改为on即可，然后最重启Apache完成。</description>
     </item>
     <item>
       <title>VB6显示当前计算机使用帐号</title>
@@ -239,6 +274,13 @@
       <pubDate>Thu, 18 Apr 2019 14:49:06 +0800</pubDate>
       <guid>http://localhost:1313/p/996icu/</guid>
       <description>“996”工作制，即每天早 9 点到岗，一直工作到晚上 9 点，每周工作 6 天。</description>
+    </item>
+    <item>
+      <title>phpmyadmin中导入数据库限制最大2048KB</title>
+      <link>http://localhost:1313/p/108/</link>
+      <pubDate>Mon, 15 Apr 2019 13:47:40 +0800</pubDate>
+      <guid>http://localhost:1313/p/108/</guid>
+      <description>phpmyadmin默认导入数据库文件大小为2M,但一般网站的数据库导出的文件都会超出这个限制，要导入超过2M的数据库文件就需要手动修改php.ini配置文件！</description>
     </item>
     <item>
       <title>VB6启动窗口渐变效果</title>
