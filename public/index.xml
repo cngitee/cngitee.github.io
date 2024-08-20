@@ -7,7 +7,7 @@
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright> ©2011~2024 :thinking_face: [粤ICP备17091340号](https://beian.miit.gov.cn/ &#39;备案查询&#39;)</copyright>
-    <lastBuildDate>Tue, 20 Aug 2024 14:20:14 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 20 Aug 2024 15:45:26 +0800</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hugo-Congo主题修改字体</title>
@@ -106,6 +106,13 @@
       <pubDate>Fri, 04 Aug 2023 16:57:34 +0800</pubDate>
       <guid>http://localhost:1313/p/248/</guid>
       <description>一、3个月试用 #1、试用期3个月（千万别去，千万别去，千万别去，重要事情说三遍，因为你接近第3个月，这些公司会用各种理由踢掉你，你又要重新找工作，简历又不好写，你面试下家怎么写？你可能还要跟上家搞劳动仲裁，申请拿回你自己的“劳动成果”，时间先不说，耗费是你精神，公司却没屁事）</description>
+    </item>
+    <item>
+      <title>WinRAR正式注册授权版</title>
+      <link>http://localhost:1313/p/245/</link>
+      <pubDate>Thu, 13 Jul 2023 17:30:25 +0800</pubDate>
+      <guid>http://localhost:1313/p/245/</guid>
+      <description>前言： 360压缩不够专业，受够了国内所谓代理商各种广告，购买代码等植入，以官方网站为准，语言包也是官方英文翻译。 国外节点下载：32位：wrar602　64位：winrar-x64-602</description>
     </item>
     <item>
       <title>VB6修改注册表参数</title>
@@ -231,7 +238,7 @@
       <link>http://localhost:1313/p/159/</link>
       <pubDate>Wed, 26 Aug 2020 13:32:29 +0800</pubDate>
       <guid>http://localhost:1313/p/159/</guid>
-      <description>phpinfo() 功能描述：输出 PHP 环境信息以及相关的模块、WEB 环境等信息。 危险等级：中</description>
+      <description>phpinfo() 功能描述：输出 PHP 环境信息以及相关的模块、WEB 环境等信息。</description>
     </item>
     <item>
       <title>VB6不会残留图标托盘</title>
@@ -245,7 +252,7 @@
       <link>http://localhost:1313/p/141/</link>
       <pubDate>Fri, 06 Dec 2019 11:27:37 +0800</pubDate>
       <guid>http://localhost:1313/p/141/</guid>
-      <description>打开php.ini配置，搜索修改3个地方，去掉；号，将off修改为on即可，然后最重启Apache完成。</description>
+      <description>打开php.ini配置，搜索修改3个地方，去掉前面；号，将2个Off修改为On即可，然后最重启Apache完成。</description>
     </item>
     <item>
       <title>VB6显示当前计算机使用帐号</title>
@@ -295,6 +302,13 @@
       <pubDate>Mon, 11 Mar 2019 16:58:28 +0800</pubDate>
       <guid>http://localhost:1313/p/101/</guid>
       <description>1、窗口新建立一个Picture1命名为 Pci 然后在里面选择你采用的托盘图标。</description>
+    </item>
+    <item>
+      <title>苹果笔记本安装双系统思路</title>
+      <link>http://localhost:1313/p/93/</link>
+      <pubDate>Fri, 18 Jan 2019 16:16:33 +0800</pubDate>
+      <guid>http://localhost:1313/p/93/</guid>
+      <description>1、Mac系统需要关闭System Integrity Protection (SIP)系统完整性保护，终端输入</description>
     </item>
     <item>
       <title>Sqlmap检测SQL注入攻击</title>

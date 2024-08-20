@@ -69,7 +69,7 @@
     name="description"
     content="
       
-        打开php.ini配置，搜索修改3个地方，去掉；号，将off修改为on即可，然后最重启Apache完成。
+        打开php.ini配置，搜索修改3个地方，去掉前面；号，将2个Off修改为On即可，然后最重启Apache完成。
       
     "
   />
@@ -94,18 +94,18 @@
   <meta property="og:url" content="http://localhost:1313/p/141/">
   <meta property="og:site_name" content="弘科防线-实验室">
   <meta property="og:title" content="file_get_contents 报错 warning">
-  <meta property="og:description" content="打开php.ini配置，搜索修改3个地方，去掉；号，将off修改为on即可，然后最重启Apache完成。">
+  <meta property="og:description" content="打开php.ini配置，搜索修改3个地方，去掉前面；号，将2个Off修改为On即可，然后最重启Apache完成。">
   <meta property="og:locale" content="en_us">
   <meta property="og:type" content="article">
     <meta property="article:section" content="p">
     <meta property="article:published_time" content="2019-12-06T11:27:37+08:00">
-    <meta property="article:modified_time" content="2024-08-20T14:11:52+08:00">
+    <meta property="article:modified_time" content="2024-08-20T15:17:29+08:00">
     <meta property="article:tag" content="PHP">
 
   
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="file_get_contents 报错 warning">
-  <meta name="twitter:description" content="打开php.ini配置，搜索修改3个地方，去掉；号，将off修改为on即可，然后最重启Apache完成。">
+  <meta name="twitter:description" content="打开php.ini配置，搜索修改3个地方，去掉前面；号，将2个Off修改为On即可，然后最重启Apache完成。">
 
   
   <script type="application/ld+json">
@@ -116,7 +116,7 @@
     "name": "file_get_contents 报错 warning",
     "headline": "file_get_contents 报错 warning",
     
-    "abstract": "打开php.ini配置，搜索修改3个地方，去掉；号，将off修改为on即可，然后最重启Apache完成。",
+    "abstract": "打开php.ini配置，搜索修改3个地方，去掉前面；号，将2个Off修改为On即可，然后最重启Apache完成。",
     "inLanguage": "en-us",
     "url" : "http:\/\/localhost:1313\/p\/141\/",
     "author" : {
@@ -127,7 +127,7 @@
     "dateCreated": "2019-12-06T11:27:37\u002b08:00",
     "datePublished": "2019-12-06T11:27:37\u002b08:00",
     
-    "dateModified": "2024-08-20T14:11:52\u002b08:00",
+    "dateModified": "2024-08-20T15:17:29\u002b08:00",
     
     "keywords": "PHP",
     
@@ -382,7 +382,7 @@
   <div class="flex flex-row flex-wrap items-center">
     
     
-      <time datetime="2019-12-06 11:27:37 &#43;0800 CST">2019/12/6</time><span class="px-2 text-primary-500">&middot;</span><time datetime="2024-08-20 14:11:52.0317581 &#43;0800 CST">Updated: 2024/8/20</time>
+      <time datetime="2019-12-06 11:27:37 &#43;0800 CST">2019/12/6</time><span class="px-2 text-primary-500">&middot;</span><time datetime="2024-08-20 15:17:29.8095638 &#43;0800 CST">Updated: 2024/8/20</time>
     
 
     
@@ -400,15 +400,13 @@
     <section class="prose mt-0 flex max-w-full flex-col dark:prose-invert lg:flex-row">
       
       <div class="min-h-0 min-w-0 max-w-prose grow">
-        <p>打开php.ini配置，搜索修改3个地方，去掉；号，将off修改为on即可，然后最重启Apache完成。</p>
-<blockquote>
-<p>extension=php_openssl.dll<br>
-allow_url_include = On<br>
-allow_url_fopen = On</p>
-</blockquote>
-<blockquote>
+        <p>打开php.ini配置，搜索修改3个地方，去掉前面；号，将2个Off修改为On即可，然后最重启Apache完成。</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-php" data-lang="php"><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1</span><span><span style="color:#a6e22e">extension</span><span style="color:#f92672">=</span><span style="color:#a6e22e">php_openssl</span><span style="color:#f92672">.</span><span style="color:#a6e22e">dll</span>  
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2</span><span><span style="color:#a6e22e">allow_url_include</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">On</span>  
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3</span><span><span style="color:#a6e22e">allow_url_fopen</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">On</span>
+</span></span></code></pre></div><blockquote>
 <p>;user_agent=&ldquo;PHP&rdquo; #改成以下<br>
-user_agent=”Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.0)”</p>
+user_agent=”Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.0)”#完成</p>
 </blockquote>
 <p>针对版本为PHP5.6，其它版本未经过本人测试。</p>
 
@@ -828,6 +826,8 @@ input[type="checkbox"]:checked ~ #toggle {
 
 <footer>
   
+  
+      <script src="/js/add-copy-btn.js"></script>
   
 </footer><div
   id="search-wrapper"

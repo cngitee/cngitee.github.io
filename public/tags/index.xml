@@ -37,10 +37,24 @@
       <description></description>
     </item>
     <item>
+      <title>Win</title>
+      <link>http://localhost:1313/tags/win/</link>
+      <pubDate>Thu, 13 Jul 2023 17:30:25 +0800</pubDate>
+      <guid>http://localhost:1313/tags/win/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>VB</title>
       <link>http://localhost:1313/tags/vb/</link>
       <pubDate>Wed, 14 Jun 2023 11:11:00 +0800</pubDate>
       <guid>http://localhost:1313/tags/vb/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Mac</title>
+      <link>http://localhost:1313/tags/mac/</link>
+      <pubDate>Fri, 18 Jan 2019 16:16:33 +0800</pubDate>
+      <guid>http://localhost:1313/tags/mac/</guid>
       <description></description>
     </item>
     <item>

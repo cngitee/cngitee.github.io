@@ -7,7 +7,7 @@
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright> ©2011~2024 :thinking_face: [粤ICP备17091340号](https://beian.miit.gov.cn/ &#39;备案查询&#39;)</copyright>
-    <lastBuildDate>Tue, 20 Aug 2024 14:20:14 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 20 Aug 2024 15:17:29 +0800</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/php%E7%AC%94%E8%AE%B0/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>PHP网站获取真正IP地址查询API接口</title>
@@ -35,14 +35,14 @@
       <link>http://localhost:1313/p/159/</link>
       <pubDate>Wed, 26 Aug 2020 13:32:29 +0800</pubDate>
       <guid>http://localhost:1313/p/159/</guid>
-      <description>phpinfo() 功能描述：输出 PHP 环境信息以及相关的模块、WEB 环境等信息。 危险等级：中</description>
+      <description>phpinfo() 功能描述：输出 PHP 环境信息以及相关的模块、WEB 环境等信息。</description>
     </item>
     <item>
       <title>file_get_contents 报错 warning</title>
       <link>http://localhost:1313/p/141/</link>
       <pubDate>Fri, 06 Dec 2019 11:27:37 +0800</pubDate>
       <guid>http://localhost:1313/p/141/</guid>
-      <description>打开php.ini配置，搜索修改3个地方，去掉；号，将off修改为on即可，然后最重启Apache完成。</description>
+      <description>打开php.ini配置，搜索修改3个地方，去掉前面；号，将2个Off修改为On即可，然后最重启Apache完成。</description>
     </item>
     <item>
       <title>phpmyadmin中导入数据库限制最大2048KB</title>
