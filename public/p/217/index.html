@@ -682,6 +682,7 @@ input[type="checkbox"]:checked ~ #toggle {
                           
       init({
         el: '#waline',
+        pageview: true, 
         serverURL: 'https://vercel.hkfx.net/',
         lang: 'zh-CN',
         emoji: [
@@ -697,6 +698,9 @@ input[type="checkbox"]:checked ~ #toggle {
       });
     </script>
 
+<div id="article-info"></div>
+阅读量: <span class="waline-pageview-count" data-path="<P/" />
+</div>
 
     <style>
        

@@ -644,15 +644,20 @@ input[type="checkbox"]:checked ~ #toggle {
 }
 </style>
 </head>
-<body>
 
+<li>
+<ui>阅读量:<span class="waline-pageview-count" /></ui>次
+<ui>评论:<span class="waline-comment-count" /></ui>条<br>
+</li>
+
+<body>  
 <link rel="stylesheet" type="text/css" href="/css/zhan-shang.css">
 <i class="iconfont icon-dianzan"></i>
 
 <input type="checkbox" id="toggleButton">
 <span style="background-color: #ff6600ad;">
   <font color="white">
-    <label for="toggleButton">[给作者打赏]</label>
+    <label for="toggleButton">[给作者打赏]</label> 
   </font>
 </span>
 
@@ -686,12 +691,13 @@ input[type="checkbox"]:checked ~ #toggle {
    
     <div id="waline"></div>
     <script type="module">
-      import { init } from 'https://unpkg.com/@waline/client@v2/dist/waline.mjs';
-                          
+      import { init } from 'https://unpkg.com/@waline/client@v2/dist/waline.mjs';    
       init({
         el: '#waline',
         serverURL: 'https://vercel.hkfx.net/',
-        lang: 'zh-CN',
+        lang: 'zh-CN',  
+        pageview: true, 
+        comment: true,  
         emoji: [
         '//unpkg.com/@waline/emojis@1.2.0/bmoji',
         '//unpkg.com/@waline/emojis@1.2.0/tieba',
@@ -701,10 +707,8 @@ input[type="checkbox"]:checked ~ #toggle {
         'https://cdn.jsdelivr.net/gh/norevi/waline-blobcatemojis@1.0/blobs',
         ],
         dark: 'html[class="scroll-smooth dark"]',
-
       });
     </script>
-
 
     <style>
        
