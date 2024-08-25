@@ -8,7 +8,7 @@ showTableOfContents = false
 
 
 
-👋 嗨，我是 葑訫 或 (Sunny)，欢迎访问我的独立顶级域名网站。
+👋 嗨，我是 葑訫 或 (Sunny)，欢迎访问我的独立顶级域名网站。[(监控)](https://stats.uptimerobot.com/WRUEz9E6PN)
 
 ### 服务一览
 本站使用了以下免费、开源或价格低廉的服务，使我能够负担得起这个网站的运营。  非常感谢这些服务！
