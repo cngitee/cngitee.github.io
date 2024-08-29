@@ -16,12 +16,12 @@
     padding: 1px;
     font-size: 0.8em;
     line-height: 1.5;
-    color: #fff;
-  background-color: #222; 
+    color: #000; /* 字体 fff */
+  background-color: #999; 
     min-width: 50px;
     text-align: center;
 }
 
 .highlight-copy-btn:hover {
-    background-color: #e70d9f;  /* #666 */
+    background-color: #fff;  /* #e70d9f */
 }

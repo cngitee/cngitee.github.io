@@ -401,9 +401,9 @@
       
       <div class="min-h-0 min-w-0 max-w-prose grow">
         <p>打开php.ini配置，搜索修改3个地方，去掉前面；号，将2个Off修改为On即可，然后最重启Apache完成。</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-php" data-lang="php"><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1</span><span><span style="color:#a6e22e">extension</span><span style="color:#f92672">=</span><span style="color:#a6e22e">php_openssl</span><span style="color:#f92672">.</span><span style="color:#a6e22e">dll</span>  
-</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2</span><span><span style="color:#a6e22e">allow_url_include</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">On</span>  
-</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3</span><span><span style="color:#a6e22e">allow_url_fopen</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">On</span>
+<div class="highlight"><pre tabindex="0" style="color:#c6d0f5;background-color:#303446;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-php" data-lang="php"><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#838ba7">1</span><span>extension<span style="color:#99d1db;font-weight:bold">=</span>php_openssl<span style="color:#99d1db;font-weight:bold">.</span>dll  
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#838ba7">2</span><span>allow_url_include <span style="color:#99d1db;font-weight:bold">=</span> On  
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#838ba7">3</span><span>allow_url_fopen <span style="color:#99d1db;font-weight:bold">=</span> On
 </span></span></code></pre></div><blockquote>
 <p>;user_agent=&ldquo;PHP&rdquo; #改成以下<br>
 user_agent=”Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.0)”#完成</p>

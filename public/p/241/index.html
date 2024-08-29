@@ -401,10 +401,10 @@
       
       <div class="min-h-0 min-w-0 max-w-prose grow">
         <p>注意：需要修改注册表需要管理员权限运行</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-vb.net" data-lang="vb.net"><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1</span><span><span style="color:#66d9ef">Dim</span> WSH
-</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2</span><span><span style="color:#66d9ef">Set</span> WSH <span style="color:#f92672">=</span> CreateObject(<span style="color:#e6db74">&#34;WSCRIPT.SHELL&#34;</span>)
-</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3</span><span>WSH.RegWrite <span style="color:#e6db74">&#34;HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\KasperskyLab\protected\KES\environment\WDPatchMetadata&#34;</span>, <span style="color:#e6db74">&#34;%WDPatches%\wd_params.xml&#34;</span>
-</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">4</span><span><span style="color:#75715e">&#39;#[路径],[数值数据]
+<div class="highlight"><pre tabindex="0" style="color:#c6d0f5;background-color:#303446;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-vb.net" data-lang="vb.net"><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#838ba7">1</span><span><span style="color:#ca9ee6">Dim</span> WSH
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#838ba7">2</span><span><span style="color:#ca9ee6">Set</span> WSH <span style="color:#99d1db;font-weight:bold">=</span> CreateObject(<span style="color:#a6d189">&#34;WSCRIPT.SHELL&#34;</span>)
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#838ba7">3</span><span>WSH.RegWrite <span style="color:#a6d189">&#34;HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\KasperskyLab\protected\KES\environment\WDPatchMetadata&#34;</span>, <span style="color:#a6d189">&#34;%WDPatches%\wd_params.xml&#34;</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#838ba7">4</span><span><span style="color:#737994;font-style:italic">&#39;#[路径],[数值数据]
 </span></span></span></code></pre></div>
       </div>
     </section>

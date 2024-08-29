@@ -54,3 +54,4 @@ lastmod = [':fileModTime']
   [markup.highlight]
     lineNos = true
     lineNumbersInTable = false
+    style = 'catppuccin-frappe'
