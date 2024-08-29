@@ -6,6 +6,7 @@ showComments = false         #关闭评论
 showTableOfContents = false  #关闭目录
 showDate = false             #关闭日期
 showDateUpdated = false      #关闭日期更新
+showReadingTime = false     #关闭阅读时间
 +++
 
 ![反馈](/img/bye.webp)
