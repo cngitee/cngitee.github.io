@@ -1,5 +1,5 @@
 +++
-title = "👨🏻关于本站"
+title = "👨‍🎓关于本站"
 date = 2024-08-08T17:54:48+08:00
 draft = false
 showComments = false

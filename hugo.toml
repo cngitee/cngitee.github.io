@@ -23,12 +23,11 @@ lastmod = [':fileModTime']
   main = [
       {Name = "🏠主页", Weight = -99, URL = "/"},
       {Name = "📚文献", Weight = 1, URL = "/p"},
-      {Name = "📕分流", Weight = 2, URL = "/categories"},
+      {Name = "📦分流", Weight = 2, URL = "/categories"},
       {Name = "🔖标签", Weight = 3, URL = "/tags"},
       {Name = "🤝链接", Weight = 4, URL = "/friend"},
       {Name = "💬我们", Weight = 5, URL = "/about"},
       {Name = "🙋🏻‍♂️反馈", Weight = 6, URL = "/feedback"}
-    #  {Name = "⏱监控", Weight = 7, URL = "http://stats.uptimerobot.com/WRUEz9E6PN"}
   ]
 
 
@@ -51,6 +50,5 @@ lastmod = [':fileModTime']
    #  { x-twitter = "https://twitter.com/username" },
    # { youtube = "https://youtube.com/username" },
   ]
-
 
 

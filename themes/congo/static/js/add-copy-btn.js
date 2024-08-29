@@ -8,7 +8,7 @@
   function flashCopyMessage(el, msg) {
     el.textContent = msg;
     setTimeout(function() {
-      el.textContent = "复制代码";
+      el.textContent = "📝复制代码";
     }, 1000);
   }
 
@@ -24,17 +24,16 @@
   function addCopyButton(containerEl) {
     var copyBtn = document.createElement("button");
     copyBtn.className = "highlight-copy-btn";
-    copyBtn.textContent = "复制代码";
+    copyBtn.textContent = "📝复制代码";
    
-
-    var codeEl = containerEl.firstElementChild;
+  var codeEl = containerEl.firstElementChild;
     copyBtn.addEventListener('click', function() {
       try {
         var selection = selectText(codeEl);
         document.execCommand('Copy');
         selection.removeAllRanges();
 
-        flashCopyMessage(copyBtn, '复制完成')
+        flashCopyMessage(copyBtn, '🖨复制完成')
       } catch(e) {
         console && console.log(e);
         flashCopyMessage(copyBtn, 'Failed :\'(')
