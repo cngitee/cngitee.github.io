@@ -55,3 +55,4 @@ lastmod = [':fileModTime']
     lineNos = true
     lineNumbersInTable = false
     style = 'catppuccin-frappe'
+  # https://xyproto.github.io/splash/docs/all.html
