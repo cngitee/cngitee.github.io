@@ -5,12 +5,12 @@ article:
   draft: "草稿"
   edit_title: "编辑内容"
   reading_time:
-    other: "{{ .Count }} 分钟"
+    other: "阅读 {{ .Count }} 分钟"
   reading_time_title: "预计阅读"
   table_of_contents: "目录"
   word_count:
-    one: "{{ .Count }} 字"
-    other: "{{ .Count }} 字"
+    one: "大概 {{ .Count }} 字"
+    other: "大概 {{ .Count }} 字"
 
 author:
   byline_title: "作者"
