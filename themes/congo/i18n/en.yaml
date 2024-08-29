@@ -1,60 +1,59 @@
 article:
-  anchor_label: "Anchor"
+  anchor_label: "锚点"
   date: "{{ .Date }}"
-  date_updated: "Updated: {{ .Date }}"
-  draft: "Draft"
-  edit_title: "Edit content"
+  date_updated: "更新于 {{ .Date }}"
+  draft: "草稿"
+  edit_title: "编辑内容"
   reading_time:
-    one: "{{ .Count }} min"
-    other: "{{ .Count }} mins"
-  reading_time_title: "Reading time"
-  table_of_contents: "Table of Contents"
+    other: "{{ .Count }} 分钟"
+  reading_time_title: "预计阅读"
+  table_of_contents: "目录"
   word_count:
-    one: "{{ .Count }} word"
-    other: "{{ .Count }} words"
+    one: "{{ .Count }} 字"
+    other: "{{ .Count }} 字"
 
 author:
-  byline_title: "Author"
+  byline_title: "作者"
 
 code:
-  copy: "Copy"
-  copied: "Copied"
+  copy: "复制"
+  copied: "已复制"
 
 error:
-  404_title: "Page Not Found :confused:"
-  404_error: "Error 404"
-  404_description: "It seems that the page you've requested does not exist."
+  404_title: "找不到网页 :confused:"
+  404_error: "404 错误"
+  404_description: "您请求的页面似乎不存在。"
 
 footer:
-  dark_appearance: "Switch to dark appearance"
-  light_appearance: "Switch to light appearance"
-  powered_by: "Powered by {{ .Hugo }} &amp; {{ .Congo }}"
+  dark_appearance: "切换为深色模式"
+  light_appearance: "切换为浅色模式"
+  powered_by: "由 {{ .Hugo }} &amp; {{ .Congo }} 强力驱动"
 
 list:
-  externalurl_title: "Link to external site"
-  no_articles: "There's no articles to list here yet."
+  externalurl_title: "链接到外部网站"
+  no_articles: "这里还没有任何文章可以列出。"
 
 nav:
-  scroll_to_top_title: "Scroll to top"
-  skip_to_main: "Skip to main content"
+  scroll_to_top_title: "回到顶部"
+  skip_to_main: "跳到主要内容"
 
 search:
-  open_button_title: "Search (/)"
-  close_button_title: "Close (Esc)"
-  input_placeholder: "Search"
+  open_button_title: "搜索 (/)"
+  close_button_title: "关闭 (Esc)"
+  input_placeholder: "搜索"
 
 sharing:
-  email: "Send via email"
-  facebook: "Share on Facebook"
-  linkedin: "Share on LinkedIn"
-  mastodon: "Toot on Mastodon"
-  pinterest: "Pin on Pinterest"
-  reddit: "Submit to Reddit"
-  twitter: "Tweet on Twitter"
-  telegram: "Share on Telegram"
-  line: "Share on LINE"
-  weibo: "Share on Weibo"
-  x-twitter: "Post on X"
+  email: "通过电子邮件发送"
+  facebook: "分享到 Facebook"
+  linkedin: "分享到 LinkedIn"
+  mastodon: "嘟嘟到 Mastodon"
+  pinterest: "钉到 Pinterest"
+  reddit: "提交到 Reddit"
+  twitter: "分享到 Twitter"
+  telegram: "分享到 Telegram"
+  line: "分享到 LINE"
+  weibo: "分享到 微博"
+  # x-twitter: "Post on X"
 
 shortcode:
-  recent_articles: "Recent"
+  recent_articles: "最近的文章"
