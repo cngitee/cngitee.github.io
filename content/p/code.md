@@ -9,7 +9,7 @@ categories = '技术文摘'
 
 ## 建立一个CSS，一个JS文件，细节如下，实现代码复制功能
 ### 1、CSS：命名为add-copy-btn.css 放在 你的主题/static/js 目录下
-``` css {linenos=inline}
+``` css 
 .highlight {
     position: relative;
 }
@@ -35,11 +35,11 @@ categories = '技术文摘'
 }
 
 .highlight-copy-btn:hover {
-    background-color: #e70d9f;  /* #666 */
+    background-color: #e70d9f;
 }
 ```
-### 2、JS：命令为add-copy-btn.js 放在 你的主题/static/css 目录下
-``` js {linenos=inline}
+### 2、JS：命名为add-copy-btn.js 放在 你的主题/static/css 目录下
+``` js 
 (function() {
   'use strict';
 
@@ -91,15 +91,19 @@ categories = '技术文摘'
 })();
 ```
 ### 3、在 你的主题/layouts/partials/footer.html 结尾 增加下面代码
-``` html {linenos=inline}
+``` html
 <style><!-- copy code -->
 @import url(/css/add-copy-btn.css);
 </style>
 <script src="{{"/js/add-copy-btn.js" | relURL}}"></script>
 ```
-### 4、用法非常简单，直接在 你每篇文章里面引入代码 后面加例如C++
->C++ {linenos=inline} #启动行显示  
- 
+### 4、在主目录 hugo.toml 文件下加入以下代码配置
+``` go
+[markup]
+  [markup.highlight]
+    lineNos = true
+    lineNumbersInTable = false
+ ```
 
 
 
