@@ -52,15 +52,7 @@ lastmod = [':fileModTime']
   ]
 
 
-
 [markup]
   [markup.highlight]
     lineNos = true
     lineNumbersInTable = false
-   # codeFences = true
-   # guessSyntax = true
-   #  hl_Lines = ""
-   # lineNoStart = 1  
-   # noClasses = true
-   # style = "github"
-   # tabWidth = 4
