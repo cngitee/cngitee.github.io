@@ -51,8 +51,6 @@ lastmod = [':fileModTime']
    # { youtube = "https://youtube.com/username" },
   ]
 
-
-[markup]
   [markup.highlight]
     lineNos = true
     lineNumbersInTable = false

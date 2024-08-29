@@ -99,10 +99,9 @@ categories = '技术文摘'
 ```
 ### 4、在主目录 hugo.toml 文件下加入以下代码配置
 ``` go
-[markup]
-  [markup.highlight]
-    lineNos = true
-    lineNumbersInTable = false
+[markup.highlight]
+  lineNos = true
+  lineNumbersInTable = false
  ```
 
 
