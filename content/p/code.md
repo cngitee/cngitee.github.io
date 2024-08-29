@@ -8,7 +8,7 @@ categories = '技术文摘'
 
 
 ## 建立一个CSS，一个JS文件，细节如下，实现代码复制功能
-### 1、CSS：命名为add-copy-btn.js 放在 你的主题/static/js 目录下
+### 1、CSS：命名为add-copy-btn.css 放在 你的主题/static/js 目录下
 ``` css {linenos=inline}
 .highlight {
     position: relative;
@@ -38,7 +38,7 @@ categories = '技术文摘'
     background-color: #e70d9f;  /* #666 */
 }
 ```
-### 2、JS：命令为add-copy-btn.css 放在 你的主题/static/css 目录下
+### 2、JS：命令为add-copy-btn.js 放在 你的主题/static/css 目录下
 ``` js {linenos=inline}
 (function() {
   'use strict';
