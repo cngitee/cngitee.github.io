@@ -28,7 +28,7 @@
       <link>http://localhost:1313/p/226/</link>
       <pubDate>Wed, 14 Dec 2022 16:26:48 +0800</pubDate>
       <guid>http://localhost:1313/p/226/</guid>
-      <description>1、打开任意文件【第一种】 #1Private Sub Command1_Click() 2 Dim x As Long 3 CommonDialog1.</description>
+      <description>1、打开任意文件【第一种】 1Private Sub Command1_Click() 2 Dim x As Long 3 CommonDialog1.</description>
     </item>
     <item>
       <title>VB6代码从任务管理器中结束进程</title>
@@ -42,14 +42,14 @@
       <link>http://localhost:1313/p/223/</link>
       <pubDate>Wed, 30 Nov 2022 11:36:59 +0800</pubDate>
       <guid>http://localhost:1313/p/223/</guid>
-      <description>1、开始窗体验证MD5值 #1Private Sub Form_Load() 2 Dim str As String 3str = IIf(Len(App.</description>
+      <description>1、开始窗体验证MD5值 1Private Sub Form_Load() 2 Dim str As String 3str = IIf(Len(App.</description>
     </item>
     <item>
       <title>VB6复制文件的区别</title>
       <link>http://localhost:1313/p/222/</link>
       <pubDate>Tue, 29 Nov 2022 22:53:20 +0800</pubDate>
       <guid>http://localhost:1313/p/222/</guid>
-      <description>1&amp;#39;先声明复制函数 2Private Declare Function CopyFile Lib &amp;#34;kernel32&amp;#34; Alias &amp;#34;CopyFileA&amp;#34; (ByVal lpExistingFileName As String, ByVal lpNewFileName As String, ByVal bFailIfExists As Long) As Long 方法一：带属性 #1s = App.</description>
+      <description>1&amp;#39;先声明复制函数 2Private Declare Function CopyFile Lib &amp;#34;kernel32&amp;#34; Alias &amp;#34;CopyFileA&amp;#34; (ByVal lpExistingFileName As String, ByVal lpNewFileName As String, ByVal bFailIfExists As Long) As Long 方法一：带属性 1s = App.</description>
     </item>
     <item>
       <title>VB6实现拖拽</title>
@@ -70,7 +70,7 @@
       <link>http://localhost:1313/p/217/</link>
       <pubDate>Wed, 09 Nov 2022 00:45:47 +0800</pubDate>
       <guid>http://localhost:1313/p/217/</guid>
-      <description>1、调用声明 #1&amp;#39;自动检测键盘是否在调试 2Private Declare Function GetAsyncKeyState Lib &amp;#34;user32&amp;#34; (ByVal vKey As Long) As Integer 2、设置时长 #1Private Sub Form_Load() 2Timer1.</description>
+      <description>1、调用声明 1&amp;#39;自动检测键盘是否在调试 2Private Declare Function GetAsyncKeyState Lib &amp;#34;user32&amp;#34; (ByVal vKey As Long) As Integer 2、设置时长 1Private Sub Form_Load() 2Timer1.</description>
     </item>
     <item>
       <title>VB6检测自身软件是否有管理员权限</title>
@@ -84,21 +84,21 @@
       <link>http://localhost:1313/p/196/</link>
       <pubDate>Tue, 07 Dec 2021 12:34:23 +0800</pubDate>
       <guid>http://localhost:1313/p/196/</guid>
-      <description>我们开发新的一套全新电脑桌面版软件，让你上班摸鱼时实时观看，实时浏览基金，非常直观地展示，不像用手机偷偷摸摸看【上班能少摸手机】你就打开财富钥匙，实现闲钱增益，我们的核心理念：共同富裕。 #1、问：我们先了解什么是基金？ #答：平常放在支付宝是面的钱[余额宝]就是货币基金，这种是最最低收益，七八年前放5万到[余额宝]每天差不多4元利息，现在平均1万才0.</description>
+      <description>我们开发新的一套全新电脑桌面版软件，让你上班摸鱼时实时观看，实时浏览基金，非常直观地展示，不像用手机偷偷摸摸看【上班能少摸手机】你就打开财富钥匙，实现闲钱增益，我们的核心理念：共同富裕。 1、问：我们先了解什么是基金？ 答：平常放在支付宝是面的钱[余额宝]就是货币基金，这种是最最低收益，七八年前放5万到[余额宝]每天差不多4元利息，现在平均1万才0.</description>
     </item>
     <item>
       <title>VB6读写系统临时目录 temp</title>
       <link>http://localhost:1313/p/192/</link>
       <pubDate>Mon, 29 Nov 2021 00:10:21 +0800</pubDate>
       <guid>http://localhost:1313/p/192/</guid>
-      <description>窗口一个按钮，一个文本，简洁代码短少 # 1Private Sub Command1_Click() 2Dim s As String, S1 As String 3s = Environ(&amp;#34;temp&amp;#34;) 4&amp;#39;这里是写入 5Open s &amp;amp; &amp;#34;\abc.</description>
+      <description>窗口一个按钮，一个文本，简洁代码短少 1Private Sub Command1_Click() 2Dim s As String, S1 As String 3s = Environ(&amp;#34;temp&amp;#34;) 4&amp;#39;这里是写入 5Open s &amp;amp; &amp;#34;\abc.</description>
     </item>
     <item>
       <title>VB6快速读取txt</title>
       <link>http://localhost:1313/p/186/</link>
       <pubDate>Fri, 12 Nov 2021 12:36:01 +0800</pubDate>
       <guid>http://localhost:1313/p/186/</guid>
-      <description>一、快速读取txt，空白内容则会出错。 #1、建立模版 # 1Function GetFile(FileName As String) As String 2Dim i As Integer, s As String, BB() As Byte 3If Dir(FileName) = &amp;#34;&amp;#34; Then Exit Function 4i = FreeFile 5ReDim BB(FileLen(FileName) - 1) 6Open FileName For Binary As #i 7Get #i, , BB 8Close #i 9s = StrConv(BB, vbUnicode) 10GetFile = s 11End Function 2、窗体调用举例： #1dim s as string 2s=GetFile(&amp;#34;c:\1.</description>
+      <description>一、快速读取txt，空白内容则会出错。 1、建立模版 1Function GetFile(FileName As String) As String 2Dim i As Integer, s As String, BB() As Byte 3If Dir(FileName) = &amp;#34;&amp;#34; Then Exit Function 4i = FreeFile 5ReDim BB(FileLen(FileName) - 1) 6Open FileName For Binary As #i 7Get #i, , BB 8Close #i 9s = StrConv(BB, vbUnicode) 10GetFile = s 11End Function 2、窗体调用举例： 1dim s as string 2s=GetFile(&amp;#34;c:\1.</description>
     </item>
     <item>
       <title>VB6打开默认浏览器网站</title>
@@ -112,7 +112,7 @@
       <link>http://localhost:1313/p/184/</link>
       <pubDate>Wed, 10 Nov 2021 17:47:08 +0800</pubDate>
       <guid>http://localhost:1313/p/184/</guid>
-      <description>前言：之前我说过，因为学习资料严重缺少，古老语言慢慢被丢失，所以先发一些简单代码。 #1Private Sub Command1_Click() &amp;#39;这是按钮1名称 2 add_item = InputBox(&amp;#34;在此处输入一个英文软件包名&amp;#34;, &amp;#34;增加软件&amp;#34;) 3 If add_item &amp;lt;&amp;gt; &amp;#34;&amp;#34; Then 4 List1.</description>
+      <description>前言：之前我说过，因为学习资料严重缺少，古老语言慢慢被丢失，所以先发一些简单代码。 1Private Sub Command1_Click() &amp;#39;这是按钮1名称 2 add_item = InputBox(&amp;#34;在此处输入一个英文软件包名&amp;#34;, &amp;#34;增加软件&amp;#34;) 3 If add_item &amp;lt;&amp;gt; &amp;#34;&amp;#34; Then 4 List1.</description>
     </item>
     <item>
       <title>VB6右键弹出菜单</title>
@@ -140,14 +140,14 @@
       <link>http://localhost:1313/p/124/</link>
       <pubDate>Mon, 15 Jul 2019 13:49:15 +0800</pubDate>
       <guid>http://localhost:1313/p/124/</guid>
-      <description>1、演示在VB菜单中加入图标的方法，使用了三个VB6.0 WINAPI函数，利用这三个函数，我们可以对菜单进行定义。 #1Option Explicit 2Private Declare Function GetMenu Lib &amp;#34;user32&amp;#34; _ 3 (ByVal hwnd As Long) As Long 4Private Declare Function GetSubMenu Lib &amp;#34;user32&amp;#34; _ 5 (ByVal hMenu As Long, ByVal nPos As Long) As Long 6Private Declare Function SetMenuItemBitmaps Lib &amp;#34;user32&amp;#34; _ 7 (ByVal hMenu As Long, ByVal nPosition As Long, ByVal wFlags As Long, _ 8 ByVal hBitmapUnchecked As Long, ByVal hBitmapChecked As Long) As Long 9Const MF_BYPOSITION = &amp;amp;H400&amp;amp; 2、以下为启动窗体代码，Image为加载图片，图片为ico格式,大小为16*16过大会影响软件的美观。 # 1Private Sub Form_Load() 2 Dim mHandle As Long, lRet As Long, sHandle As Long, sHandle2 As Long 3 mHandle = GetMenu(hwnd) 4 sHandle = GetSubMenu(mHandle, 0) &amp;#39;这里为第一个菜单栏 5 lRet = SetMenuItemBitmaps(sHandle, 0, MF_BYPOSITION, Image1.</description>
+      <description>1、演示在VB菜单中加入图标的方法，使用了三个VB6.0 WINAPI函数，利用这三个函数，我们可以对菜单进行定义。 1Option Explicit 2Private Declare Function GetMenu Lib &amp;#34;user32&amp;#34; _ 3 (ByVal hwnd As Long) As Long 4Private Declare Function GetSubMenu Lib &amp;#34;user32&amp;#34; _ 5 (ByVal hMenu As Long, ByVal nPos As Long) As Long 6Private Declare Function SetMenuItemBitmaps Lib &amp;#34;user32&amp;#34; _ 7 (ByVal hMenu As Long, ByVal nPosition As Long, ByVal wFlags As Long, _ 8 ByVal hBitmapUnchecked As Long, ByVal hBitmapChecked As Long) As Long 9Const MF_BYPOSITION = &amp;amp;H400&amp;amp; 2、以下为启动窗体代码，Image为加载图片，图片为ico格式,大小为16*16过大会影响软件的美观。 1Private Sub Form_Load() 2 Dim mHandle As Long, lRet As Long, sHandle As Long, sHandle2 As Long 3 mHandle = GetMenu(hwnd) 4 sHandle = GetSubMenu(mHandle, 0) &amp;#39;这里为第一个菜单栏 5 lRet = SetMenuItemBitmaps(sHandle, 0, MF_BYPOSITION, Image1.</description>
     </item>
     <item>
       <title>VB6加载网络静态图片</title>
       <link>http://localhost:1313/p/123/</link>
       <pubDate>Thu, 04 Jul 2019 15:37:03 +0800</pubDate>
       <guid>http://localhost:1313/p/123/</guid>
-      <description>说明：加载网络图片，无缓存加载，直接写加载到程序里面挺好用的，一个Image1和Command1 #1、Image1图片控件 # 1Private Declare Function OleLoadPicturePath Lib &amp;#34;oleaut32.</description>
+      <description>说明：加载网络图片，无缓存加载，直接写加载到程序里面挺好用的，一个Image1和Command1 1、Image1图片控件 1Private Declare Function OleLoadPicturePath Lib &amp;#34;oleaut32.</description>
     </item>
     <item>
       <title>VB6启动窗口渐变效果</title>

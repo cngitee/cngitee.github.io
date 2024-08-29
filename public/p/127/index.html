@@ -391,6 +391,30 @@
 
   
   
+    <div class="my-1 flex flex-wrap text-xs leading-relaxed text-neutral-500 dark:text-neutral-400">
+      
+        
+          
+            <a
+              href="/categories/php%E7%AC%94%E8%AE%B0/"
+              class="mx-1 my-1 rounded-md border border-neutral-200 px-1 py-[1px] hover:border-primary-300 hover:text-primary-700 dark:border-neutral-600 dark:hover:border-primary-600 dark:hover:text-primary-400"
+              >PHP笔记</a
+            >
+          
+        
+      
+        
+          
+            <a
+              href="/tags/php/"
+              class="mx-1 my-1 rounded-md border border-neutral-200 px-1 py-[1px] hover:border-primary-300 hover:text-primary-700 dark:border-neutral-600 dark:hover:border-primary-600 dark:hover:text-primary-400"
+              >PHP</a
+            >
+          
+        
+      
+    </div>
+  
 
 
         </div>
@@ -427,7 +451,7 @@
       <div class="min-h-0 min-w-0 max-w-prose grow">
         <p>GET提交最明显地方在于浏览器地址栏上面直接显示出来，而POST提交最明显地方在于不会显示在浏览器地址栏上面，但是刷新会重复提交。</p>
 <p>(注：下面代码的姓名必须英文，因为只是简单样例，起到抛砖引玉的思维) 总共需建立二个文件 Test.htm 和Test.php</p>
-<h3 id="一get提交案例" class="relative group">一、GET提交案例 <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#%e4%b8%80get%e6%8f%90%e4%ba%a4%e6%a1%88%e4%be%8b" aria-label="Anchor">#</a></span></h3><p>HTML代码</p>
+<h3 id="一get提交案例" class="relative group">一、GET提交案例 </h3><p>HTML代码</p>
 <div class="highlight"><pre tabindex="0" style="color:#c6d0f5;background-color:#303446;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#838ba7">1</span><span>&lt;<span style="color:#ca9ee6">form</span> <span style="color:#8caaee">action</span><span style="color:#99d1db;font-weight:bold">=</span><span style="color:#a6d189">&#34;test.php&#34;</span> <span style="color:#8caaee">method</span><span style="color:#99d1db;font-weight:bold">=</span><span style="color:#a6d189">&#34;GET&#34;</span>&gt;
 </span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#838ba7">2</span><span> &lt;<span style="color:#ca9ee6">p</span>&gt;姓名: &lt;<span style="color:#ca9ee6">input</span> <span style="color:#8caaee">type</span><span style="color:#99d1db;font-weight:bold">=</span><span style="color:#a6d189">&#34;text&#34;</span> <span style="color:#8caaee">name</span><span style="color:#99d1db;font-weight:bold">=</span><span style="color:#a6d189">&#34;name&#34;</span>&gt;&lt;/<span style="color:#ca9ee6">p</span>&gt;
 </span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#838ba7">3</span><span> &lt;<span style="color:#ca9ee6">p</span>&gt;年龄: &lt;<span style="color:#ca9ee6">input</span> <span style="color:#8caaee">type</span><span style="color:#99d1db;font-weight:bold">=</span><span style="color:#a6d189">&#34;text&#34;</span> <span style="color:#8caaee">name</span><span style="color:#99d1db;font-weight:bold">=</span><span style="color:#a6d189">&#34;age&#34;</span>&gt;&lt;/<span style="color:#ca9ee6">p</span>&gt;
@@ -439,7 +463,7 @@
 </span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#838ba7">3</span><span><span style="color:#ca9ee6">echo</span> htmlspecialchars(<span style="color:#f2d5cf">$_GET</span>[<span style="color:#a6d189">&#39;name&#39;</span>]);
 </span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#838ba7">4</span><span><span style="color:#ca9ee6">echo</span> (int)<span style="color:#f2d5cf">$_GET</span>[<span style="color:#a6d189">&#39;age&#39;</span>]; 
 </span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#838ba7">5</span><span><span style="color:#737994;font-style:italic">?&gt;</span><span style="color:#e78284">
-</span></span></span></code></pre></div><h3 id="二post提交案例" class="relative group">二、POST提交案例 <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#%e4%ba%8cpost%e6%8f%90%e4%ba%a4%e6%a1%88%e4%be%8b" aria-label="Anchor">#</a></span></h3><p>HTML代码</p>
+</span></span></span></code></pre></div><h3 id="二post提交案例" class="relative group">二、POST提交案例 </h3><p>HTML代码</p>
 <div class="highlight"><pre tabindex="0" style="color:#c6d0f5;background-color:#303446;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#838ba7">1</span><span>&lt;<span style="color:#ca9ee6">form</span> <span style="color:#8caaee">action</span><span style="color:#99d1db;font-weight:bold">=</span><span style="color:#a6d189">&#34;test.php&#34;</span> <span style="color:#8caaee">method</span><span style="color:#99d1db;font-weight:bold">=</span><span style="color:#a6d189">&#34;POST&#34;</span>&gt;
 </span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#838ba7">2</span><span> &lt;<span style="color:#ca9ee6">p</span>&gt;姓名: &lt;<span style="color:#ca9ee6">input</span> <span style="color:#8caaee">type</span><span style="color:#99d1db;font-weight:bold">=</span><span style="color:#a6d189">&#34;text&#34;</span> <span style="color:#8caaee">name</span><span style="color:#99d1db;font-weight:bold">=</span><span style="color:#a6d189">&#34;name&#34;</span>&gt;&lt;/<span style="color:#ca9ee6">p</span>&gt;
 </span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#838ba7">3</span><span> &lt;<span style="color:#ca9ee6">p</span>&gt;年龄: &lt;<span style="color:#ca9ee6">input</span> <span style="color:#8caaee">type</span><span style="color:#99d1db;font-weight:bold">=</span><span style="color:#a6d189">&#34;text&#34;</span> <span style="color:#8caaee">name</span><span style="color:#99d1db;font-weight:bold">=</span><span style="color:#a6d189">&#34;age&#34;</span>&gt;&lt;/<span style="color:#ca9ee6">p</span>&gt;

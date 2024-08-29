@@ -14,7 +14,7 @@
       <link>http://localhost:1313/p/code/</link>
       <pubDate>Thu, 29 Aug 2024 21:40:47 +0800</pubDate>
       <guid>http://localhost:1313/p/code/</guid>
-      <description>建立一个CSS，一个JS文件，细节如下，实现代码复制功能，例如 /themes/主题名称/ #1、CSS：命名为add-copy-btn.</description>
+      <description>建立一个CSS，一个JS文件，细节如下，实现代码复制功能，例如 /themes/主题名称/ 1、CSS：命名为add-copy-btn.</description>
     </item>
     <item>
       <title>Hugo-Congo主题修改字体</title>

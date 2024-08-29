@@ -69,7 +69,7 @@
     name="description"
     content="
       
-        1、演示在VB菜单中加入图标的方法，使用了三个VB6.0 WINAPI函数，利用这三个函数，我们可以对菜单进行定义。 #1Option Explicit 2Private Declare Function GetMenu Lib &#34;user32&#34; _ 3 (ByVal hwnd As Long) As Long 4Private Declare Function GetSubMenu Lib &#34;user32&#34; _ 5 (ByVal hMenu As Long, ByVal nPos As Long) As Long 6Private Declare Function SetMenuItemBitmaps Lib &#34;user32&#34; _ 7 (ByVal hMenu As Long, ByVal nPosition As Long, ByVal wFlags As Long, _ 8 ByVal hBitmapUnchecked As Long, ByVal hBitmapChecked As Long) As Long 9Const MF_BYPOSITION = &amp;H400&amp; 2、以下为启动窗体代码，Image为加载图片，图片为ico格式,大小为16*16过大会影响软件的美观。 # 1Private Sub Form_Load() 2 Dim mHandle As Long, lRet As Long, sHandle As Long, sHandle2 As Long 3 mHandle = GetMenu(hwnd) 4 sHandle = GetSubMenu(mHandle, 0) &#39;这里为第一个菜单栏 5 lRet = SetMenuItemBitmaps(sHandle, 0, MF_BYPOSITION, Image1.
+        1、演示在VB菜单中加入图标的方法，使用了三个VB6.0 WINAPI函数，利用这三个函数，我们可以对菜单进行定义。 1Option Explicit 2Private Declare Function GetMenu Lib &#34;user32&#34; _ 3 (ByVal hwnd As Long) As Long 4Private Declare Function GetSubMenu Lib &#34;user32&#34; _ 5 (ByVal hMenu As Long, ByVal nPos As Long) As Long 6Private Declare Function SetMenuItemBitmaps Lib &#34;user32&#34; _ 7 (ByVal hMenu As Long, ByVal nPosition As Long, ByVal wFlags As Long, _ 8 ByVal hBitmapUnchecked As Long, ByVal hBitmapChecked As Long) As Long 9Const MF_BYPOSITION = &amp;H400&amp; 2、以下为启动窗体代码，Image为加载图片，图片为ico格式,大小为16*16过大会影响软件的美观。 1Private Sub Form_Load() 2 Dim mHandle As Long, lRet As Long, sHandle As Long, sHandle2 As Long 3 mHandle = GetMenu(hwnd) 4 sHandle = GetSubMenu(mHandle, 0) &#39;这里为第一个菜单栏 5 lRet = SetMenuItemBitmaps(sHandle, 0, MF_BYPOSITION, Image1.
       
     "
   />
@@ -94,7 +94,7 @@
   <meta property="og:url" content="http://localhost:1313/p/124/">
   <meta property="og:site_name" content="弘科防线-实验室">
   <meta property="og:title" content="VB6在窗体菜单中加入图标源码">
-  <meta property="og:description" content="1、演示在VB菜单中加入图标的方法，使用了三个VB6.0 WINAPI函数，利用这三个函数，我们可以对菜单进行定义。 #1Option Explicit 2Private Declare Function GetMenu Lib &#34;user32&#34; _ 3 (ByVal hwnd As Long) As Long 4Private Declare Function GetSubMenu Lib &#34;user32&#34; _ 5 (ByVal hMenu As Long, ByVal nPos As Long) As Long 6Private Declare Function SetMenuItemBitmaps Lib &#34;user32&#34; _ 7 (ByVal hMenu As Long, ByVal nPosition As Long, ByVal wFlags As Long, _ 8 ByVal hBitmapUnchecked As Long, ByVal hBitmapChecked As Long) As Long 9Const MF_BYPOSITION = &amp;H400&amp; 2、以下为启动窗体代码，Image为加载图片，图片为ico格式,大小为16*16过大会影响软件的美观。 # 1Private Sub Form_Load() 2 Dim mHandle As Long, lRet As Long, sHandle As Long, sHandle2 As Long 3 mHandle = GetMenu(hwnd) 4 sHandle = GetSubMenu(mHandle, 0) &#39;这里为第一个菜单栏 5 lRet = SetMenuItemBitmaps(sHandle, 0, MF_BYPOSITION, Image1.">
+  <meta property="og:description" content="1、演示在VB菜单中加入图标的方法，使用了三个VB6.0 WINAPI函数，利用这三个函数，我们可以对菜单进行定义。 1Option Explicit 2Private Declare Function GetMenu Lib &#34;user32&#34; _ 3 (ByVal hwnd As Long) As Long 4Private Declare Function GetSubMenu Lib &#34;user32&#34; _ 5 (ByVal hMenu As Long, ByVal nPos As Long) As Long 6Private Declare Function SetMenuItemBitmaps Lib &#34;user32&#34; _ 7 (ByVal hMenu As Long, ByVal nPosition As Long, ByVal wFlags As Long, _ 8 ByVal hBitmapUnchecked As Long, ByVal hBitmapChecked As Long) As Long 9Const MF_BYPOSITION = &amp;H400&amp; 2、以下为启动窗体代码，Image为加载图片，图片为ico格式,大小为16*16过大会影响软件的美观。 1Private Sub Form_Load() 2 Dim mHandle As Long, lRet As Long, sHandle As Long, sHandle2 As Long 3 mHandle = GetMenu(hwnd) 4 sHandle = GetSubMenu(mHandle, 0) &#39;这里为第一个菜单栏 5 lRet = SetMenuItemBitmaps(sHandle, 0, MF_BYPOSITION, Image1.">
   <meta property="og:locale" content="en_us">
   <meta property="og:type" content="article">
     <meta property="article:section" content="p">
@@ -105,7 +105,7 @@
   
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="VB6在窗体菜单中加入图标源码">
-  <meta name="twitter:description" content="1、演示在VB菜单中加入图标的方法，使用了三个VB6.0 WINAPI函数，利用这三个函数，我们可以对菜单进行定义。 #1Option Explicit 2Private Declare Function GetMenu Lib &#34;user32&#34; _ 3 (ByVal hwnd As Long) As Long 4Private Declare Function GetSubMenu Lib &#34;user32&#34; _ 5 (ByVal hMenu As Long, ByVal nPos As Long) As Long 6Private Declare Function SetMenuItemBitmaps Lib &#34;user32&#34; _ 7 (ByVal hMenu As Long, ByVal nPosition As Long, ByVal wFlags As Long, _ 8 ByVal hBitmapUnchecked As Long, ByVal hBitmapChecked As Long) As Long 9Const MF_BYPOSITION = &amp;H400&amp; 2、以下为启动窗体代码，Image为加载图片，图片为ico格式,大小为16*16过大会影响软件的美观。 # 1Private Sub Form_Load() 2 Dim mHandle As Long, lRet As Long, sHandle As Long, sHandle2 As Long 3 mHandle = GetMenu(hwnd) 4 sHandle = GetSubMenu(mHandle, 0) &#39;这里为第一个菜单栏 5 lRet = SetMenuItemBitmaps(sHandle, 0, MF_BYPOSITION, Image1.">
+  <meta name="twitter:description" content="1、演示在VB菜单中加入图标的方法，使用了三个VB6.0 WINAPI函数，利用这三个函数，我们可以对菜单进行定义。 1Option Explicit 2Private Declare Function GetMenu Lib &#34;user32&#34; _ 3 (ByVal hwnd As Long) As Long 4Private Declare Function GetSubMenu Lib &#34;user32&#34; _ 5 (ByVal hMenu As Long, ByVal nPos As Long) As Long 6Private Declare Function SetMenuItemBitmaps Lib &#34;user32&#34; _ 7 (ByVal hMenu As Long, ByVal nPosition As Long, ByVal wFlags As Long, _ 8 ByVal hBitmapUnchecked As Long, ByVal hBitmapChecked As Long) As Long 9Const MF_BYPOSITION = &amp;H400&amp; 2、以下为启动窗体代码，Image为加载图片，图片为ico格式,大小为16*16过大会影响软件的美观。 1Private Sub Form_Load() 2 Dim mHandle As Long, lRet As Long, sHandle As Long, sHandle2 As Long 3 mHandle = GetMenu(hwnd) 4 sHandle = GetSubMenu(mHandle, 0) &#39;这里为第一个菜单栏 5 lRet = SetMenuItemBitmaps(sHandle, 0, MF_BYPOSITION, Image1.">
 
   
   <script type="application/ld+json">
@@ -116,7 +116,7 @@
     "name": "VB6在窗体菜单中加入图标源码",
     "headline": "VB6在窗体菜单中加入图标源码",
     
-    "abstract": "1、演示在VB菜单中加入图标的方法，使用了三个VB6.0 WINAPI函数，利用这三个函数，我们可以对菜单进行定义。 #1Option Explicit 2Private Declare Function GetMenu Lib \u0026#34;user32\u0026#34; _ 3 (ByVal hwnd As Long) As Long 4Private Declare Function GetSubMenu Lib \u0026#34;user32\u0026#34; _ 5 (ByVal hMenu As Long, ByVal nPos As Long) As Long 6Private Declare Function SetMenuItemBitmaps Lib \u0026#34;user32\u0026#34; _ 7 (ByVal hMenu As Long, ByVal nPosition As Long, ByVal wFlags As Long, _ 8 ByVal hBitmapUnchecked As Long, ByVal hBitmapChecked As Long) As Long 9Const MF_BYPOSITION = \u0026amp;H400\u0026amp; 2、以下为启动窗体代码，Image为加载图片，图片为ico格式,大小为16*16过大会影响软件的美观。 # 1Private Sub Form_Load() 2 Dim mHandle As Long, lRet As Long, sHandle As Long, sHandle2 As Long 3 mHandle = GetMenu(hwnd) 4 sHandle = GetSubMenu(mHandle, 0) \u0026#39;这里为第一个菜单栏 5 lRet = SetMenuItemBitmaps(sHandle, 0, MF_BYPOSITION, Image1.",
+    "abstract": "1、演示在VB菜单中加入图标的方法，使用了三个VB6.0 WINAPI函数，利用这三个函数，我们可以对菜单进行定义。 1Option Explicit 2Private Declare Function GetMenu Lib \u0026#34;user32\u0026#34; _ 3 (ByVal hwnd As Long) As Long 4Private Declare Function GetSubMenu Lib \u0026#34;user32\u0026#34; _ 5 (ByVal hMenu As Long, ByVal nPos As Long) As Long 6Private Declare Function SetMenuItemBitmaps Lib \u0026#34;user32\u0026#34; _ 7 (ByVal hMenu As Long, ByVal nPosition As Long, ByVal wFlags As Long, _ 8 ByVal hBitmapUnchecked As Long, ByVal hBitmapChecked As Long) As Long 9Const MF_BYPOSITION = \u0026amp;H400\u0026amp; 2、以下为启动窗体代码，Image为加载图片，图片为ico格式,大小为16*16过大会影响软件的美观。 1Private Sub Form_Load() 2 Dim mHandle As Long, lRet As Long, sHandle As Long, sHandle2 As Long 3 mHandle = GetMenu(hwnd) 4 sHandle = GetSubMenu(mHandle, 0) \u0026#39;这里为第一个菜单栏 5 lRet = SetMenuItemBitmaps(sHandle, 0, MF_BYPOSITION, Image1.",
     "inLanguage": "en-us",
     "url" : "http:\/\/localhost:1313\/p\/124\/",
     "author" : {
@@ -132,7 +132,7 @@
     "keywords": "VB",
     
     "mainEntityOfPage": "true",
-    "wordCount": "140"
+    "wordCount": "139"
   }
   </script>
 
@@ -391,6 +391,30 @@
 
   
   
+    <div class="my-1 flex flex-wrap text-xs leading-relaxed text-neutral-500 dark:text-neutral-400">
+      
+        
+          
+            <a
+              href="/categories/vc%23%E6%BA%90%E7%A0%81/"
+              class="mx-1 my-1 rounded-md border border-neutral-200 px-1 py-[1px] hover:border-primary-300 hover:text-primary-700 dark:border-neutral-600 dark:hover:border-primary-600 dark:hover:text-primary-400"
+              >VC#源码</a
+            >
+          
+        
+      
+        
+          
+            <a
+              href="/tags/vb/"
+              class="mx-1 my-1 rounded-md border border-neutral-200 px-1 py-[1px] hover:border-primary-300 hover:text-primary-700 dark:border-neutral-600 dark:hover:border-primary-600 dark:hover:text-primary-400"
+              >VB</a
+            >
+          
+        
+      
+    </div>
+  
 
 
         </div>
@@ -425,7 +449,7 @@
         </div>
       
       <div class="min-h-0 min-w-0 max-w-prose grow">
-        <h3 id="1演示在vb菜单中加入图标的方法使用了三个vb60-winapi函数利用这三个函数我们可以对菜单进行定义" class="relative group">1、演示在VB菜单中加入图标的方法，使用了三个VB6.0 WINAPI函数，利用这三个函数，我们可以对菜单进行定义。 <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#1%e6%bc%94%e7%a4%ba%e5%9c%a8vb%e8%8f%9c%e5%8d%95%e4%b8%ad%e5%8a%a0%e5%85%a5%e5%9b%be%e6%a0%87%e7%9a%84%e6%96%b9%e6%b3%95%e4%bd%bf%e7%94%a8%e4%ba%86%e4%b8%89%e4%b8%aavb60-winapi%e5%87%bd%e6%95%b0%e5%88%a9%e7%94%a8%e8%bf%99%e4%b8%89%e4%b8%aa%e5%87%bd%e6%95%b0%e6%88%91%e4%bb%ac%e5%8f%af%e4%bb%a5%e5%af%b9%e8%8f%9c%e5%8d%95%e8%bf%9b%e8%a1%8c%e5%ae%9a%e4%b9%89" aria-label="Anchor">#</a></span></h3><div class="highlight"><pre tabindex="0" style="color:#c6d0f5;background-color:#303446;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-vb.net" data-lang="vb.net"><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#838ba7">1</span><span><span style="color:#ca9ee6">Option</span> Explicit
+        <h3 id="1演示在vb菜单中加入图标的方法使用了三个vb60-winapi函数利用这三个函数我们可以对菜单进行定义" class="relative group">1、演示在VB菜单中加入图标的方法，使用了三个VB6.0 WINAPI函数，利用这三个函数，我们可以对菜单进行定义。 </h3><div class="highlight"><pre tabindex="0" style="color:#c6d0f5;background-color:#303446;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-vb.net" data-lang="vb.net"><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#838ba7">1</span><span><span style="color:#ca9ee6">Option</span> Explicit
 </span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#838ba7">2</span><span><span style="color:#ca9ee6">Private</span> <span style="color:#ca9ee6">Declare</span> <span style="color:#ca9ee6">Function</span> <span style="color:#8caaee">GetMenu</span> <span style="color:#ca9ee6">Lib</span> <span style="color:#a6d189">&#34;user32&#34;</span> _
 </span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#838ba7">3</span><span>   (<span style="color:#ca9ee6">ByVal</span> hwnd <span style="color:#99d1db;font-weight:bold">As</span> <span style="color:#e78284">Long</span>) <span style="color:#99d1db;font-weight:bold">As</span> <span style="color:#e78284">Long</span>
 </span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#838ba7">4</span><span><span style="color:#ca9ee6">Private</span> <span style="color:#ca9ee6">Declare</span> <span style="color:#ca9ee6">Function</span> <span style="color:#8caaee">GetSubMenu</span> <span style="color:#ca9ee6">Lib</span> <span style="color:#a6d189">&#34;user32&#34;</span> _
@@ -434,7 +458,7 @@
 </span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#838ba7">7</span><span>   (<span style="color:#ca9ee6">ByVal</span> hMenu <span style="color:#99d1db;font-weight:bold">As</span> <span style="color:#e78284">Long</span>, <span style="color:#ca9ee6">ByVal</span> nPosition <span style="color:#99d1db;font-weight:bold">As</span> <span style="color:#e78284">Long</span>, <span style="color:#ca9ee6">ByVal</span> wFlags <span style="color:#99d1db;font-weight:bold">As</span> <span style="color:#e78284">Long</span>, _
 </span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#838ba7">8</span><span>    <span style="color:#ca9ee6">ByVal</span> hBitmapUnchecked <span style="color:#99d1db;font-weight:bold">As</span> <span style="color:#e78284">Long</span>, <span style="color:#ca9ee6">ByVal</span> hBitmapChecked <span style="color:#99d1db;font-weight:bold">As</span> <span style="color:#e78284">Long</span>) <span style="color:#99d1db;font-weight:bold">As</span> <span style="color:#e78284">Long</span>
 </span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#838ba7">9</span><span><span style="color:#ca9ee6">Const</span> MF_BYPOSITION <span style="color:#99d1db;font-weight:bold">=</span> <span style="color:#99d1db;font-weight:bold">&amp;</span>H400<span style="color:#99d1db;font-weight:bold">&amp;</span>
-</span></span></code></pre></div><h3 id="2以下为启动窗体代码image为加载图片图片为ico格式大小为1616过大会影响软件的美观" class="relative group">2、以下为启动窗体代码，Image为加载图片，图片为ico格式,大小为16*16过大会影响软件的美观。 <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#2%e4%bb%a5%e4%b8%8b%e4%b8%ba%e5%90%af%e5%8a%a8%e7%aa%97%e4%bd%93%e4%bb%a3%e7%a0%81image%e4%b8%ba%e5%8a%a0%e8%bd%bd%e5%9b%be%e7%89%87%e5%9b%be%e7%89%87%e4%b8%baico%e6%a0%bc%e5%bc%8f%e5%a4%a7%e5%b0%8f%e4%b8%ba1616%e8%bf%87%e5%a4%a7%e4%bc%9a%e5%bd%b1%e5%93%8d%e8%bd%af%e4%bb%b6%e7%9a%84%e7%be%8e%e8%a7%82" aria-label="Anchor">#</a></span></h3><div class="highlight"><pre tabindex="0" style="color:#c6d0f5;background-color:#303446;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-vb.net" data-lang="vb.net"><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#838ba7"> 1</span><span><span style="color:#ca9ee6">Private</span> <span style="color:#ca9ee6">Sub</span> <span style="color:#8caaee">Form_Load</span>()
+</span></span></code></pre></div><h3 id="2以下为启动窗体代码image为加载图片图片为ico格式大小为1616过大会影响软件的美观" class="relative group">2、以下为启动窗体代码，Image为加载图片，图片为ico格式,大小为16*16过大会影响软件的美观。 </h3><div class="highlight"><pre tabindex="0" style="color:#c6d0f5;background-color:#303446;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-vb.net" data-lang="vb.net"><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#838ba7"> 1</span><span><span style="color:#ca9ee6">Private</span> <span style="color:#ca9ee6">Sub</span> <span style="color:#8caaee">Form_Load</span>()
 </span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#838ba7"> 2</span><span>    <span style="color:#ca9ee6">Dim</span> mHandle <span style="color:#99d1db;font-weight:bold">As</span> <span style="color:#e78284">Long</span>, lRet <span style="color:#99d1db;font-weight:bold">As</span> <span style="color:#e78284">Long</span>, sHandle <span style="color:#99d1db;font-weight:bold">As</span> <span style="color:#e78284">Long</span>, sHandle2 <span style="color:#99d1db;font-weight:bold">As</span> <span style="color:#e78284">Long</span>
 </span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#838ba7"> 3</span><span>    mHandle <span style="color:#99d1db;font-weight:bold">=</span> GetMenu(hwnd)
 </span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#838ba7"> 4</span><span>    sHandle <span style="color:#99d1db;font-weight:bold">=</span> GetSubMenu(mHandle, 0) <span style="color:#737994;font-style:italic">&#39;这里为第一个菜单栏
