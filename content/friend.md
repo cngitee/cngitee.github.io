@@ -1,9 +1,11 @@
 +++
+title = "🤝不分先后↓"
 date =2024-08-08T12:30:00+08:00
 draft = false
-showComments = false        #关闭评论
-showTableOfContents = false #关闭目录
-title = "🤝不分先后↓"
+showComments = false         #关闭评论
+showTableOfContents = false  #关闭目录
+showDate = false             #关闭日期
+showDateUpdated = false      #关闭日期更新
 +++
 
 

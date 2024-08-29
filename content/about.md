@@ -2,13 +2,17 @@
 title = "👨‍🎓关于本站"
 date = 2024-08-08T17:54:48+08:00
 draft = false
-showComments = false
-showTableOfContents = false
+showComments = false         #关闭评论
+showTableOfContents = false  #关闭目录
+showDate = false             #关闭日期
+showDateUpdated = false      #关闭日期更新
 +++
 
 
-
 👋 嗨，我是 葑訫 或 (Sunny)，欢迎访问我的独立顶级域名网站。[(监控)](https://stats.uptimerobot.com/WRUEz9E6PN)
+
+>我的知识来源自身功底和工作中网络等途径学习，建站初衷网络安全研究探索，后继记录工作经验以及生活点滴，也是将知识回馈给网络上有所需要的朋友。
+
 
 ### 服务一览
 本站使用了以下免费、开源或价格低廉的服务，使我能够负担得起这个网站的运营。  非常感谢这些服务！

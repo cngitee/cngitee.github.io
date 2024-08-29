@@ -1,9 +1,11 @@
 +++
+title = "👨‍🏫留言黑板"
 date =2024-08-08T12:30:00+08:00
 draft = false
-showComments = true
-showTableOfContents = false
-title = "👨‍🏫留言黑板"
+showComments = false         #关闭评论
+showTableOfContents = false  #关闭目录
+showDate = false             #关闭日期
+showDateUpdated = false      #关闭日期更新
 +++
 
 ![反馈](/img/bye.webp)
