@@ -17,8 +17,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="theme-color" content="rgb(255,255,255)" />
   
-  <title>VB6在窗体菜单中加入图标源码 &middot; 弘科防线-实验室</title>
-    <meta name="title" content="VB6在窗体菜单中加入图标源码 &middot; 弘科防线-实验室" />
+  <title>VB6在窗体菜单中加入图标源码 &middot; 弘科防线</title>
+    <meta name="title" content="VB6在窗体菜单中加入图标源码 &middot; 弘科防线" />
   
   
   
@@ -92,7 +92,7 @@
   
   
   <meta property="og:url" content="http://localhost:1313/p/124/">
-  <meta property="og:site_name" content="弘科防线-实验室">
+  <meta property="og:site_name" content="弘科防线">
   <meta property="og:title" content="VB6在窗体菜单中加入图标源码">
   <meta property="og:description" content="1、演示在VB菜单中加入图标的方法，使用了三个VB6.0 WINAPI函数，利用这三个函数，我们可以对菜单进行定义。 1Option Explicit 2Private Declare Function GetMenu Lib &#34;user32&#34; _ 3 (ByVal hwnd As Long) As Long 4Private Declare Function GetSubMenu Lib &#34;user32&#34; _ 5 (ByVal hMenu As Long, ByVal nPos As Long) As Long 6Private Declare Function SetMenuItemBitmaps Lib &#34;user32&#34; _ 7 (ByVal hMenu As Long, ByVal nPosition As Long, ByVal wFlags As Long, _ 8 ByVal hBitmapUnchecked As Long, ByVal hBitmapChecked As Long) As Long 9Const MF_BYPOSITION = &amp;H400&amp; 2、以下为启动窗体代码，Image为加载图片，图片为ico格式,大小为16*16过大会影响软件的美观。 1Private Sub Form_Load() 2 Dim mHandle As Long, lRet As Long, sHandle As Long, sHandle2 As Long 3 mHandle = GetMenu(hwnd) 4 sHandle = GetSubMenu(mHandle, 0) &#39;这里为第一个菜单栏 5 lRet = SetMenuItemBitmaps(sHandle, 0, MF_BYPOSITION, Image1.">
   <meta property="og:locale" content="en_us">
@@ -199,7 +199,7 @@
     class="decoration-primary-500 hover:underline hover:decoration-2 hover:underline-offset-2"
     rel="me"
     href="/"
-    >弘科防线-实验室</a
+    >弘科防线</a
   >
 
     </div>
