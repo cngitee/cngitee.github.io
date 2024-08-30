@@ -10,7 +10,7 @@ showReadingTime = false     #关闭阅读时间
 +++
 
 
-👋 嗨，我是 葑訫 或 (Sunny)，欢迎访问我的独立顶级域名网站。[(监控)](https://stats.uptimerobot.com/WRUEz9E6PN)
+👋 嗨，我叫 (Sunny)，欢迎访问我的独立顶级域名网站。[(监控)](https://stats.uptimerobot.com/WRUEz9E6PN)
 
 {{< notice info >}}
 我的知识来源自身功底和工作中网络等途径学习，建站初衷网络安全研究探索，后继记录工作经验以及生活点滴，也是将知识回馈给网络上有所需要的朋友。
