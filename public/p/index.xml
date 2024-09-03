@@ -9,6 +9,13 @@
     <copyright> ©2011~2024 :thinking_face: [粤ICP备17091340号](http://beian.miit.gov.cn &#39;备案查询&#39;) </copyright>
     <atom:link href="http://localhost:1313/p/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>网络安全学习知识库</title>
+      <link>http://localhost:1313/p/knowledge-web/</link>
+      <pubDate>Sun, 01 Sep 2024 20:11:12 +0800</pubDate>
+      <guid>http://localhost:1313/p/knowledge-web/</guid>
+      <description>1.1. Web技术演化 1.</description>
+    </item>
+    <item>
       <title>Hugo-Notice短标签</title>
       <link>http://localhost:1313/p/notice/</link>
       <pubDate>Fri, 30 Aug 2024 05:18:46 +0800</pubDate>

@@ -7,8 +7,15 @@
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright> ©2011~2024 :thinking_face: [粤ICP备17091340号](http://beian.miit.gov.cn &#39;备案查询&#39;) </copyright>
-    <lastBuildDate>Fri, 30 Aug 2024 11:30:43 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 04 Sep 2024 03:57:01 +0800</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>网络安全学习知识库</title>
+      <link>http://localhost:1313/p/knowledge-web/</link>
+      <pubDate>Sun, 01 Sep 2024 20:11:12 +0800</pubDate>
+      <guid>http://localhost:1313/p/knowledge-web/</guid>
+      <description>1.1. Web技术演化 1.</description>
+    </item>
     <item>
       <title>Hugo-Notice短标签</title>
       <link>http://localhost:1313/p/notice/</link>
@@ -56,7 +63,7 @@
       <link>http://localhost:1313/about/</link>
       <pubDate>Thu, 08 Aug 2024 17:54:48 +0800</pubDate>
       <guid>http://localhost:1313/about/</guid>
-      <description>👋 嗨，我是 葑訫 或 (Sunny)，欢迎访问我的独立顶级域名网站。(监控)</description>
+      <description>👋 嗨，我叫 (Sunny)，欢迎访问我的独立顶级域名网站。(监控)</description>
     </item>
     <item>
       <title>👨‍🏫留言黑板</title>

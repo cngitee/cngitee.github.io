@@ -98,7 +98,7 @@
   <meta property="og:locale" content="en_us">
   <meta property="og:type" content="article">
     <meta property="article:published_time" content="2024-08-08T12:30:00+08:00">
-    <meta property="article:modified_time" content="2024-08-30T07:17:25+08:00">
+    <meta property="article:modified_time" content="2024-08-31T05:55:35+08:00">
 
   
   <meta name="twitter:card" content="summary">
@@ -125,7 +125,7 @@
     "dateCreated": "2024-08-08T12:30:00\u002b08:00",
     "datePublished": "2024-08-08T12:30:00\u002b08:00",
     
-    "dateModified": "2024-08-30T07:17:25\u002b08:00",
+    "dateModified": "2024-08-31T05:55:35\u002b08:00",
     
     
     
@@ -526,6 +526,196 @@
   
 
 
+      
+        
+          <div class="pt-3">
+            <hr class="border-dotted border-neutral-300 dark:border-neutral-600" />
+            <div class="pt-3">
+              <html>
+<head>
+<style>
+#toggle {
+  display: none;
+}
+
+input[type="checkbox"]:checked ~ #toggle {
+  display: block;
+}
+</style>
+</head>
+<ui>阅读量:<span class="waline-pageview-count" /></ui>次
+<ui>评论:<span class="waline-comment-count" /></ui>条<br>
+<body>  
+<link rel="stylesheet" type="text/css" href="/css/zhan-shang.css">
+<i class="iconfont icon-dianzan"></i>
+
+<input type="checkbox" id="toggleButton">
+<span style="background-color: #ff6600ad;">
+  <font color="white">
+    <label for="toggleButton">[给作者打赏]</label> 
+  </font>
+</span>
+
+<div id="toggle">
+  <div align="center">
+  <img border="0" src="/images/16470417356358.jpg" alt="赞赏码图" width="364" height="183">
+  </div>
+</div>
+
+</body>
+</html>
+
+
+<head>
+
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@waline/client@v2/dist/waline.css"
+    />
+
+  </head>
+     <div id="waline-recent"></div>
+     <script type="module"> 
+         import { RecentComments } from 'https://cdn.jsdelivr.net/npm/@waline/client/dist/waline.mjs';  
+         RecentComments({ 
+             el: '#waline-recent', 
+             serverURL: 'https://vercel.hkfx.net', 
+            
+         }); 
+     </script> 
+   
+    <div id="waline"></div>
+    <script type="module">
+      import { init } from 'https://unpkg.com/@waline/client@v2/dist/waline.mjs';    
+      init({
+        el: '#waline',
+        serverURL: 'https://vercel.hkfx.net/',
+        lang: 'zh-CN',  
+        pageview: true, 
+        comment: true,  
+        emoji: [
+        '//unpkg.com/@waline/emojis@1.2.0/bmoji',
+        '//unpkg.com/@waline/emojis@1.2.0/tieba',
+        '//unpkg.com/@waline/emojis@1.2.0/qq',
+        '//unpkg.com/@waline/emojis@1.2.0/alus',
+        '//unpkg.com/@waline/emojis@1.1.0/bilibili',
+        'https://cdn.jsdelivr.net/gh/norevi/waline-blobcatemojis@1.0/blobs',
+        ],
+        dark: 'html[class="scroll-smooth dark"]',
+      });
+    </script>
+
+    <style>
+       
+      :root {
+         
+        --waline-font-size: 16px;
+
+         
+        --waline-white: #ffff;
+         
+        --waline-light-grey: #999;
+         
+        --waline-dark-grey: #666;
+
+         
+        --waline-theme-color: #3b82f6;
+         
+        --waline-active-color: #2ecc71;
+
+         
+        --waline-color: #222;
+         
+        --waline-bgcolor: #fff;
+         
+        --waline-bgcolor-light: #f8f8f8;
+         
+        --waline-bgcolor-hover: #2ecc71;
+         
+        --waline-border-color: #ddd;
+         
+        --waline-disable-bgcolor: rgba(248, 248, 248, 0.4);
+         
+        --waline-disable-color:#bbb;
+         
+        --waline-code-bgcolor: #282c34;
+
+         
+        --waline-bq-color: #f0f0f0;
+
+         
+        --waline-avatar-size: 3.25rem;
+         
+        --waline-m-avatar-size: calc(var(--waline-avatar-size) * 9 / 13);
+
+         
+        --waline-badge-color: #3b82f6;
+         
+        --waline-badge-font-size: 12px;
+
+         
+        --waline-info-border: 1px solid #999;
+         
+        --waline-info-color: #999;
+         
+        --waline-info-font-size: 16px;
+           
+        --waline-info-bgcolor: rgba(235, 235, 235, 0.4);
+
+         
+        --waline-border: 1px solid var(--waline-border-color);
+         
+        --waline-avatar-radius: 50%;
+         
+        --waline-box-shadow: none;
+      }
+
+       
+      html[class="scroll-smooth dark"]{
+         
+        --waline-white: #000;
+          
+        --waline-light-grey: #999;
+         
+          
+        --waline-dark-grey: #999;
+
+         
+        --waline-color: #c2c2c2;
+          
+        --waline-bgcolor: #1E293B;
+          
+        --waline-bgcolor-light: #2A354F;
+          
+        --waline-border-color: #666;
+          
+        --waline-disable-bgcolor: rgba(68, 68, 68, 0.8);
+          
+        --waline-disable-color: #888;
+
+         
+        --waline-bq-color: #1F2D4B;
+
+         
+        --waline-info-bgcolor: rgba(31, 45, 75, 0.8);
+          
+        --waline-info-color: #888;
+         
+        --waline-info-border: 1px solid #d3d3d3;
+      }
+
+    </style>
+
+
+  </body>
+
+
+<style>@media only screen and (max-width: 800px){.catIframe{display:none;}}.catIframe {position: fixed;width: 400px;bottom: 5%;right: 5%;transform: translate(-1%, -5%);z-idnex:99999;} </style>
+<iframe src="https://zhanyuzhang.github.io/lovely-cat/cat.html" frameborder="0" class="catIframe"></iframe>
+
+            </div>
+          </div>
+        
       
     </footer>
   </article>

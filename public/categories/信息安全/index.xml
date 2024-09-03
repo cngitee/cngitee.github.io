@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Hacker on 红黑防线</title>
-    <link>http://localhost:1313/tags/hacker/</link>
-    <description>Recent content in Hacker on 红黑防线</description>
+    <title>信息安全 on 红黑防线</title>
+    <link>http://localhost:1313/categories/%E4%BF%A1%E6%81%AF%E5%AE%89%E5%85%A8/</link>
+    <description>Recent content in 信息安全 on 红黑防线</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright> ©2011~2024 :thinking_face: [粤ICP备17091340号](http://beian.miit.gov.cn &#39;备案查询&#39;) </copyright>
     <lastBuildDate>Wed, 04 Sep 2024 02:56:47 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/hacker/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/categories/%E4%BF%A1%E6%81%AF%E5%AE%89%E5%85%A8/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>网络安全学习库</title>
       <link>http://localhost:1313/p/knowledge-web/</link>

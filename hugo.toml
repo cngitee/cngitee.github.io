@@ -57,9 +57,13 @@ lastmod = [':fileModTime']
     style = 'catppuccin-frappe'
   # https://xyproto.github.io/splash/docs/all.html
 
-
-  [module]
-  [[module.imports]]
+[module]
+  [[module.imports]] #Hugo中加载标签插件
     path = "github.com/martignoni/hugo-notice"
   [[module.imports]]
     path = "congo"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true #Hugo中开启视频支持
