@@ -12,7 +12,6 @@ showReadingTime = false     #关闭阅读时间
 
 [D盾IIS防火墙](https://d99net.net/ "D盾IIS防火墙")　
 
-[![又拍云](/img/logo2.gif)](https://www.upyun.com/?utm_source=lianmeng&utm_medium=referral)
 ---
 [![红黑防线](/logo.gif)](https://hkfx.net)
 
