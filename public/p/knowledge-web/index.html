@@ -99,7 +99,7 @@
   <meta property="og:type" content="article">
     <meta property="article:section" content="p">
     <meta property="article:published_time" content="2024-09-01T20:11:12+08:00">
-    <meta property="article:modified_time" content="2024-09-04T03:57:01+08:00">
+    <meta property="article:modified_time" content="2024-09-05T13:56:42+08:00">
     <meta property="article:tag" content="Hacker">
 
   
@@ -127,12 +127,12 @@
     "dateCreated": "2024-09-01T20:11:12\u002b08:00",
     "datePublished": "2024-09-01T20:11:12\u002b08:00",
     
-    "dateModified": "2024-09-04T03:57:01\u002b08:00",
+    "dateModified": "2024-09-05T13:56:42\u002b08:00",
     
     "keywords": "Hacker",
     
     "mainEntityOfPage": "true",
-    "wordCount": "719"
+    "wordCount": "831"
   }
   </script>
 
@@ -384,7 +384,7 @@
   <div class="flex flex-row flex-wrap items-center">
     
     
-      <time datetime="2024-09-01 20:11:12 &#43;0800 CST">2024/9/1</time><span class="px-2 text-primary-500">&middot;</span><time datetime="2024-09-04 03:57:01.2466326 &#43;0800 CST">更新于 2024/9/4</time><span class="px-2 text-primary-500">&middot;</span><span title="预计阅读">阅读 4 分钟</span>
+      <time datetime="2024-09-01 20:11:12 &#43;0800 CST">2024/9/1</time><span class="px-2 text-primary-500">&middot;</span><time datetime="2024-09-05 13:56:42.6639994 &#43;0800 CST">更新于 2024/9/5</time><span class="px-2 text-primary-500">&middot;</span><span title="预计阅读">阅读 4 分钟</span>
     
 
     
@@ -490,6 +490,24 @@
         <li><a href="#146-http状态返回代码-3xx-重定向">1.4.6. HTTP状态返回代码 3xx （重定向）</a></li>
         <li><a href="#147-http状态返回代码-4xx请求错误">1.4.7. HTTP状态返回代码 4xx（请求错误）</a></li>
         <li><a href="#148-http状态返回代码-5xx服务器错误">1.4.8. HTTP状态返回代码 5xx（服务器错误）</a></li>
+      </ul>
+    </li>
+    <li><a href="#15-代码审计">1.5. 代码审计</a>
+      <ul>
+        <li><a href="#151-简介">1.5.1. 简介</a></li>
+      </ul>
+    </li>
+    <li><a href="#152-常用概念">1.5.2. 常用概念</a>
+      <ul>
+        <li><a href="#1521-输入">1.5.2.1. 输入</a></li>
+        <li><a href="#1522-处理函数">1.5.2.2. 处理函数</a></li>
+        <li><a href="#1523-危险函数">1.5.2.3. 危险函数</a></li>
+        <li><a href="#153-自动化审计">1.5.3. 自动化审计</a></li>
+        <li><a href="#1531-危险函数匹配">1.5.3.1. 危险函数匹配</a></li>
+        <li><a href="#1532-控制流分析">1.5.3.2. 控制流分析</a></li>
+        <li><a href="#1533-灰盒分析">1.5.3.3. 灰盒分析</a></li>
+        <li><a href="#154-手工审计方式">1.5.4. 手工审计方式</a></li>
+        <li><a href="#155-参考链接">1.5.5. 参考链接</a></li>
       </ul>
     </li>
   </ul>
@@ -966,6 +984,97 @@ Warning: 199 Miscellaneous warning</p>
 </tr>
 </tbody>
 </table>
+<h2 id="15-代码审计" class="relative group">1.5. 代码审计 </h2><h3 id="151-简介" class="relative group">1.5.1. 简介 </h3><p>代码审计是找到应用缺陷的过程。其通常有白盒、黑盒、灰盒等方式。白盒指通过对源代码的分析找到应用缺陷，黑盒通常不涉及到源代码，多使用模糊测试的方式，而灰盒则是黑白结合的方式。</p>
+<h2 id="152-常用概念" class="relative group">1.5.2. 常用概念 </h2><h3 id="1521-输入" class="relative group">1.5.2.1. 输入 </h3><p>应用的输入，可以是请求的参数（GET、POST等）、上传的文件、网络、数据库等用户可控或者间接可控的地方。</p>
+<h3 id="1522-处理函数" class="relative group">1.5.2.2. 处理函数 </h3><p>处理数据的函数，可能是过滤，也可能是编解码。</p>
+<h3 id="1523-危险函数" class="relative group">1.5.2.3. 危险函数 </h3><p>又常叫做Sink Call、漏洞点，是可能触发危险行为如文件操作、命令执行、数据库操作等行为的函数。</p>
+<h3 id="153-自动化审计" class="relative group">1.5.3. 自动化审计 </h3><p>一般认为一个漏洞的触发过程是从输入经过过滤到危险函数的过程，而审计就是寻找这个链条的过程。</p>
+<h3 id="1531-危险函数匹配" class="relative group">1.5.3.1. 危险函数匹配 </h3><p>白盒审计最常见的方式是通过搜寻危险函数与危险参数定位漏洞，比较有代表性的工具是Seay开发的审计工具。这种方法误报率相当高，这是因为这种方法没有对程序的流程进行深入分析，另一方面，这种方式通常是孤立地分析每一个文件，忽略了文件之间复杂的调用关系。</p>
+<p>具体的说，这种方式在一些环境下能做到几乎无误报，只要审计者有耐心，可以发现大部分的漏洞，但是在高度框架化的代码中，能找到的漏洞相对有限。</p>
+<h3 id="1532-控制流分析" class="relative group">1.5.3.2. 控制流分析 </h3><p>在后来的系统中，考虑到一定程度引入AST作为分析的依据，在一定程度上减少了误报，但是仍存在很多缺陷。</p>
+<p>而后，Dahse J等人设计了RIPS，该工具进行数据流与控制流分析，结合过程内与过程间的分析得到审计结果，相对危险函数匹配的方式来说误报率少了很多，但是同样的也增加了开销。</p>
+<h3 id="1533-灰盒分析" class="relative group">1.5.3.3. 灰盒分析 </h3><p>国内安全研究员fate0提出了基于运行时的分析方式，解决了控制流分析实现复杂、计算路径开销大的问题。</p>
+<h3 id="154-手工审计方式" class="relative group">1.5.4. 手工审计方式 </h3><h4 id="拿到代码确定版本确定能否正常运行" class="relative group">拿到代码，确定版本，确定能否正常运行 </h4><p>找历史漏洞<br>
+找应用该系统的实例<br>
+简单审计，运行审计工具看是否有漏洞</p>
+<h4 id="大概看懂整个程序是如何运行的" class="relative group">大概看懂整个程序是如何运行的 </h4><h4 id="文件如何加载" class="relative group">文件如何加载 </h4><ul>
+<li>类库依赖</li>
+<li>有没有加载waf</li>
+</ul>
+<h4 id="数据库如何连接" class="relative group">数据库如何连接 </h4><ul>
+<li>mysql/mysqli/pdo</li>
+<li>有没有用预编译</li>
+</ul>
+<h4 id="视图如何形成" class="relative group">视图如何形成 </h4><ul>
+<li>能不能xss</li>
+<li>能不能模版注入</li>
+</ul>
+<h4 id="session如何处理" class="relative group">SESSION如何处理 </h4><ul>
+<li>文件</li>
+<li>数据库</li>
+<li>内存</li>
+</ul>
+<h4 id="cache如何处理" class="relative group">Cache如何处理 </h4><ul>
+<li>文件cache可能写shell</li>
+<li>数据库cache可能注入</li>
+<li>memcache</li>
+</ul>
+<h4 id="看账户体系" class="relative group">看账户体系 </h4><h4 id="管理员账户的密码" class="relative group">管理员账户的密码 </h4><ul>
+<li>加密方式</li>
+<li>泄漏数据后能不能爆破密码</li>
+<li>重置漏洞</li>
+</ul>
+<h4 id="修改密码漏洞" class="relative group">修改密码漏洞 </h4><ul>
+<li>修改其他人密码</li>
+</ul>
+<h4 id="普通用户的帐号" class="relative group">普通用户的帐号 </h4><ul>
+<li>能否拿到普通用户权限</li>
+<li>普通用户帐号能否盗号</li>
+</ul>
+<p>重点找没有帐号的情况下可以访问的页面<br>
+是不是OAuth</p>
+<h4 id="攻击" class="relative group">攻击 </h4><h4 id="sqli" class="relative group">SQLi </h4><ul>
+<li>看全局过滤能否bypass</li>
+<li>看是否有直接执行sql的地方</li>
+<li>看是用的什么驱动，mysql/mysqli/pdo</li>
+<li>如果使用PDO，看是否是直接执行的地方</li>
+</ul>
+<h4 id="xss" class="relative group">XSS </h4><p>全局bypass
+直接echo
+看视图是怎么加载的</p>
+<h4 id="file" class="relative group">FILE </h4><p>上传下载覆盖删除
+包含
+LFI
+RFI
+全局找include, require
+正常上传
+看上传是如何确定能否上传文件的</p>
+<h4 id="rce" class="relative group">RCE </h4><ul>
+<li>call_user_func</li>
+<li>eval</li>
+<li>assert</li>
+<li>preg_replace /e<br>
+。XXE<br>
+。CSRF<br>
+。SSRF<br>
+。反序列化</li>
+</ul>
+<h4 id="变量覆盖" class="relative group">变量覆盖 </h4><ul>
+<li>extract</li>
+<li>parse_str</li>
+<li>array_map
+。LDAP<br>
+。XPath<br>
+。Cookie伪造</li>
+</ul>
+<h4 id="过滤" class="relative group">过滤 </h4><h4 id="找waf" class="relative group">。找WAF </h4><ul>
+<li>看waf怎么过滤的，相应的如何绕过</li>
+</ul>
+<h3 id="155-参考链接" class="relative group">1.5.5. 参考链接 </h3><ul>
+<li><a href="https://github.com/ripsscanner/rips" target="_blank" rel="noreferrer">rips</a></li>
+<li><a href="https://github.com/fate0/prvd" target="_blank" rel="noreferrer">prvd</a></li>
+<li><a href="http://blog.fatezero.org/2018/11/11/prvd/" target="_blank" rel="noreferrer">PHP运行时漏洞检测</a></li>
+</ul>
 
       </div>
     </section>

@@ -7,14 +7,14 @@
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright> ©2011~2024 :thinking_face: [粤ICP备17091340号](http://beian.miit.gov.cn &#39;备案查询&#39;) </copyright>
-    <lastBuildDate>Wed, 04 Sep 2024 02:56:47 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 05 Sep 2024 13:56:42 +0800</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/%E4%BF%A1%E6%81%AF%E5%AE%89%E5%85%A8/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>网络安全学习库</title>
+      <title>网络安全学习知识库</title>
       <link>http://localhost:1313/p/knowledge-web/</link>
       <pubDate>Sun, 01 Sep 2024 20:11:12 +0800</pubDate>
       <guid>http://localhost:1313/p/knowledge-web/</guid>
-      <description>目录 1.</description>
+      <description>1.1. Web技术演化 1.</description>
     </item>
     <item>
       <title>Sqlmap检测SQL注入攻击</title>
