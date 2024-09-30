@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>PHP on 弘科防线-实验室</title>
+    <link>http://localhost:1313/tags/php/</link>
+    <description>Recent content in PHP on 弘科防线-实验室</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <copyright> ©2011~2024 :thinking_face: [粤ICP备17091340号](http://beian.miit.gov.cn &#39;备案查询&#39;) </copyright>
+    <lastBuildDate>Sat, 24 Aug 2024 05:11:13 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/php/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>PHP网站获取真正IP地址查询API接口</title>
+      <link>http://localhost:1313/p/258/</link>
+      <pubDate>Thu, 30 Nov 2023 03:42:00 +0800</pubDate>
+      <guid>http://localhost:1313/p/258/</guid>
+      <description>Ox01、获取用户客户端访问真正IP地址</description>
+    </item>
+    <item>
+      <title>PHP正则表达式</title>
+      <link>http://localhost:1313/p/255/</link>
+      <pubDate>Fri, 11 Aug 2023 08:25:11 +0800</pubDate>
+      <guid>http://localhost:1313/p/255/</guid>
+      <description>PHP正则表达式，代码如下；</description>
+    </item>
+    <item>
+      <title>PHP7连接MySQL数据库有两种方法</title>
+      <link>http://localhost:1313/p/167/</link>
+      <pubDate>Fri, 09 Apr 2021 10:57:53 +0800</pubDate>
+      <guid>http://localhost:1313/p/167/</guid>
+      <description>1、MySQLi连接</description>
+    </item>
+    <item>
+      <title>有些需要禁用的PHP危险函数(disable_functions)</title>
+      <link>http://localhost:1313/p/159/</link>
+      <pubDate>Wed, 26 Aug 2020 13:32:29 +0800</pubDate>
+      <guid>http://localhost:1313/p/159/</guid>
+      <description>phpinfo() 功能描述：输出 PHP 环境信息以及相关的模块、WEB 环境等信息。</description>
+    </item>
+    <item>
+      <title>mysql版ip数据库</title>
+      <link>http://localhost:1313/p/154/</link>
+      <pubDate>Sat, 18 Jul 2020 22:16:33 +0800</pubDate>
+      <guid>http://localhost:1313/p/154/</guid>
+      <description>mysql版ip数据库 1、建立数据库名称ip_data 2、sql执行代码建立ip表，其实在界面也可以建立5张基础表，不一定必须要用代码建立 1CREATE TABLE `ip` ( 2 `id` int(20) default NULL, 3 `ipstart` varchar(30) default &amp;#39;&amp;#39;, 4 `ipend` varchar(30) default NULL, 5 `region` varchar(50) default NULL, 6 `address` varchar(100) default NULL, 7 KEY `IP` USING BTREE (`ipstart`,`ipend`) 8 ) ENGINE=MyISAM DEFAULT CHARSET=utf8; 3、自已想办法按照表名规则正确导入数据库 4、查询方式的目的与作用 1select * from ip where INET_ATON(&amp;#39;115.</description>
+    </item>
+    <item>
+      <title>file_get_contents 报错 warning</title>
+      <link>http://localhost:1313/p/141/</link>
+      <pubDate>Fri, 06 Dec 2019 11:27:37 +0800</pubDate>
+      <guid>http://localhost:1313/p/141/</guid>
+      <description>打开php.ini配置，搜索修改3个地方，去掉前面；号，将2个Off修改为On即可，然后最重启Apache完成。</description>
+    </item>
+    <item>
+      <title>在线base64解密</title>
+      <link>http://localhost:1313/p/140/</link>
+      <pubDate>Tue, 26 Nov 2019 13:36:23 +0800</pubDate>
+      <guid>http://localhost:1313/p/140/</guid>
+      <description>文件名64.php输入需要加base64密文</description>
+    </item>
+    <item>
+      <title>PHP各种常见方法采集调用</title>
+      <link>http://localhost:1313/p/135/</link>
+      <pubDate>Sat, 26 Oct 2019 16:12:18 +0800</pubDate>
+      <guid>http://localhost:1313/p/135/</guid>
+      <description>1、 file_get_contents调用</description>
+    </item>
+    <item>
+      <title>php简易用户登录</title>
+      <link>http://localhost:1313/p/132/</link>
+      <pubDate>Thu, 05 Sep 2019 15:35:58 +0800</pubDate>
+      <guid>http://localhost:1313/p/132/</guid>
+      <description>1、登录login.php 用户admin密码123456</description>
+    </item>
+    <item>
+      <title>MD5加密PHP样例</title>
+      <link>http://localhost:1313/p/130/</link>
+      <pubDate>Fri, 09 Aug 2019 17:28:58 +0800</pubDate>
+      <guid>http://localhost:1313/p/130/</guid>
+      <description>简单的加密方式，PHP代码如下，命名为md5.php文件</description>
+    </item>
+    <item>
+      <title>如何使用phpMyAdmin批量清空数据库表</title>
+      <link>http://localhost:1313/p/129/</link>
+      <pubDate>Wed, 07 Aug 2019 15:50:44 +0800</pubDate>
+      <guid>http://localhost:1313/p/129/</guid>
+      <description>1、前言：</description>
+    </item>
+    <item>
+      <title>POST和GET区别</title>
+      <link>http://localhost:1313/p/127/</link>
+      <pubDate>Tue, 30 Jul 2019 11:10:17 +0800</pubDate>
+      <guid>http://localhost:1313/p/127/</guid>
+      <description>GET提交最明显地方在于浏览器地址栏上面直接显示出来，而POST提交最明显地方在于不会显示在浏览器地址栏上面，但是刷新会重复提交。</description>
+    </item>
+    <item>
+      <title>phpmyadmin中导入数据库限制最大2048KB</title>
+      <link>http://localhost:1313/p/108/</link>
+      <pubDate>Mon, 15 Apr 2019 13:47:40 +0800</pubDate>
+      <guid>http://localhost:1313/p/108/</guid>
+      <description>phpmyadmin默认导入数据库文件大小为2M,但一般网站的数据库导出的文件都会超出这个限制，要导入超过2M的数据库文件就需要手动修改php.ini配置文件！</description>
+    </item>
+  </channel>
+</rss>
