@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>PUA on 红黑防线</title>
+    <link>http://localhost:1313/tags/pua/</link>
+    <description>Recent content in PUA on 红黑防线</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <copyright> ©2011~2024 :thinking_face: [粤ICP备17091340号](http://beian.miit.gov.cn &#39;备案查询&#39;) </copyright>
+    <lastBuildDate>Tue, 03 Sep 2024 00:38:24 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/pua/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>遇到这样公司千万别进</title>
+      <link>http://localhost:1313/p/248/</link>
+      <pubDate>Fri, 04 Aug 2023 16:57:34 +0800</pubDate>
+      <guid>http://localhost:1313/p/248/</guid>
+      <description>一、3个月试用 1、试用期3个月（千万别去，千万别去，千万别去，重要事情说三遍，因为你接近第3个月，这些公司会用各种理由踢掉你，你又要重新找工作，简历又不好写，你面试下家怎么写？你可能还要跟上家搞劳动仲裁，申请拿回你自己的“劳动成果”，时间先不说，耗费是你精神，公司却没屁事）</description>
+    </item>
+    <item>
+      <title>996icu</title>
+      <link>http://localhost:1313/p/996icu/</link>
+      <pubDate>Thu, 18 Apr 2019 14:49:06 +0800</pubDate>
+      <guid>http://localhost:1313/p/996icu/</guid>
+      <description>“996”工作制，即每天早 9 点到岗，一直工作到晚上 9 点，每周工作 6 天。</description>
+    </item>
+  </channel>
+</rss>

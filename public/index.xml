@@ -1,48 +1,433 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>红防安全吧</title>
-    <link>//localhost:1313/</link>
-    <description>Recent content on 红防安全吧</description>
+    <title>红黑防线</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on 红黑防线</description>
     <generator>Hugo</generator>
-    <language>zh-CN</language>
-    <copyright> ©2011~2024 :thinking_face: [粤ICP备17091340号](https://beian.miit.gov.cn/ &#39;备案查询&#39;)</copyright>
-    <lastBuildDate>Sat, 13 Jul 2024 15:09:58 +0800</lastBuildDate>
-    <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <copyright> ©2011~2024 :thinking_face: [粤ICP备17091340号](http://beian.miit.gov.cn &#39;备案查询&#39;) </copyright>
+    <lastBuildDate>Mon, 30 Sep 2024 14:38:48 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>随笔</title>
-      <link>//localhost:1313/p/211/</link>
-      <pubDate>Sat, 13 Jul 2024 15:09:58 +0800</pubDate>
-      <guid>//localhost:1313/p/211/</guid>
-      <description>1. 前言(博主一个不得不说故事) #服务器三年到期停掉了，没有最打算续费，因为真的贵的离谱，重新购买是可以、但是又得重新部署各种环境，少折腾不想折腾，网站运营以来一直非盈利模式，建站10多年花费将近不少费用，光是域名支出高达一千多元，服务器费用，以及个人精力维护省略不计~~&#xA;1.2 近况(你有酒吗，我有故事) #现测试阶段，更改网站现全静态，托管免费国外平台、只是顶级域名还是需要费用的。&#xA;1.3 关于(能想象我在干什么吗) #本新程序正在研究中，比以前的程序复杂了些，在本地写东西最get到平台上面，感觉好麻烦，可能不太熟悉吧，还有友情链接什么的别急，研究中，这新的网站给我感觉像全都是自己编写代码差不多，没有后台UI编辑器&amp;hellip;&#xA;暂时就这样吧，实在没什么好写的，关于原网站程序，往后慢慢接入，等待我吧&amp;hellip;&#xA;&amp;lt;?php&#xD;echo &amp;#34;已下架软件正在逐步更新中...&amp;#34;;&#xD;?&amp;gt; 1.4 软件(万万没想吧，老铁们) # 最近不少网友，留言告知我【卡巴软件】等问题，好的，我了解到需求了，其实我服务器没续费了啊，【穷】【穷】【穷】~~~&#xA;所以下架了累计近12年多的资料，网站打算推翻架构弄个新的，网站慢慢会还原[链接]，但程序都是全新的，完全不在一个界系，它堪称全世界最快的。&#xA;你会比它更快吗 ~~~ (^_^) End !!!&#xA;大卡巴 Crack.exe 点击下载后，软件自动升级版，我懒的改太多~~就这样吧。。。。 【2024/7/15 老铁们更新完成】&#xA;【赞赏码】就是这么简单直接 </description>
+      <title>网络安全学习知识库</title>
+      <link>http://localhost:1313/p/knowledge-web/</link>
+      <pubDate>Sun, 01 Sep 2024 20:11:12 +0800</pubDate>
+      <guid>http://localhost:1313/p/knowledge-web/</guid>
+      <description>1.1. Web技术演化 1.</description>
     </item>
     <item>
-      <title></title>
-      <link>//localhost:1313/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/about/</guid>
-      <description>服务一览 #本站使用了以下免费、开源或价格低廉的服务，使我能够负担得起这个博客的运营。 非常感谢这些服务！&#xA;Hugo: 世界上最快的静态网站生成器 (Golang) Congo: 一款强大的、轻量的 Hugo 主题，使用 Tailwind CSS 构建 GitHub: 博客源码托管和版本控制 Tencent: 域名 DNS 解析、多线路访问 Vercel: 支持广泛程序语言自动集成部署和托管 Leancloud: 数据存储、云引擎支持多种常见的 Web 后端语言 Waline: 轻量、安全、易上手的评论系统、集邮件通知等服务 Upyun: 国产CDN加速服务支持全球、集COS分布式节点存储 兼容性 #本站支持所有「未过时的设备」通过现代 Web 浏览器访问，推荐使用 Google Chrome 浏览器访问。此外：&#xA;支持 IPv4、IPv6 访问 支持洋葱路由访问 支持 HTTP/2 支持 HTTP/3 (使用 QUIC) 始终使用 HTTPS 链接 支持 TLS1.2 和 TLS1.3 (最低支持 TLS1.2) 已开启 HTTP 严格传输安全 (HSTS) </description>
+      <title>Hugo-Notice短标签</title>
+      <link>http://localhost:1313/p/notice/</link>
+      <pubDate>Fri, 30 Aug 2024 05:18:46 +0800</pubDate>
+      <guid>http://localhost:1313/p/notice/</guid>
+      <description>1、将您现有的站点初始化为 hugo 模块</description>
     </item>
     <item>
-      <title></title>
-      <link>//localhost:1313/feedback/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/feedback/</guid>
+      <title>Hugo-Code代码复制</title>
+      <link>http://localhost:1313/p/code/</link>
+      <pubDate>Thu, 29 Aug 2024 21:40:47 +0800</pubDate>
+      <guid>http://localhost:1313/p/code/</guid>
+      <description>建立一个CSS，一个JS文件，细节如下，实现代码复制功能，例如 /themes/主题名称/ 1、CSS：命名为add-copy-btn.</description>
+    </item>
+    <item>
+      <title>Hugo-Congo主题修改字体</title>
+      <link>http://localhost:1313/p/font/</link>
+      <pubDate>Sat, 17 Aug 2024 14:43:27 +0800</pubDate>
+      <guid>http://localhost:1313/p/font/</guid>
+      <description>首先，在本主题 themes/congo/layouts/partials/ 目录下，创建名 extend-head.</description>
+    </item>
+    <item>
+      <title>C# WINFORM嵌入谷歌内核</title>
+      <link>http://localhost:1313/p/250/</link>
+      <pubDate>Tue, 13 Aug 2024 17:03:40 +0800</pubDate>
+      <guid>http://localhost:1313/p/250/</guid>
+      <description>方法一 (不带自动缩放，需另外写代码) 软件框架：NET4.</description>
+    </item>
+    <item>
+      <title>C#winform任务栏显示小图标及右击操作</title>
+      <link>http://localhost:1313/p/251/</link>
+      <pubDate>Tue, 13 Aug 2024 16:59:08 +0800</pubDate>
+      <guid>http://localhost:1313/p/251/</guid>
+      <description>1.创建一个项目，向窗体中添加右下角图标NotifyIcon1控件和右击按钮ContextMenuStrip1控件。</description>
+    </item>
+    <item>
+      <title>C#点击关闭按钮 弹出确认框</title>
+      <link>http://localhost:1313/p/252/</link>
+      <pubDate>Tue, 13 Aug 2024 16:52:32 +0800</pubDate>
+      <guid>http://localhost:1313/p/252/</guid>
+      <description>1、第一步打开窗口面板的Form1.cs文件</description>
+    </item>
+    <item>
+      <title>👨‍🎓关于本站</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Thu, 08 Aug 2024 17:54:48 +0800</pubDate>
+      <guid>http://localhost:1313/about/</guid>
+      <description>👋 嗨，我叫 (Sunny)，欢迎访问我的独立顶级域名网站。(监控)</description>
+    </item>
+    <item>
+      <title>👨‍🏫留言黑板</title>
+      <link>http://localhost:1313/feedback/</link>
+      <pubDate>Thu, 08 Aug 2024 12:30:00 +0800</pubDate>
+      <guid>http://localhost:1313/feedback/</guid>
       <description> </description>
     </item>
     <item>
-      <title></title>
-      <link>//localhost:1313/friends/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/friends/</guid>
-      <description>&#xD;D盾IIS防火墙&#xD;又拍云&#xD;红防安全吧&#xD;</description>
+      <title>🤝不分先后↓</title>
+      <link>http://localhost:1313/friend/</link>
+      <pubDate>Thu, 08 Aug 2024 12:30:00 +0800</pubDate>
+      <guid>http://localhost:1313/friend/</guid>
+      <description>D盾IIS防火墙　申请友链-申请的同时，需要先友情上本站(格式如下); 提交友情</description>
     </item>
     <item>
-      <title></title>
-      <link>//localhost:1313/led/kes/help/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/led/kes/help/</guid>
-      <description>�������� ����֧��ΪSHA-2ǩ���㷨,����KB4474419����&#xA;�񿨰�˹��-Ӧ�ó���ɾ������,�����޷�ɾ������&#xA;��Ͷ�������㷨[��Ǯ����]&#xA;������������˾ǧ������&#xA;��C#��-�����ƿͻ���&#xA;��лĳλ���С����͡�10Ԫ,����10*****8539 ��лĳλ���С����͡�5Ԫ,����10*****9735 </description>
+      <title>随笔</title>
+      <link>http://localhost:1313/p/211/</link>
+      <pubDate>Sat, 13 Jul 2024 15:09:58 +0800</pubDate>
+      <guid>http://localhost:1313/p/211/</guid>
+      <description>1. 前言(博主一个不得不说故事) 服务器三年到期停掉了，没有最打算续费，因为真的贵的离谱，重新购买是可以、但是又得重新部署各种环境，少折腾不想折腾，网站运营以来一直非盈利模式，建站10多年花费将近不少费用，光是域名支出高达一千多元，服务器费用，以及个人精力维护省略不计~~</description>
+    </item>
+    <item>
+      <title>PHP网站获取真正IP地址查询API接口</title>
+      <link>http://localhost:1313/p/258/</link>
+      <pubDate>Thu, 30 Nov 2023 03:42:00 +0800</pubDate>
+      <guid>http://localhost:1313/p/258/</guid>
+      <description>Ox01、获取用户客户端访问真正IP地址</description>
+    </item>
+    <item>
+      <title>C#版-蓝奏云客户端</title>
+      <link>http://localhost:1313/p/257/</link>
+      <pubDate>Tue, 12 Sep 2023 23:17:50 +0800</pubDate>
+      <guid>http://localhost:1313/p/257/</guid>
+      <description>软件简介： 其实也没什么介绍，就是比较简单的蓝奏云客户端，我是采用C#写的，极致简洁和速度快，没了。。。</description>
+    </item>
+    <item>
+      <title>PHP正则表达式</title>
+      <link>http://localhost:1313/p/255/</link>
+      <pubDate>Fri, 11 Aug 2023 08:25:11 +0800</pubDate>
+      <guid>http://localhost:1313/p/255/</guid>
+      <description>PHP正则表达式，代码如下；</description>
+    </item>
+    <item>
+      <title>C#添加标题以及设定窗口大小</title>
+      <link>http://localhost:1313/p/253/</link>
+      <pubDate>Mon, 07 Aug 2023 21:44:00 +0800</pubDate>
+      <guid>http://localhost:1313/p/253/</guid>
+      <description>1this.Text = Application.</description>
+    </item>
+    <item>
+      <title>Visual Studio2015下载离线包</title>
+      <link>http://localhost:1313/p/249/</link>
+      <pubDate>Sun, 06 Aug 2023 01:08:38 +0800</pubDate>
+      <guid>http://localhost:1313/p/249/</guid>
+      <description>1、Visual studio2015 Community 强大的 IDE，对学生、开源贡献者和个人免费 1http://download.</description>
+    </item>
+    <item>
+      <title>遇到这样公司千万别进</title>
+      <link>http://localhost:1313/p/248/</link>
+      <pubDate>Fri, 04 Aug 2023 16:57:34 +0800</pubDate>
+      <guid>http://localhost:1313/p/248/</guid>
+      <description>一、3个月试用 1、试用期3个月（千万别去，千万别去，千万别去，重要事情说三遍，因为你接近第3个月，这些公司会用各种理由踢掉你，你又要重新找工作，简历又不好写，你面试下家怎么写？你可能还要跟上家搞劳动仲裁，申请拿回你自己的“劳动成果”，时间先不说，耗费是你精神，公司却没屁事）</description>
+    </item>
+    <item>
+      <title>WinRAR正式注册授权版</title>
+      <link>http://localhost:1313/p/245/</link>
+      <pubDate>Thu, 13 Jul 2023 17:30:25 +0800</pubDate>
+      <guid>http://localhost:1313/p/245/</guid>
+      <description>360压缩不够专业，受够了国内所谓代理商各种广告，购买代码等植入，以官方网站为准，语言包也是官方英文翻译。</description>
+    </item>
+    <item>
+      <title>VB6修改注册表参数</title>
+      <link>http://localhost:1313/p/241/</link>
+      <pubDate>Wed, 14 Jun 2023 11:11:00 +0800</pubDate>
+      <guid>http://localhost:1313/p/241/</guid>
+      <description>注意：需要修改注册表需要管理员权限运行</description>
+    </item>
+    <item>
+      <title>VB6 Webbowser控件与JS交互</title>
+      <link>http://localhost:1313/p/239/</link>
+      <pubDate>Tue, 30 May 2023 06:02:56 +0800</pubDate>
+      <guid>http://localhost:1313/p/239/</guid>
+      <description>在菜单中单击&amp;quot;工程&amp;quot;-&amp;gt;&amp;ldquo;引用&amp;rdquo;，在列表中找到&amp;quot;Microsoft HTML Object Library&amp;quot;打上勾</description>
+    </item>
+    <item>
+      <title>VB6打开文件CommonDialog用法</title>
+      <link>http://localhost:1313/p/226/</link>
+      <pubDate>Wed, 14 Dec 2022 16:26:48 +0800</pubDate>
+      <guid>http://localhost:1313/p/226/</guid>
+      <description>1、打开任意文件【第一种】 1Private Sub Command1_Click() 2 Dim x As Long 3 CommonDialog1.</description>
+    </item>
+    <item>
+      <title>VB6代码从任务管理器中结束进程</title>
+      <link>http://localhost:1313/p/224/</link>
+      <pubDate>Sat, 03 Dec 2022 00:27:11 +0800</pubDate>
+      <guid>http://localhost:1313/p/224/</guid>
+      <description>1Private Declare Function GetCurrentProcessId Lib &amp;#34;kernel32&amp;#34; () As Long 2Public Sub KillProcess(ByVal ProcessName As String) 3 Set oWMI = GetObject(&amp;#34;winmgmts:&amp;#34;) 4 Set oServices = oWMI.</description>
+    </item>
+    <item>
+      <title>VB6校验文件防破解</title>
+      <link>http://localhost:1313/p/223/</link>
+      <pubDate>Wed, 30 Nov 2022 11:36:59 +0800</pubDate>
+      <guid>http://localhost:1313/p/223/</guid>
+      <description>1、开始窗体验证MD5值 1Private Sub Form_Load() 2 Dim str As String 3str = IIf(Len(App.</description>
+    </item>
+    <item>
+      <title>VB6复制文件的区别</title>
+      <link>http://localhost:1313/p/222/</link>
+      <pubDate>Tue, 29 Nov 2022 22:53:20 +0800</pubDate>
+      <guid>http://localhost:1313/p/222/</guid>
+      <description>1&amp;#39;先声明复制函数 2Private Declare Function CopyFile Lib &amp;#34;kernel32&amp;#34; Alias &amp;#34;CopyFileA&amp;#34; (ByVal lpExistingFileName As String, ByVal lpNewFileName As String, ByVal bFailIfExists As Long) As Long 方法一：带属性 1s = App.</description>
+    </item>
+    <item>
+      <title>VB6实现拖拽</title>
+      <link>http://localhost:1313/p/219/</link>
+      <pubDate>Wed, 16 Nov 2022 12:23:44 +0800</pubDate>
+      <guid>http://localhost:1313/p/219/</guid>
+      <description>1Private Sub Form_Load() 2 Me.</description>
+    </item>
+    <item>
+      <title>VB6文字跑马灯</title>
+      <link>http://localhost:1313/p/218/</link>
+      <pubDate>Wed, 09 Nov 2022 15:46:12 +0800</pubDate>
+      <guid>http://localhost:1313/p/218/</guid>
+      <description>1Dim TString As String &amp;#39;声明，在显示的跑马灯字串变数 1Private Sub Form_Load() 2Timer1.</description>
+    </item>
+    <item>
+      <title>VB6自动检测键盘是否在调试</title>
+      <link>http://localhost:1313/p/217/</link>
+      <pubDate>Wed, 09 Nov 2022 00:45:47 +0800</pubDate>
+      <guid>http://localhost:1313/p/217/</guid>
+      <description>1、调用声明 1&amp;#39;自动检测键盘是否在调试 2Private Declare Function GetAsyncKeyState Lib &amp;#34;user32&amp;#34; (ByVal vKey As Long) As Integer 2、设置时长 1Private Sub Form_Load() 2Timer1.</description>
+    </item>
+    <item>
+      <title>VB6检测自身软件是否有管理员权限</title>
+      <link>http://localhost:1313/p/215/</link>
+      <pubDate>Wed, 02 Nov 2022 17:54:48 +0800</pubDate>
+      <guid>http://localhost:1313/p/215/</guid>
+      <description>工程→”工程1 属性”，在打开的”工程1 – 工程属性”面板中，点”生成”选项卡，在里面的”版本信息”的”文件描述”中写入值”update”</description>
+    </item>
+    <item>
+      <title>投资理财算法[闲钱顾问]</title>
+      <link>http://localhost:1313/p/196/</link>
+      <pubDate>Tue, 07 Dec 2021 12:34:23 +0800</pubDate>
+      <guid>http://localhost:1313/p/196/</guid>
+      <description>我们开发新的一套全新电脑桌面版软件，让你上班摸鱼时实时观看，实时浏览基金，非常直观地展示，不像用手机偷偷摸摸看【上班能少摸手机】你就打开财富钥匙，实现闲钱增益，我们的核心理念：共同富裕。 1、问：我们先了解什么是基金？ 答：平常放在支付宝是面的钱[余额宝]就是货币基金，这种是最最低收益，七八年前放5万到[余额宝]每天差不多4元利息，现在平均1万才0.</description>
+    </item>
+    <item>
+      <title>VB6读写系统临时目录 temp</title>
+      <link>http://localhost:1313/p/192/</link>
+      <pubDate>Mon, 29 Nov 2021 00:10:21 +0800</pubDate>
+      <guid>http://localhost:1313/p/192/</guid>
+      <description>窗口一个按钮，一个文本，简洁代码短少 1Private Sub Command1_Click() 2Dim s As String, S1 As String 3s = Environ(&amp;#34;temp&amp;#34;) 4&amp;#39;这里是写入 5Open s &amp;amp; &amp;#34;\abc.</description>
+    </item>
+    <item>
+      <title>VB6快速读取txt</title>
+      <link>http://localhost:1313/p/186/</link>
+      <pubDate>Fri, 12 Nov 2021 12:36:01 +0800</pubDate>
+      <guid>http://localhost:1313/p/186/</guid>
+      <description>一、快速读取txt，空白内容则会出错。 1、建立模版 1Function GetFile(FileName As String) As String 2Dim i As Integer, s As String, BB() As Byte 3If Dir(FileName) = &amp;#34;&amp;#34; Then Exit Function 4i = FreeFile 5ReDim BB(FileLen(FileName) - 1) 6Open FileName For Binary As #i 7Get #i, , BB 8Close #i 9s = StrConv(BB, vbUnicode) 10GetFile = s 11End Function 2、窗体调用举例： 1dim s as string 2s=GetFile(&amp;#34;c:\1.</description>
+    </item>
+    <item>
+      <title>VB6打开默认浏览器网站</title>
+      <link>http://localhost:1313/p/185/</link>
+      <pubDate>Wed, 10 Nov 2021 18:17:02 +0800</pubDate>
+      <guid>http://localhost:1313/p/185/</guid>
+      <description>1、这里介绍vb打开网站问题，用最简单的方式打开杀毒一般都拦截，例如</description>
+    </item>
+    <item>
+      <title>VB6 List列表增加一行数据</title>
+      <link>http://localhost:1313/p/184/</link>
+      <pubDate>Wed, 10 Nov 2021 17:47:08 +0800</pubDate>
+      <guid>http://localhost:1313/p/184/</guid>
+      <description>前言：之前我说过，因为学习资料严重缺少，古老语言慢慢被丢失，所以先发一些简单代码。 1Private Sub Command1_Click() &amp;#39;这是按钮1名称 2 add_item = InputBox(&amp;#34;在此处输入一个英文软件包名&amp;#34;, &amp;#34;增加软件&amp;#34;) 3 If add_item &amp;lt;&amp;gt; &amp;#34;&amp;#34; Then 4 List1.</description>
+    </item>
+    <item>
+      <title>VB6右键弹出菜单</title>
+      <link>http://localhost:1313/p/183/</link>
+      <pubDate>Wed, 10 Nov 2021 17:37:02 +0800</pubDate>
+      <guid>http://localhost:1313/p/183/</guid>
+      <description>因为古老语言，网上越来越小相关资料，中文搜索相关内容越来越少，故止新开一版块，专为编程而生。</description>
+    </item>
+    <item>
+      <title>PHP7连接MySQL数据库有两种方法</title>
+      <link>http://localhost:1313/p/167/</link>
+      <pubDate>Fri, 09 Apr 2021 10:57:53 +0800</pubDate>
+      <guid>http://localhost:1313/p/167/</guid>
+      <description>1、MySQLi连接</description>
+    </item>
+    <item>
+      <title>有些需要禁用的PHP危险函数(disable_functions)</title>
+      <link>http://localhost:1313/p/159/</link>
+      <pubDate>Wed, 26 Aug 2020 13:32:29 +0800</pubDate>
+      <guid>http://localhost:1313/p/159/</guid>
+      <description>phpinfo() 功能描述：输出 PHP 环境信息以及相关的模块、WEB 环境等信息。</description>
+    </item>
+    <item>
+      <title>mysql版ip数据库</title>
+      <link>http://localhost:1313/p/154/</link>
+      <pubDate>Sat, 18 Jul 2020 22:16:33 +0800</pubDate>
+      <guid>http://localhost:1313/p/154/</guid>
+      <description>mysql版ip数据库 1、建立数据库名称ip_data 2、sql执行代码建立ip表，其实在界面也可以建立5张基础表，不一定必须要用代码建立 1CREATE TABLE `ip` ( 2 `id` int(20) default NULL, 3 `ipstart` varchar(30) default &amp;#39;&amp;#39;, 4 `ipend` varchar(30) default NULL, 5 `region` varchar(50) default NULL, 6 `address` varchar(100) default NULL, 7 KEY `IP` USING BTREE (`ipstart`,`ipend`) 8 ) ENGINE=MyISAM DEFAULT CHARSET=utf8; 3、自已想办法按照表名规则正确导入数据库 4、查询方式的目的与作用 1select * from ip where INET_ATON(&amp;#39;115.</description>
+    </item>
+    <item>
+      <title>VB6不会残留图标托盘</title>
+      <link>http://localhost:1313/p/144/</link>
+      <pubDate>Fri, 27 Dec 2019 00:33:23 +0800</pubDate>
+      <guid>http://localhost:1313/p/144/</guid>
+      <description>建立托盘命名为Popup，再建立Picture1命名为Pic</description>
+    </item>
+    <item>
+      <title>file_get_contents 报错 warning</title>
+      <link>http://localhost:1313/p/141/</link>
+      <pubDate>Fri, 06 Dec 2019 11:27:37 +0800</pubDate>
+      <guid>http://localhost:1313/p/141/</guid>
+      <description>打开php.ini配置，搜索修改3个地方，去掉前面；号，将2个Off修改为On即可，然后最重启Apache完成。</description>
+    </item>
+    <item>
+      <title>在线base64解密</title>
+      <link>http://localhost:1313/p/140/</link>
+      <pubDate>Tue, 26 Nov 2019 13:36:23 +0800</pubDate>
+      <guid>http://localhost:1313/p/140/</guid>
+      <description>文件名64.php输入需要加base64密文</description>
+    </item>
+    <item>
+      <title>PHP各种常见方法采集调用</title>
+      <link>http://localhost:1313/p/135/</link>
+      <pubDate>Sat, 26 Oct 2019 16:12:18 +0800</pubDate>
+      <guid>http://localhost:1313/p/135/</guid>
+      <description>1、 file_get_contents调用</description>
+    </item>
+    <item>
+      <title>php简易用户登录</title>
+      <link>http://localhost:1313/p/132/</link>
+      <pubDate>Thu, 05 Sep 2019 15:35:58 +0800</pubDate>
+      <guid>http://localhost:1313/p/132/</guid>
+      <description>1、登录login.php 用户admin密码123456</description>
+    </item>
+    <item>
+      <title>VB6显示当前计算机使用帐号</title>
+      <link>http://localhost:1313/p/131/</link>
+      <pubDate>Sat, 24 Aug 2019 14:48:50 +0800</pubDate>
+      <guid>http://localhost:1313/p/131/</guid>
+      <description> 1Dim strusername As String 2Private Sub Command1_Click() 3Print strusername &amp;#39;输出当前计算机用户名 4strusername = Environ(&amp;#34;USERNAME&amp;#34;) 5If strusername = Text1 Then &amp;#39;这里输入你指定的帐号，例如管理员Administrator 6Else 7 MsgBox &amp;#34;检测当前用户非管理员Administrator帐号&amp;#34;, 32, &amp;#34;提示&amp;#34; 8 End &amp;#39;终结并退出 9End If 10End Sub </description>
+    </item>
+    <item>
+      <title>MD5加密PHP样例</title>
+      <link>http://localhost:1313/p/130/</link>
+      <pubDate>Fri, 09 Aug 2019 17:28:58 +0800</pubDate>
+      <guid>http://localhost:1313/p/130/</guid>
+      <description>简单的加密方式，PHP代码如下，命名为md5.php文件</description>
+    </item>
+    <item>
+      <title>如何使用phpMyAdmin批量清空数据库表</title>
+      <link>http://localhost:1313/p/129/</link>
+      <pubDate>Wed, 07 Aug 2019 15:50:44 +0800</pubDate>
+      <guid>http://localhost:1313/p/129/</guid>
+      <description>1、前言：</description>
+    </item>
+    <item>
+      <title>POST和GET区别</title>
+      <link>http://localhost:1313/p/127/</link>
+      <pubDate>Tue, 30 Jul 2019 11:10:17 +0800</pubDate>
+      <guid>http://localhost:1313/p/127/</guid>
+      <description>GET提交最明显地方在于浏览器地址栏上面直接显示出来，而POST提交最明显地方在于不会显示在浏览器地址栏上面，但是刷新会重复提交。</description>
+    </item>
+    <item>
+      <title>VB6在窗体菜单中加入图标源码</title>
+      <link>http://localhost:1313/p/124/</link>
+      <pubDate>Mon, 15 Jul 2019 13:49:15 +0800</pubDate>
+      <guid>http://localhost:1313/p/124/</guid>
+      <description>1、演示在VB菜单中加入图标的方法，使用了三个VB6.0 WINAPI函数，利用这三个函数，我们可以对菜单进行定义。 1Option Explicit 2Private Declare Function GetMenu Lib &amp;#34;user32&amp;#34; _ 3 (ByVal hwnd As Long) As Long 4Private Declare Function GetSubMenu Lib &amp;#34;user32&amp;#34; _ 5 (ByVal hMenu As Long, ByVal nPos As Long) As Long 6Private Declare Function SetMenuItemBitmaps Lib &amp;#34;user32&amp;#34; _ 7 (ByVal hMenu As Long, ByVal nPosition As Long, ByVal wFlags As Long, _ 8 ByVal hBitmapUnchecked As Long, ByVal hBitmapChecked As Long) As Long 9Const MF_BYPOSITION = &amp;amp;H400&amp;amp; 2、以下为启动窗体代码，Image为加载图片，图片为ico格式,大小为16*16过大会影响软件的美观。 1Private Sub Form_Load() 2 Dim mHandle As Long, lRet As Long, sHandle As Long, sHandle2 As Long 3 mHandle = GetMenu(hwnd) 4 sHandle = GetSubMenu(mHandle, 0) &amp;#39;这里为第一个菜单栏 5 lRet = SetMenuItemBitmaps(sHandle, 0, MF_BYPOSITION, Image1.</description>
+    </item>
+    <item>
+      <title>VB6加载网络静态图片</title>
+      <link>http://localhost:1313/p/123/</link>
+      <pubDate>Thu, 04 Jul 2019 15:37:03 +0800</pubDate>
+      <guid>http://localhost:1313/p/123/</guid>
+      <description>说明：加载网络图片，无缓存加载，直接写加载到程序里面挺好用的，一个Image1和Command1 1、Image1图片控件 1Private Declare Function OleLoadPicturePath Lib &amp;#34;oleaut32.</description>
+    </item>
+    <item>
+      <title>996icu</title>
+      <link>http://localhost:1313/p/996icu/</link>
+      <pubDate>Thu, 18 Apr 2019 14:49:06 +0800</pubDate>
+      <guid>http://localhost:1313/p/996icu/</guid>
+      <description>“996”工作制，即每天早 9 点到岗，一直工作到晚上 9 点，每周工作 6 天。</description>
+    </item>
+    <item>
+      <title>phpmyadmin中导入数据库限制最大2048KB</title>
+      <link>http://localhost:1313/p/108/</link>
+      <pubDate>Mon, 15 Apr 2019 13:47:40 +0800</pubDate>
+      <guid>http://localhost:1313/p/108/</guid>
+      <description>phpmyadmin默认导入数据库文件大小为2M,但一般网站的数据库导出的文件都会超出这个限制，要导入超过2M的数据库文件就需要手动修改php.ini配置文件！</description>
+    </item>
+    <item>
+      <title>VB6启动窗口渐变效果</title>
+      <link>http://localhost:1313/p/102/</link>
+      <pubDate>Mon, 18 Mar 2019 14:24:23 +0800</pubDate>
+      <guid>http://localhost:1313/p/102/</guid>
+      <description>建立一个Timer1 即可实现启动窗口渐变效果</description>
+    </item>
+    <item>
+      <title>VB6启用托盘效果</title>
+      <link>http://localhost:1313/p/101/</link>
+      <pubDate>Mon, 11 Mar 2019 16:58:28 +0800</pubDate>
+      <guid>http://localhost:1313/p/101/</guid>
+      <description>1、窗口新建立一个Picture1命名为 Pci 然后在里面选择你采用的托盘图标。</description>
+    </item>
+    <item>
+      <title>苹果笔记本安装双系统思路</title>
+      <link>http://localhost:1313/p/93/</link>
+      <pubDate>Fri, 18 Jan 2019 16:16:33 +0800</pubDate>
+      <guid>http://localhost:1313/p/93/</guid>
+      <description>1、Mac系统需要关闭System Integrity Protection (SIP)系统完整性保护，终端输入</description>
+    </item>
+    <item>
+      <title>Sqlmap检测SQL注入攻击</title>
+      <link>http://localhost:1313/p/68/</link>
+      <pubDate>Fri, 01 Dec 2017 13:21:45 +0800</pubDate>
+      <guid>http://localhost:1313/p/68/</guid>
+      <description>这款工具好用，检测SQL漏洞注入精确，国内也有好几个SQL注入工具，博主以前也写过注入类似渗透工具，跟啊D注入、明小子注入，那个时代； 1、测试SQL注入： 1sqlmap -u http://www.</description>
+    </item>
+    <item>
+      <title>Nmap 进行 Web 端口漏洞扫描</title>
+      <link>http://localhost:1313/p/67/</link>
+      <pubDate>Fri, 01 Dec 2017 12:00:28 +0800</pubDate>
+      <guid>http://localhost:1313/p/67/</guid>
+      <description>很久没上博客，再提供款工具吧，亲测还行，因为要对接传输，需要检查UDP端口，之前同事还说不能扫到UDP的，也许他也少了解吧，其实该工具可以扫描端口，及其它开放端口漏洞的，比喻指定的UDP/TCP端口：官网下载</description>
+    </item>
+    <item>
+      <title>中国菜刀</title>
+      <link>http://localhost:1313/p/66/</link>
+      <pubDate>Fri, 01 Dec 2017 11:49:04 +0800</pubDate>
+      <guid>http://localhost:1313/p/66/</guid>
+      <description>功夫最高也怕菜刀哈，很久没上博客了，分享前几年的渗透工具吧；一句话代码原先为方便网站管理使用，因为十分方便管理，因此黑客也很喜欢使用，而它原意本身并非指木马病毒。</description>
+    </item>
+    <item>
+      <title>VB6雷池编码</title>
+      <link>http://localhost:1313/p/24/</link>
+      <pubDate>Sun, 22 Dec 2013 15:51:06 +0800</pubDate>
+      <guid>http://localhost:1313/p/24/</guid>
+      <description>1Private Sub Label1_Click() 2Dim str As String &amp;#39;以下载入函数 QQ:3925993 3 str = Text1.</description>
+    </item>
+    <item>
+      <title>VB6代码自动窗体大小</title>
+      <link>http://localhost:1313/p/23/</link>
+      <pubDate>Sun, 22 Dec 2013 15:47:15 +0800</pubDate>
+      <guid>http://localhost:1313/p/23/</guid>
+      <description>1Option Explicit 2Private FormOldWidth As Long &amp;#39;保存窗体的原始宽度 3Private FormOldHeight As Long &amp;#39;保存窗体的原始高度 4&amp;#39;在调用ResizeForm前先调用本函数 QQ:3925993 ‘转载注明出处,红防安全网 1Public Sub ResizeInit(FormName As Form) 2 Dim Obj As Control 3 FormOldWidth = FormName.</description>
+    </item>
+    <item>
+      <title>VB6实现网络加载动态图有绶存</title>
+      <link>http://localhost:1313/p/21/</link>
+      <pubDate>Wed, 18 Dec 2013 18:37:00 +0800</pubDate>
+      <guid>http://localhost:1313/p/21/</guid>
+      <description>最简单的方法，在picturebox控件中添加gif格式图片</description>
+    </item>
+    <item>
+      <title>VB6代码判断网络是否连接</title>
+      <link>http://localhost:1313/p/18/</link>
+      <pubDate>Mon, 16 Dec 2013 17:13:18 +0800</pubDate>
+      <guid>http://localhost:1313/p/18/</guid>
+      <description>1Private Const FLAG_ICC_FORCE_CONNECTION = &amp;amp;H1 2Private Declare Function InternetCheckConnection Lib &amp;#34;wininet.</description>
     </item>
   </channel>
 </rss>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Html on 红黑防线</title>
+    <link>http://localhost:1313/tags/html/</link>
+    <description>Recent content in Html on 红黑防线</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <copyright> ©2011~2024 :thinking_face: [粤ICP备17091340号](http://beian.miit.gov.cn &#39;备案查询&#39;) </copyright>
+    <lastBuildDate>Fri, 30 Aug 2024 06:01:30 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/html/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hugo-Notice短标签</title>
+      <link>http://localhost:1313/p/notice/</link>
+      <pubDate>Fri, 30 Aug 2024 05:18:46 +0800</pubDate>
+      <guid>http://localhost:1313/p/notice/</guid>
+      <description>1、将您现有的站点初始化为 hugo 模块</description>
+    </item>
+    <item>
+      <title>Hugo-Code代码复制</title>
+      <link>http://localhost:1313/p/code/</link>
+      <pubDate>Thu, 29 Aug 2024 21:40:47 +0800</pubDate>
+      <guid>http://localhost:1313/p/code/</guid>
+      <description>建立一个CSS，一个JS文件，细节如下，实现代码复制功能，例如 /themes/主题名称/ 1、CSS：命名为add-copy-btn.</description>
+    </item>
+    <item>
+      <title>Hugo-Congo主题修改字体</title>
+      <link>http://localhost:1313/p/font/</link>
+      <pubDate>Sat, 17 Aug 2024 14:43:27 +0800</pubDate>
+      <guid>http://localhost:1313/p/font/</guid>
+      <description>首先，在本主题 themes/congo/layouts/partials/ 目录下，创建名 extend-head.</description>
+    </item>
+  </channel>
+</rss>

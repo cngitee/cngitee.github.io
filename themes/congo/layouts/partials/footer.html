@@ -97,9 +97,11 @@
             href="https://gohugo.io/" target="_blank" rel="noopener noreferrer">Hugo</a>`
           }}
           {{ $congo := printf `<a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="https://github.com/jpanther/congo" target="_blank" rel="noopener noreferrer">Congo</a>` }}
-          {{ i18n "footer.powered_by" (dict "Hugo" $hugo "Congo" $congo) | safeHTML }}
+        <!--  {{ i18n "footer.powered_by" (dict "Hugo" $hugo "Congo" $congo) | safeHTML }}  -->
+        本站由↓提供CDN加速/云存储服务
+        <a target="_blank" href="https://www.upyun.com/?utm_source=lianmeng&utm_medium=referral"><img src="/img/upyun.gif" height="150" width="65" alt="又拍云" /></a>      
         </p>
-      {{ end }}
+        {{ end }}
     </div>
     <div class="flex flex-row items-center">
       {{/* Locale switcher */}}
@@ -138,3 +140,9 @@
     {{ partial "extend-footer.html" . }}
   {{ end }}
 </footer>
+
+<style>
+@import url(/css/add-copy-btn.css);
+</style>
+<!-- copy code -->
+<script src="{{"/js/add-copy-btn.js" | relURL}}"></script>

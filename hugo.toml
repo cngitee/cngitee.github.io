@@ -1,30 +1,41 @@
-#baseURL = 'https://example.org/'
-languageCode = 'zh-CN'
-title = '红防安全吧'
+baseURL = 'https://example.org/'
+languageCode = 'en-us' #en-us
+#defaultContentLanguage = 'zh-cn'
+title = '红黑防线'
 theme = 'congo' #主题
-# uglyurls = true #静态
-copyright = " ©2011~2024 :thinking_face: [粤ICP备17091340号](https://beian.miit.gov.cn/ '备案查询')" 
+summaryLength = 0      #摘要首行
+# uglyurls = true #生成静态
+copyright = " ©2011~2024 :thinking_face: [粤ICP备17091340号](http://beian.miit.gov.cn '备案查询') " 
 
+[outputs]
+    home = ["HTML", "RSS", "JSON"] # 搜索输出内容，其实只需JSON就可以
 
+[params.list]
+ # showSummary = true    #显示摘要
 
+[params]
+  dateFormat = "2006/1/2" #定义时间格式 January
+
+[frontmatter] #显示最后文章更新时间
+lastmod = [':fileModTime']
 
 [Menus]
   main = [
       {Name = "🏠主页", Weight = -99, URL = "/"},
       {Name = "📚文献", Weight = 1, URL = "/p"},
-      {Name = "📕分流", Weight = 2, URL = "/categories"},
+      {Name = "📦分流", Weight = 2, URL = "/categories"},
       {Name = "🔖标签", Weight = 3, URL = "/tags"},
-      {Name = "🤝链接", Weight = 5, URL = "/friends"},
-      {Name = "👨🏻我们", Weight = 5, URL = "/about"},
+      {Name = "🤝链接", Weight = 4, URL = "/friend"},
+      {Name = "💬我们", Weight = 5, URL = "/about"},
       {Name = "🙋🏻‍♂️反馈", Weight = 6, URL = "/feedback"}
   ]
 
 
 [params.author]
-   name = "HKFX NET"
+   name = "白日映照满天星"
    image = "img/author.jpg"
    headline = "Le vent se lève, il faut tenter de vivre."
-   bio = "快订阅我频道，让你站在上帝角度观察广泛视野，吾十多年运维Code跟Hacker功力，打你一拳、你顶的住吗。 :sheep:"
+   bio = "订阅我频道让你站在上帝角度观察视野! QQ:3925993 有尝解决技术问题【备注你的问题】 :sheep:"
 # bio = "A little bit about you"
 
    links = [
@@ -40,5 +51,19 @@ copyright = " ©2011~2024 :thinking_face: [粤ICP备17091340号](https://beian.m
    # { youtube = "https://youtube.com/username" },
   ]
 
+  [markup.highlight]
+    lineNos = true
+    lineNumbersInTable = false
+    style = 'catppuccin-frappe'
+  # https://xyproto.github.io/splash/docs/all.html
 
+[module]
+  [[module.imports]] #Hugo中加载标签插件
+    path = "github.com/martignoni/hugo-notice"
+  [[module.imports]]
+    path = "congo"
 
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true #Hugo中开启视频支持
