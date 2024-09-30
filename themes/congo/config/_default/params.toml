@@ -36,7 +36,7 @@ fingerprintAlgorithm = "sha256"
 
 [article]
   showDate = true          #显示日期
-  showDateUpdated = false  #显示日期更新
+  showDateUpdated = true  #显示日期更新
   showAuthor = true        #显示作者
   showBreadcrumbs = false  #显示面包屑
   showDraftLabel = true    #显示标签
