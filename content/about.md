@@ -24,15 +24,15 @@ showReadingTime = false     #关闭阅读时间
 
 ### 服务一览
 本站使用了以下免费、开源或价格低廉的服务，使我能够负担得起这个网站的运营。  非常感谢这些服务！
->- Hugo: 世界上最快的静态网站生成器 (Golang)
->- Congo: 一款强大的、轻量的 Hugo 主题，使用 Tailwind CSS 构建
->- GitHub: 博客源码托管和版本控制
->- HuaWeiCloud: 域名DNS解析、多线路访问
->- Cloudflare Pages: 博客自动集成部署和托管
->- Vercel: 支持广泛程序语言自动集成部署和托管
->- LeanCloud: 数据存储、云引擎支持多种常见的 Web 后端语言
->- Waline: 轻量、安全、易上手的评论系统、集邮件通知等服务
->- Postimg: 全球免费图片托管和照片公网分享服务图床
+>- [Hugo](https://gohugo.io/): 世界上最快的静态网站生成器 (Golang)
+>- [Congo](https://jpanther.github.io/congo/zh-hans/): 一款强大的、轻量的 Hugo 主题，使用 Tailwind CSS 构建
+>- [GitHub](https://GitHub.com): 博客源码托管和版本控制
+>- [HuaWeiCloud](https://auth.huaweicloud.com/authui/login.html#/login): 域名DNS解析、多线路访问
+>- [Cloudflare Pages](https://dash.cloudflare.com/login): 博客自动集成部署和托管
+>- [Vercel](https://vercel.com/login): 支持广泛程序语言自动集成部署和托管
+>- [LeanCloud](https://console.leancloud.app/login): 数据存储、云引擎支持多种常见的 Web 后端语言
+>- [Waline](https://waline.js.org/): 轻量、安全、易上手的评论系统、集邮件通知等服务
+>- [Postimg](https://postimages.org/): 全球免费图片托管和照片公网分享服务图床
 
 ### 兼容性  
 本站支持所有「未过时的设备」通过现代 Web 浏览器访问，推荐使用 Google Chrome 浏览器访问。此外：  
