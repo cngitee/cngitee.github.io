@@ -7,8 +7,15 @@
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright> ©2011~2024 :thinking_face: [粤ICP备17091340号](http://beian.miit.gov.cn &#39;备案查询&#39;) </copyright>
-    <lastBuildDate>Tue, 15 Oct 2024 14:26:27 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 30 Oct 2024 03:53:10 +0800</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>日常随笔</title>
+      <link>http://localhost:1313/p/1/</link>
+      <pubDate>Sat, 13 Jul 2024 15:09:58 +0800</pubDate>
+      <guid>http://localhost:1313/p/1/</guid>
+      <description>1. 前言(博主一个不得不说故事) 服务器三年到期停掉了，没有最打算续费，因为真的贵的离谱，重新购买是可以、但是又得重新部署各种环境，少折腾不想折腾，网站运营以来一直非盈利模式，建站10多年花费将近不少费用，光是域名支出高达一千多元，服务器费用，以及个人精力维护省略不计~~</description>
+    </item>
     <item>
       <title>Github实现CDN加速访问网站</title>
       <link>http://localhost:1313/p/262/</link>
@@ -85,13 +92,6 @@
       <pubDate>Thu, 08 Aug 2024 12:30:00 +0800</pubDate>
       <guid>http://localhost:1313/friend/</guid>
       <description>D盾IIS防火墙　申请友链-申请的同时，需要先友情上本站(格式如下); 提交友情</description>
-    </item>
-    <item>
-      <title>日常随笔</title>
-      <link>http://localhost:1313/p/211/</link>
-      <pubDate>Sat, 13 Jul 2024 15:09:58 +0800</pubDate>
-      <guid>http://localhost:1313/p/211/</guid>
-      <description>1. 前言(博主一个不得不说故事) 服务器三年到期停掉了，没有最打算续费，因为真的贵的离谱，重新购买是可以、但是又得重新部署各种环境，少折腾不想折腾，网站运营以来一直非盈利模式，建站10多年花费将近不少费用，光是域名支出高达一千多元，服务器费用，以及个人精力维护省略不计~~</description>
     </item>
     <item>
       <title>PHP网站获取真正IP地址查询API接口</title>
@@ -211,6 +211,13 @@
       <pubDate>Wed, 02 Nov 2022 17:54:48 +0800</pubDate>
       <guid>http://localhost:1313/p/215/</guid>
       <description>工程→”工程1 属性”，在打开的”工程1 – 工程属性”面板中，点”生成”选项卡，在里面的”版本信息”的”文件描述”中写入值”update”</description>
+    </item>
+    <item>
+      <title>Kaspersky Endpoint Security Crack</title>
+      <link>http://localhost:1313/p/211/</link>
+      <pubDate>Sun, 09 Oct 2022 15:53:10 +0800</pubDate>
+      <guid>http://localhost:1313/p/211/</guid>
+      <description>信息</description>
     </item>
     <item>
       <title>投资理财算法[闲钱顾问]</title>
