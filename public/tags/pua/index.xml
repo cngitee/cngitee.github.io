@@ -7,8 +7,15 @@
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright> ©2011~2024 :thinking_face: [粤ICP备17091340号](http://beian.miit.gov.cn &#39;备案查询&#39;) </copyright>
-    <lastBuildDate>Mon, 30 Sep 2024 15:53:14 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 30 Oct 2024 03:52:14 +0800</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/pua/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>日常随笔</title>
+      <link>http://localhost:1313/p/1/</link>
+      <pubDate>Sat, 13 Jul 2024 15:09:58 +0800</pubDate>
+      <guid>http://localhost:1313/p/1/</guid>
+      <description>1. 前言(博主一个不得不说故事) 服务器三年到期停掉了，没有最打算续费，因为真的贵的离谱，重新购买是可以、但是又得重新部署各种环境，少折腾不想折腾，网站运营以来一直非盈利模式，建站10多年花费将近不少费用，光是域名支出高达一千多元，服务器费用，以及个人精力维护省略不计~~</description>
+    </item>
     <item>
       <title>遇到这样公司千万别进</title>
       <link>http://localhost:1313/p/248/</link>
