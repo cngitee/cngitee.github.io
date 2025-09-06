@@ -99,7 +99,7 @@
   <meta property="og:type" content="article">
     <meta property="article:section" content="p">
     <meta property="article:published_time" content="2024-09-01T20:11:12+08:00">
-    <meta property="article:modified_time" content="2024-09-30T15:53:14+08:00">
+    <meta property="article:modified_time" content="2025-02-02T19:55:36+08:00">
     <meta property="article:tag" content="Hacker">
 
   
@@ -127,12 +127,12 @@
     "dateCreated": "2024-09-01T20:11:12\u002b08:00",
     "datePublished": "2024-09-01T20:11:12\u002b08:00",
     
-    "dateModified": "2024-09-30T15:53:14\u002b08:00",
+    "dateModified": "2025-02-02T19:55:36\u002b08:00",
     
     "keywords": "Hacker",
     
     "mainEntityOfPage": "true",
-    "wordCount": "831"
+    "wordCount": "1169"
   }
   </script>
 
@@ -382,7 +382,7 @@
   <div class="flex flex-row flex-wrap items-center">
     
     
-      <time datetime="2024-09-01 20:11:12 &#43;0800 CST">2024/9/1</time><span class="px-2 text-primary-500">&middot;</span><time datetime="2024-09-30 15:53:14.4079389 &#43;0800 CST">更新于 2024/9/30</time>
+      <time datetime="2024-09-01 20:11:12 &#43;0800 CST">2024/9/1</time><span class="px-2 text-primary-500">&middot;</span><time datetime="2025-02-02 19:55:36.0291133 &#43;0800 CST">更新于 2025/2/2</time>
     
 
     
@@ -506,6 +506,16 @@
         <li><a href="#1533-灰盒分析">1.5.3.3. 灰盒分析</a></li>
         <li><a href="#154-手工审计方式">1.5.4. 手工审计方式</a></li>
         <li><a href="#155-参考链接">1.5.5. 参考链接</a></li>
+      </ul>
+    </li>
+    <li><a href="#16-waf">1.6. WAF</a>
+      <ul>
+        <li></li>
+        <li><a href="#162-常见功能">1.6.2. 常见功能</a></li>
+        <li><a href="#163-waf分类">1.6.3. WAF分类</a></li>
+        <li><a href="#165-绕过方式">1.6.5. 绕过方式</a></li>
+        <li><a href="#166-参考链接">1.6.6. 参考链接</a></li>
+        <li><a href="#2-信息收集">2. 信息收集</a></li>
       </ul>
     </li>
   </ul>
@@ -1073,6 +1083,284 @@ RFI
 <li><a href="https://github.com/fate0/prvd" target="_blank" rel="noreferrer">prvd</a></li>
 <li><a href="http://blog.fatezero.org/2018/11/11/prvd/" target="_blank" rel="noreferrer">PHP运行时漏洞检测</a></li>
 </ul>
+<h2 id="16-waf" class="relative group">1.6. WAF </h2><h4 id="161-简介" class="relative group">1.6.1. 简介 </h4><p>WAF（Web Application Firewall，Web应用防火墙）是通过执行一系列针对HTTP/HTTPS的安全策略来专门为Web应用提供加固的产品。</p>
+<h3 id="162-常见功能" class="relative group">1.6.2. 常见功能 </h3><p>检测异常协议，拒绝不符合HTTP标准的请求
+白名单，适用于稳定的Web应用
+黑名单，适合处理已知问题
+对状态管理进行会话保护
+Cookies保护
+信息泄露保护</p>
+<h3 id="163-waf分类" class="relative group">1.6.3. WAF分类 </h3><h4 id="1631-按布置位置分" class="relative group">1.6.3.1. 按布置位置分 </h4><h4 id="云waf" class="relative group">云WAF </h4><p>WAF在云上，请求先经过云服务器而后流向主机。</p>
+<h4 id="主机防护软件" class="relative group">主机防护软件 </h4><p>主机预先安装对应软件，如mod_security、ngx-lua-waf等，对主机进行防护。</p>
+<h4 id="硬件防护" class="relative group">硬件防护 </h4><p>流量流向主机时，先经过设备的清洗和拦截。</p>
+<h4 id="1632-按防护方式分" class="relative group">1.6.3.2. 按防护方式分 </h4><p>基于正则的WAF
+基于语义的WAF
+基于语义理解，对一些变式有较好的效果</p>
+<p>基于行为的WAF
+基于机器学习的WAF</p>
+<h4 id="164-扫描器防御" class="relative group">1.6.4. 扫描器防御 </h4><p>基于User-Agent识别
+基于攻击载荷识别
+验证码</p>
+<h3 id="165-绕过方式" class="relative group">1.6.5. 绕过方式 </h3><h4 id="1651-基于架构的绕过" class="relative group">1.6.5.1. 基于架构的绕过 </h4><p>站点在WAF后，但是站点可直连
+站点在云服务器中，对同网段服务器无WAF</p>
+<h4 id="1652-基于资源的绕过" class="relative group">1.6.5.2. 基于资源的绕过 </h4><p>使用消耗大的载荷，耗尽WAF的计算资源</p>
+<h4 id="1653-基于解析的绕过" class="relative group">1.6.5.3. 基于解析的绕过 </h4><p>字符集解析不同
+协议覆盖不全
+协议解析不正确
+站点和WAF对https有部分不一致
+WAF解析与Web服务解析不一致
+同一个参数多次出现，取的位置不一样</p>
+<h4 id="1654-基于规则的绕过" class="relative group">1.6.5.4. 基于规则的绕过 </h4><h4 id="等价替换" class="relative group">等价替换 </h4><h4 id="大小写变换" class="relative group">大小写变换 </h4><div class="highlight"><pre tabindex="0" style="color:#c6d0f5;background-color:#303446;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#838ba7">1</span><span>select =&gt; sEleCt
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#838ba7">2</span><span>&lt;<span style="color:#ca9ee6">sCrIpt</span>&gt;alert(<span style="color:#ef9f76">1</span>)&lt;/<span style="color:#ca9ee6">script</span>&gt;
+</span></span></code></pre></div><h4 id="字符编码" class="relative group">字符编码 </h4><blockquote>
+<ul>
+<li>URL编码</li>
+<li>十六进制编码</li>
+<li>Unicode解析</li>
+<li>Base64</li>
+<li>HTML</li>
+<li>JSFuck</li>
+</ul>
+</blockquote>
+<p>等价函数<br>
+等价变量<br>
+关键字拆分</p>
+<h4 id="字符干扰" class="relative group">字符干扰 </h4><p>空字符 （空格、换行、制表）<br>
+注释</p>
+<h4 id="特殊符号" class="relative group">特殊符号 </h4><p>注释符<br>
+引号（反引号、单引号、双引号）</p>
+<h4 id="利用服务本身特点" class="relative group">利用服务本身特点 </h4><p>替换可疑关键字为空<br>
+selselectect =&gt; select<br>
+少见特性未在规则列表中</p>
+<h3 id="166-参考链接" class="relative group">1.6.6. 参考链接 </h3><p><a href="https://www.weibo.com/ttarticle/p/show?id=2309404007261092631700&amp;sudaref=www.google.com.hk&amp;display=0&amp;retcode=6102" target="_blank" rel="noreferrer">WAF攻防研究之四个层次Bypass WAF</a><br>
+<a href="https://xz.aliyun.com/t/368" target="_blank" rel="noreferrer">我的WafBypass之道 SQL注入篇</a></p>
+<h3 id="2-信息收集" class="relative group">2. 信息收集 </h3><h4 id="21-域名信息" class="relative group">2.1. 域名信息 </h4><p><a href="https://www.whois.com/" target="_blank" rel="noreferrer">Whois</a></p>
+<h4 id="子域名收集" class="relative group">子域名收集 </h4><h4 id="利用第三方查询" class="relative group">利用第三方查询 </h4><blockquote>
+<ul>
+<li>DNSDumpster</li>
+<li>Virustotal</li>
+<li>CrtSearch</li>
+<li>threatminer</li>
+</ul>
+</blockquote>
+<h4 id="asn" class="relative group">ASN </h4><blockquote>
+<ul>
+<li>whois -h whois.radb.net &ndash; &lsquo;-i origin AS111111&rsquo; | grep -Eo &ldquo;([0-9.]+){4}/[0-9]+&rdquo; | uniq</li>
+<li>nmap &ndash;script targets-asn &ndash;script-args targets-asn.asn=15169</li>
+</ul>
+</blockquote>
+<h4 id="csp规则中获取" class="relative group">CSP规则中获取 </h4><p>子域爆破<br>
+PassiveDNS</p>
+<h4 id="利用兄弟域名查询流程" class="relative group">利用兄弟域名查询流程 </h4><blockquote>
+<ul>
+<li>查询域名注册邮箱</li>
+<li>通过域名查询备案号</li>
+<li>通过备案号查询域名</li>
+<li>反查注册邮箱</li>
+<li>反查注册人</li>
+<li>通过注册人查询到的域名在查询邮箱</li>
+<li>通过上一步邮箱去查询域名</li>
+<li>查询以上获取出的域名的子域名</li>
+</ul>
+</blockquote>
+<p>利用域传送漏洞<br>
+SSL/TLS证书中可能会有多个域名的信息<br>
+DNS记录中的SPF记录</p>
+<p>若目标使用cdn，绕过cdn找到ip</p>
+<h4 id="22-站点信息" class="relative group">2.2. 站点信息 </h4><h4 id="判断网站是windows架构还是linux架构" class="relative group">判断网站是Windows架构还是Linux架构 </h4><p>Linux大小写敏感，Windows大小写不敏感</p>
+<h4 id="扫描敏感文件" class="relative group">扫描敏感文件 </h4><blockquote>
+<ul>
+<li>robots.txt</li>
+<li>crossdomain.xml</li>
+<li>sitemap.xml</li>
+<li>xx.tar.gz</li>
+<li>xx.bak
+等</li>
+</ul>
+</blockquote>
+<h4 id="确定网站采用的语言框架中间件服务器第三方库" class="relative group">确定网站采用的语言、框架、中间件服务器、第三方库 </h4><p>查看源代码<br>
+找后缀，比如php/asp/jsp<br>
+看header里面有没有信息<br>
+根据Cookie判断<br>
+根据报错信息判断<br>
+根据默认页面判断<br>
+根据css 图片等资源的hash值判断</p>
+<h4 id="探测有没有waf如果有什么类型的" class="relative group">探测有没有WAF，如果有，什么类型的 </h4><blockquote>
+<ul>
+<li>有WAF，找绕过方式</li>
+<li>没有，进入下一步</li>
+</ul>
+</blockquote>
+<h4 id="扫描敏感目录看是否存在信息泄漏" class="relative group">扫描敏感目录，看是否存在信息泄漏 </h4><p>扫描之前先自己尝试几个的url，人为看看反应</p>
+<p>使用爬虫爬取网站信息
+拿到一定信息后，通过拿到的目录名称，文件名称及文件扩展名了解网站开发人员的命名思路，确定其命名规则，推测出更多的目录及文件名</p>
+<h4 id="23-端口信息" class="relative group">2.3. 端口信息 </h4><h4 id="231-常见端口及其脆弱点" class="relative group">2.3.1. 常见端口及其脆弱点 </h4><h4 id="ftp-21" class="relative group">FTP 21 </h4><blockquote>
+<ul>
+<li>默认用户名密码 anonymous:anonymous</li>
+<li>暴力破解密码</li>
+<li>VSFTP某版本后门</li>
+</ul>
+</blockquote>
+<h4 id="ssh-22" class="relative group">SSH 22 </h4><blockquote>
+<ul>
+<li>暴力破解密码</li>
+</ul>
+</blockquote>
+<h4 id="telent-23" class="relative group">Telent 23 </h4><blockquote>
+<ul>
+<li>暴力破解密码</li>
+</ul>
+</blockquote>
+<h4 id="smtp-25" class="relative group">SMTP 25 </h4><blockquote>
+<ul>
+<li>无认证时可伪造发件人</li>
+</ul>
+</blockquote>
+<h4 id="dns-53-udp" class="relative group">DNS 53 UDP </h4><blockquote>
+<ul>
+<li>测试域传送漏洞</li>
+<li>SPF / DMARC Check</li>
+<li>DDoS</li>
+<li>DNS Query Flood</li>
+<li>DNS 反弹</li>
+</ul>
+</blockquote>
+<h4 id="smb-137139445" class="relative group">SMB 137/139/445 </h4><blockquote>
+<ul>
+<li>未授权访问</li>
+<li>弱口令</li>
+</ul>
+</blockquote>
+<h4 id="snmp-161" class="relative group">SNMP 161 </h4><blockquote>
+<ul>
+<li>Public 弱口令</li>
+</ul>
+</blockquote>
+<h4 id="ldap-389" class="relative group">LDAP 389 </h4><blockquote>
+<ul>
+<li>匿名访问</li>
+<li>注入</li>
+</ul>
+</blockquote>
+<h4 id="rsync-873" class="relative group">Rsync 873 </h4><blockquote>
+<ul>
+<li>任意文件读写</li>
+</ul>
+</blockquote>
+<h4 id="rpc-1025" class="relative group">RPC 1025 </h4><blockquote>
+<ul>
+<li>NFS匿名访问</li>
+</ul>
+</blockquote>
+<h4 id="mssql-1433" class="relative group">MSSQL 1433 </h4><blockquote>
+<ul>
+<li>弱密码</li>
+</ul>
+</blockquote>
+<h4 id="java-rmi-1099" class="relative group">Java RMI 1099 </h4><blockquote>
+<ul>
+<li>RCE</li>
+</ul>
+</blockquote>
+<h4 id="oracle-1521" class="relative group">Oracle 1521 </h4><blockquote>
+<ul>
+<li>弱密码</li>
+</ul>
+</blockquote>
+<h4 id="nfs-2049" class="relative group">NFS 2049 </h4><blockquote>
+<ul>
+<li>权限设置不当</li>
+</ul>
+</blockquote>
+<h4 id="zookeeper-2181" class="relative group">ZooKeeper 2181 </h4><blockquote>
+<ul>
+<li>无身份认证</li>
+</ul>
+</blockquote>
+<h4 id="mysql-3306" class="relative group">MySQL 3306 </h4><blockquote>
+<ul>
+<li>弱密码</li>
+</ul>
+</blockquote>
+<h4 id="rdp-3389" class="relative group">RDP 3389 </h4><blockquote>
+<ul>
+<li>弱密码</li>
+</ul>
+</blockquote>
+<h4 id="postgres-5432" class="relative group">Postgres 5432 </h4><blockquote>
+<ul>
+<li>弱密码</li>
+</ul>
+</blockquote>
+<h4 id="couchdb-5984" class="relative group">CouchDB 5984 </h4><blockquote>
+<ul>
+<li>未授权访问</li>
+</ul>
+</blockquote>
+<h4 id="redis-6379" class="relative group">Redis 6379 </h4><blockquote>
+<ul>
+<li>无密码或弱密码</li>
+</ul>
+</blockquote>
+<h4 id="elasticsearch-9200" class="relative group">Elasticsearch 9200 </h4><blockquote>
+<ul>
+<li>代码执行</li>
+</ul>
+</blockquote>
+<h4 id="memcached-11211" class="relative group">Memcached 11211 </h4><blockquote>
+<ul>
+<li>未授权访问</li>
+</ul>
+</blockquote>
+<h4 id="mongodb-27017" class="relative group">MongoDB 27017 </h4><blockquote>
+<ul>
+<li>无密码或弱密码</li>
+</ul>
+</blockquote>
+<h4 id="hadoop-50070" class="relative group">Hadoop 50070 </h4><p>除了以上列出的可能出现的问题，暴露在公网上的服务若不是最新版，都可能存在已经公开的漏洞</p>
+<h4 id="232-web服务" class="relative group">2.3.2. Web服务 </h4><p>Jenkins：未授权访问<br>
+Gitlab：对应版本CVE<br>
+Zabbix：权限设置不当</p>
+<h4 id="233-批量搜索" class="relative group">2.3.3. 批量搜索 </h4><blockquote>
+<ul>
+<li>Censys</li>
+<li>Shodan</li>
+<li>ZoomEye</li>
+</ul>
+</blockquote>
+<p>###2.4. 其它</p>
+<h4 id="241-cdn-bypass" class="relative group">2.4.1. CDN Bypass </h4><h4 id="2411-cdn验证" class="relative group">2.4.1.1. CDN验证 </h4><p>可通过多地ping的方式确定目标是否使用了CDN，常用的网站有 <a href="http://ping.chinaz.com/" target="_blank" rel="noreferrer">http://ping.chinaz.com/</a> <a href="https://asm.ca.com/en/ping.php" target="_blank" rel="noreferrer">https://asm.ca.com/en/ping.php</a> 等。</p>
+<h4 id="2412-域名查找" class="relative group">2.4.1.2. 域名查找 </h4><p>使用了CDN的域名的父域或者子域名不一定使用了CDN，可以通过这种方式去查找对应的IP。</p>
+<h4 id="2413-历史记录查找" class="relative group">2.4.1.3. 历史记录查找 </h4><p>CDN可能是在网站上线一段时间后才上线的，可以通过查找域名解析记录的方式去查找真实IP。</p>
+<h4 id="242-搜索引擎利用" class="relative group">2.4.2. 搜索引擎利用 </h4><p>恰当地使用搜索引擎（Google/Bing/Yahoo/Baidu等）可以获取目标站点的较多信息。</p>
+<p>常见的搜索技巧有：</p>
+<h4 id="sitewwwhao123com" class="relative group">site:www.hao123.com </h4><p>返回此目标站点被搜索引擎抓取收录的所有内容</p>
+<h4 id="sitewwwhao123com-keyword" class="relative group">site:www.hao123.com keyword </h4><p>返回此目标站点被搜索引擎抓取收录的包含此关键词的所有页面
+此处可以将关键词设定为网站后台，管理后台，密码修改，密码找回等</p>
+<h4 id="sitewwwhao123com-inurladminphp" class="relative group">site:www.hao123.com inurl:admin.php </h4><p>返回目标站点的地址中包含admin.php的所有页面，可以使用admin.php/manage.php或者其他关键词来寻找关键功能页面</p>
+<h4 id="linkwwwhao123com" class="relative group">link:www.hao123.com </h4><p>返回所有包含目标站点链接的页面，其中包括其开发人员的个人博客，开发日志，或者开放这个站点的第三方公司，合作伙伴等</p>
+<h4 id="relatedwwwhao123com" class="relative group">related:www.hao123.com </h4><p>返回所有与目标站点”相似”的页面，可能会包含一些通用程序的信息等</p>
+<h4 id="intitle500-internal-server-error-server-at" class="relative group">intitle:”500 Internal Server Error” “server at” </h4><p>搜索出错的页面</p>
+<h4 id="inurlnph-proxycgi-start-browsing" class="relative group">inurl:”nph-proxy.cgi” “Start browsing” </h4><p>查找代理服务器
+除了以上的关键字，还有allintile、allinurl、allintext、inanchor、cache等。</p>
+<p>还有一些其他的tips</p>
+<blockquote>
+<ul>
+<li>查询不区分大小写</li>
+<li>*代表某一个单词</li>
+<li>默认用and</li>
+<li>OR 或者 | 代表逻辑或</li>
+<li>单词前跟+表强制查询</li>
+<li>引号引起来可以防止常见词被忽略</li>
+<li>括号会被忽略</li>
+</ul>
+</blockquote>
+<p>搜索引擎的快照中也常包含一些关键信息，如程序报错信息可以会泄漏网站具体路径，或者一些快照中会保存一些测试用的测试信息，比如说某个网站在开发了后台功能模块的时候，还没给所有页面增加权限鉴别，此时被搜索引擎抓取了快照，即使后来网站增加了权限鉴别，但搜索引擎的快照中仍会保留这些信息。</p>
+<p>另外也有专门的站点快照提供快照功能，如 Wayback Machine 和 Archive.org 等。</p>
+<h4 id="243-人员信息收集" class="relative group">2.4.3. 人员信息收集 </h4><p>针对人员的信息收集考虑对目标重要人员、组织架构、社会关系的收集和分析。其中重要人员主要指高管、系统管理员、运维、财务、人事、业务人员的个人电脑。</p>
+<p>最容易的入口点是网站，网站中可能包含网站的开发、管理维护等人员的信息。从网站联系功能中和代码的注释信息中都可能得到的所有开发及维护人员的姓名和邮件地址及其他联系方式。</p>
+<p>在获取这些信息后，可以在Github/Linkedin等网站中进一步查找这些人在互联网上发布的与目标站点有关的一切信息，分析并发现有用的信息。</p>
+<p>此外，可以对获取到的邮箱进行密码爆破的操作，获取对应的密码。</p>
 
       </div>
     </section>

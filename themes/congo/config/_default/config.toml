@@ -13,3 +13,6 @@ summaryLength = 0
 [outputs]
   home = ["HTML", "RSS", "JSON"]
 
+[params]
+  thumbnailCDN = "https://cos.hkfx.net/hugo/thumb/"
+  thumbnailLocal = "/thumb/"
